@@ -1,0 +1,1801 @@
+booking_id,booking_date,city,property,channel,room_type,status,star_rating,booking_value,cost
+DEMO-00001,2025-10-10,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,7937.59,5423.83
+DEMO-00002,2025-03-08,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,22638.81,17979.56
+DEMO-00003,2025-01-24,Kochi,Kochi Grand,Online travel agency,Deluxe,Completed,5,39470.15,27653.03
+DEMO-00004,2025-07-19,Jaipur,Jaipur Central,Direct,Standard,Completed,4,3673.3,2741.46
+DEMO-00005,2025-06-21,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,7154.72,5953.22
+DEMO-00006,2025-06-08,Mumbai,Mumbai Central,Corporate,Standard,Confirmed,4,15445.3,10842.23
+DEMO-00007,2025-01-03,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,10542.38,7166.48
+DEMO-00008,2025-11-09,Delhi,Delhi Grand,Online travel agency,Deluxe,Completed,5,28149.13,20521.48
+DEMO-00009,2025-01-12,Goa,Goa Central,Direct,Standard,Cancelled,4,18116.66,13101.24
+DEMO-00010,2025-02-16,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,17851.61,12378.54
+DEMO-00011,2025-01-09,Jaipur,Jaipur Central,Corporate,Standard,Completed,4,16806.69,12873.94
+DEMO-00012,2025-09-07,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,11328.77,10196.95
+DEMO-00013,2025-11-28,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,14493.64,9784.1
+DEMO-00014,2025-09-14,Delhi,Delhi Central,Online travel agency,Suite,Cancelled,4,19903.06,17369.79
+DEMO-00015,2025-10-04,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Cancelled,4,5660.69,4291.43
+DEMO-00016,2025-03-10,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,4278.53,3810.16
+DEMO-00017,2025-08-01,Kochi,Kochi Garden,Online travel agency,Standard,Confirmed,3,2503.01,1943.67
+DEMO-00018,2025-02-28,Kochi,Kochi Central,Travel agent,Standard,Completed,4,12246.92,9358.08
+DEMO-00019,2025-01-08,Mumbai,Mumbai Garden,Corporate,Deluxe,Completed,3,6834.74,5614.4
+DEMO-00020,2025-04-28,Goa,Goa Grand,Corporate,Deluxe,Cancelled,5,6005.8,4770.18
+DEMO-00021,2025-05-16,Goa,Goa Central,Corporate,Deluxe,Completed,4,9856.94,8805.91
+DEMO-00022,2025-04-20,Kochi,Kochi Grand,Direct,Standard,Completed,5,14480.05,12775.69
+DEMO-00023,2025-07-09,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,8522.75,7615.69
+DEMO-00024,2025-01-25,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,11060.49,7754.21
+DEMO-00025,2025-04-24,Mumbai,Mumbai Central,Travel agent,Deluxe,Confirmed,4,13090.29,10815.08
+DEMO-00026,2025-12-05,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,14878.56,12529.77
+DEMO-00027,2025-02-17,Delhi,Delhi Central,Travel agent,Standard,Pending,4,20072.33,14541.92
+DEMO-00028,2025-08-06,Mumbai,Mumbai Central,Direct,Suite,Completed,4,32838.81,29595.0
+DEMO-00029,2025-08-06,Bengaluru,Bengaluru Central,Corporate,Suite,Cancelled,4,31542.56,27304.86
+DEMO-00030,2025-05-02,Delhi,Delhi Central,Direct,Deluxe,Completed,4,24420.75,18249.33
+DEMO-00031,2025-06-05,Kochi,Kochi Central,Corporate,Deluxe,Completed,4,19271.16,13053.75
+DEMO-00032,2025-05-11,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,3896.54,3465.79
+DEMO-00033,2025-03-02,Goa,Goa Garden,Direct,Standard,Confirmed,3,8372.72,6729.13
+DEMO-00034,2025-10-30,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Confirmed,4,12240.02,8533.61
+DEMO-00035,2025-03-28,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,6396.45,5543.8
+DEMO-00036,2025-09-09,Bengaluru,Bengaluru Grand,Travel agent,Standard,Completed,5,4844.25,4130.52
+DEMO-00037,2025-08-23,Goa,Goa Central,Direct,Deluxe,Completed,4,12168.89,9933.3
+DEMO-00038,2025-06-08,Goa,Goa Central,Direct,Standard,Completed,4,9053.07,6655.35
+DEMO-00039,2025-05-19,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,33225.36,28926.85
+DEMO-00040,2025-07-21,Kochi,Kochi Central,Corporate,Deluxe,Confirmed,4,19691.35,16356.57
+DEMO-00041,2025-11-11,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,8484.45,7630.14
+DEMO-00042,2025-06-12,Delhi,Delhi Grand,Online travel agency,Deluxe,Cancelled,5,39155.6,31458.38
+DEMO-00043,2025-02-04,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,5285.61,4534.02
+DEMO-00044,2025-02-20,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,12914.52,10603.4
+DEMO-00045,2025-06-02,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,29452.83,21933.23
+DEMO-00046,2025-12-17,Kochi,Kochi Grand,Direct,Standard,Completed,5,4100.65,3255.01
+DEMO-00047,2025-12-08,Kochi,Kochi Central,Online travel agency,Deluxe,Confirmed,4,23196.92,20207.74
+DEMO-00048,2025-06-24,Kochi,Kochi Central,Direct,Deluxe,Completed,4,17440.39,12675.56
+DEMO-00049,2025-06-17,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,17884.71,12945.24
+DEMO-00050,2025-08-31,Delhi,Delhi Central,Direct,Deluxe,Cancelled,4,33967.53,30001.1
+DEMO-00051,2025-01-11,Kochi,Kochi Grand,Direct,Standard,Confirmed,5,24285.11,15819.61
+DEMO-00052,2025-12-24,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,14277.16,12253.38
+DEMO-00053,2025-12-05,Kochi,Kochi Grand,Online travel agency,Deluxe,Cancelled,5,17799.88,13904.88
+DEMO-00054,2025-02-01,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,26251.32,18911.38
+DEMO-00055,2025-09-17,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,5981.89,4157.49
+DEMO-00056,2025-05-18,Goa,Goa Central,Direct,Standard,Completed,4,22341.74,15365.17
+DEMO-00057,2025-12-12,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,7847.92,6138.42
+DEMO-00058,2025-02-17,Goa,Goa Garden,Online travel agency,Standard,Completed,3,2306.95,1865.99
+DEMO-00059,2025-08-20,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,14066.16,10673.18
+DEMO-00060,2025-02-04,Goa,Goa Central,Direct,Standard,Completed,4,14474.25,10598.27
+DEMO-00061,2025-10-15,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,21523.95,19145.01
+DEMO-00062,2025-04-09,Jaipur,Jaipur Central,Online travel agency,Standard,Confirmed,4,18959.25,12678.72
+DEMO-00063,2025-11-04,Kochi,Kochi Central,Direct,Standard,Confirmed,4,9365.35,8101.64
+DEMO-00064,2025-09-16,Mumbai,Mumbai Central,Online travel agency,Suite,Pending,4,8260.4,7507.22
+DEMO-00065,2025-10-09,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,17701.69,12468.27
+DEMO-00066,2025-09-17,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,7941.04,7206.36
+DEMO-00067,2025-02-21,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,14738.57,10273.39
+DEMO-00068,2025-08-19,Delhi,Delhi Garden,Direct,Suite,Completed,3,14435.89,9699.04
+DEMO-00069,2025-03-30,Mumbai,Mumbai Central,Online travel agency,Deluxe,Cancelled,4,17673.97,13172.73
+DEMO-00070,2025-12-06,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,35418.0,31397.48
+DEMO-00071,2025-08-03,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,49237.95,40080.5
+DEMO-00072,2025-04-26,Goa,Goa Garden,Online travel agency,Standard,Completed,3,5860.72,4721.42
+DEMO-00073,2025-01-03,Goa,Goa Central,Online travel agency,Standard,Completed,4,17570.29,15547.34
+DEMO-00074,2025-08-16,Kochi,Kochi Grand,Travel agent,Deluxe,Completed,5,28548.58,22662.06
+DEMO-00075,2025-08-27,Kochi,Kochi Garden,Travel agent,Suite,Confirmed,3,39674.77,26210.99
+DEMO-00076,2025-11-16,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,37979.7,25524.37
+DEMO-00077,2025-07-22,Mumbai,Mumbai Grand,Travel agent,Deluxe,Cancelled,5,12738.28,8641.82
+DEMO-00078,2025-08-28,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Confirmed,5,36521.5,25966.02
+DEMO-00079,2025-08-15,Bengaluru,Bengaluru Central,Direct,Suite,Completed,4,15857.91,13076.74
+DEMO-00080,2025-07-11,Delhi,Delhi Grand,Corporate,Standard,Completed,5,11634.93,8394.07
+DEMO-00081,2025-11-20,Goa,Goa Central,Direct,Standard,Completed,4,11260.54,8513.7
+DEMO-00082,2025-03-10,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,20891.23,16278.41
+DEMO-00083,2025-02-19,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,9900.59,7517.51
+DEMO-00084,2025-07-03,Bengaluru,Bengaluru Garden,Corporate,Suite,Completed,3,33362.84,29571.38
+DEMO-00085,2025-07-13,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,4827.4,4235.18
+DEMO-00086,2025-04-02,Mumbai,Mumbai Grand,Online travel agency,Standard,No-show,5,20507.09,16926.46
+DEMO-00087,2025-10-25,Mumbai,Mumbai Garden,Corporate,Suite,Pending,3,12292.46,9628.81
+DEMO-00088,2025-12-09,Goa,Goa Garden,Direct,Standard,Confirmed,3,12476.62,9586.17
+DEMO-00089,2025-07-08,Mumbai,Mumbai Garden,Direct,Standard,Confirmed,3,8392.43,6114.21
+DEMO-00090,2025-02-25,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,2868.25,2243.33
+DEMO-00091,2025-06-28,Mumbai,Mumbai Grand,Online travel agency,Standard,Confirmed,5,11449.67,8870.8
+DEMO-00092,2025-09-29,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,11085.2,7639.01
+DEMO-00093,2025-01-18,Goa,Goa Garden,Travel agent,Standard,Cancelled,3,12420.19,10075.74
+DEMO-00094,2025-03-26,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,13630.34,9436.47
+DEMO-00095,2025-10-10,Kochi,Kochi Grand,Direct,Suite,Completed,5,50203.01,43245.95
+DEMO-00096,2025-02-11,Jaipur,Jaipur Garden,Corporate,Standard,Confirmed,3,9749.86,6413.04
+DEMO-00097,2025-05-07,Delhi,Delhi Central,Direct,Standard,Completed,4,21992.3,17690.52
+DEMO-00098,2025-09-02,Delhi,Delhi Garden,Direct,Standard,Confirmed,3,12635.0,8267.22
+DEMO-00099,2025-12-29,Goa,Goa Grand,Direct,Deluxe,Completed,5,6786.06,4500.07
+DEMO-00100,2025-05-06,Kochi,Kochi Grand,Direct,Deluxe,Confirmed,5,21860.24,19176.04
+DEMO-00101,2025-04-03,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,29077.85,26335.47
+DEMO-00102,2025-12-11,Delhi,Delhi Grand,Online travel agency,Standard,Confirmed,5,4232.37,3730.03
+DEMO-00103,2025-05-25,Goa,Goa Grand,Direct,Deluxe,Completed,5,11855.16,8359.76
+DEMO-00104,2025-08-24,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,20290.71,17319.53
+DEMO-00105,2025-07-28,Kochi,Kochi Grand,Travel agent,Standard,Completed,5,21358.68,14011.64
+DEMO-00106,2025-10-21,Delhi,Delhi Grand,Online travel agency,Suite,Completed,5,57951.49,46422.46
+DEMO-00107,2025-05-30,Jaipur,Jaipur Central,Travel agent,Deluxe,Confirmed,4,5104.5,3534.08
+DEMO-00108,2025-01-09,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,20415.63,14746.4
+DEMO-00109,2025-03-15,Jaipur,Jaipur Central,Online travel agency,Standard,Pending,4,8333.46,6830.56
+DEMO-00110,2025-03-27,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,5548.42,5026.8
+DEMO-00111,2025-12-25,Goa,Goa Garden,Direct,Suite,Cancelled,3,44346.0,38576.91
+DEMO-00112,2025-07-10,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,3496.53,2941.05
+DEMO-00113,2025-04-19,Delhi,Delhi Grand,Online travel agency,Standard,Confirmed,5,3730.9,3294.35
+DEMO-00114,2025-03-06,Delhi,Delhi Garden,Direct,Standard,Confirmed,3,14622.15,12204.58
+DEMO-00115,2025-11-07,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,43604.26,38999.87
+DEMO-00116,2025-04-30,Mumbai,Mumbai Central,Corporate,Suite,Completed,4,39077.86,26739.27
+DEMO-00117,2025-02-15,Jaipur,Jaipur Grand,Online travel agency,Suite,Cancelled,5,12325.32,8822.81
+DEMO-00118,2025-02-27,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,20990.43,16546.55
+DEMO-00119,2025-03-10,Goa,Goa Central,Corporate,Suite,Completed,4,25147.76,16673.66
+DEMO-00120,2025-08-29,Jaipur,Jaipur Grand,Corporate,Standard,Pending,5,18679.27,14268.67
+DEMO-00121,2025-08-22,Mumbai,Mumbai Garden,Travel agent,Standard,Confirmed,3,14879.59,12117.84
+DEMO-00122,2025-08-25,Bengaluru,Bengaluru Central,Travel agent,Standard,Completed,4,6620.41,5117.07
+DEMO-00123,2025-12-13,Goa,Goa Central,Direct,Standard,Completed,4,16629.15,14049.98
+DEMO-00124,2025-10-02,Kochi,Kochi Central,Online travel agency,Suite,Completed,4,45227.72,34138.63
+DEMO-00125,2025-07-25,Kochi,Kochi Grand,Online travel agency,Deluxe,Completed,5,14137.57,10806.94
+DEMO-00126,2025-04-29,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,17842.62,13112.58
+DEMO-00127,2025-03-14,Delhi,Delhi Garden,Corporate,Deluxe,Confirmed,3,20695.05,14977.33
+DEMO-00128,2025-09-28,Delhi,Delhi Central,Travel agent,Deluxe,Completed,4,11531.68,8260.46
+DEMO-00129,2025-08-17,Mumbai,Mumbai Central,Travel agent,Standard,Completed,4,8249.19,6670.78
+DEMO-00130,2025-11-06,Delhi,Delhi Central,Travel agent,Standard,Completed,4,20502.13,15107.38
+DEMO-00131,2025-03-31,Delhi,Delhi Grand,Travel agent,Suite,Completed,5,79211.77,61385.79
+DEMO-00132,2025-08-10,Kochi,Kochi Garden,Direct,Standard,Completed,3,9149.98,6468.15
+DEMO-00133,2025-10-25,Goa,Goa Garden,Direct,Suite,Confirmed,3,8066.13,6866.92
+DEMO-00134,2025-06-14,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,13126.83,11716.41
+DEMO-00135,2025-12-24,Mumbai,Mumbai Grand,Direct,Standard,Confirmed,5,9631.52,8345.3
+DEMO-00136,2025-07-04,Mumbai,Mumbai Central,Online travel agency,Standard,No-show,4,14393.15,13095.6
+DEMO-00137,2025-07-08,Bengaluru,Bengaluru Grand,Corporate,Standard,Confirmed,5,8275.87,6825.84
+DEMO-00138,2025-09-06,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,20333.33,17453.34
+DEMO-00139,2025-06-29,Mumbai,Mumbai Grand,Direct,Suite,Confirmed,5,62887.3,41740.18
+DEMO-00140,2025-11-07,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Confirmed,3,13330.84,9174.08
+DEMO-00141,2025-11-11,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,6424.68,5432.74
+DEMO-00142,2025-09-18,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,9001.69,6129.4
+DEMO-00143,2025-02-01,Delhi,Delhi Grand,Direct,Standard,Completed,5,4984.62,3821.56
+DEMO-00144,2025-12-14,Jaipur,Jaipur Grand,Corporate,Standard,Completed,5,22246.09,16132.01
+DEMO-00145,2025-09-26,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Cancelled,5,16459.57,13273.08
+DEMO-00146,2025-04-16,Delhi,Delhi Grand,Direct,Standard,Completed,5,14167.74,10206.17
+DEMO-00147,2025-07-10,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,16328.2,14410.83
+DEMO-00148,2025-11-03,Bengaluru,Bengaluru Central,Direct,Deluxe,Confirmed,4,31837.36,22475.47
+DEMO-00149,2025-08-02,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,13432.23,9201.35
+DEMO-00150,2025-05-06,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Cancelled,3,20554.02,16622.57
+DEMO-00151,2025-03-16,Jaipur,Jaipur Garden,Travel agent,Suite,Confirmed,3,30916.5,26947.42
+DEMO-00152,2025-09-10,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Completed,5,22125.59,19838.86
+DEMO-00153,2025-07-30,Bengaluru,Bengaluru Grand,Direct,Deluxe,Completed,5,13355.23,10061.25
+DEMO-00154,2025-08-27,Jaipur,Jaipur Garden,Direct,Deluxe,Completed,3,6818.55,5067.92
+DEMO-00155,2025-05-30,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,20131.94,16058.5
+DEMO-00156,2025-05-08,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,12650.14,8768.78
+DEMO-00157,2025-09-21,Goa,Goa Central,Direct,Standard,Pending,4,15247.5,12279.16
+DEMO-00158,2025-08-28,Delhi,Delhi Central,Direct,Deluxe,Confirmed,4,37318.54,24631.02
+DEMO-00159,2025-09-06,Kochi,Kochi Central,Direct,Deluxe,Confirmed,4,5347.69,4569.76
+DEMO-00160,2025-12-27,Kochi,Kochi Central,Corporate,Standard,Completed,4,9198.11,7166.37
+DEMO-00161,2025-07-15,Mumbai,Mumbai Grand,Travel agent,Suite,Completed,5,75051.93,50756.69
+DEMO-00162,2025-03-31,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,27868.56,21140.56
+DEMO-00163,2025-02-13,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Cancelled,3,22944.91,18019.07
+DEMO-00164,2025-07-31,Mumbai,Mumbai Central,Online travel agency,Standard,Confirmed,4,3202.22,2465.87
+DEMO-00165,2025-07-10,Kochi,Kochi Garden,Direct,Standard,Completed,3,6398.81,5505.1
+DEMO-00166,2025-08-01,Jaipur,Jaipur Grand,Direct,Suite,Completed,5,50769.91,33474.31
+DEMO-00167,2025-07-15,Mumbai,Mumbai Garden,Travel agent,Suite,Confirmed,3,13395.74,11966.78
+DEMO-00168,2025-04-14,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,5815.93,4638.42
+DEMO-00169,2025-05-25,Delhi,Delhi Grand,Direct,Standard,Pending,5,7405.96,4995.43
+DEMO-00170,2025-07-17,Mumbai,Mumbai Grand,Online travel agency,Suite,Confirmed,5,68244.56,58479.11
+DEMO-00171,2025-07-19,Mumbai,Mumbai Grand,Corporate,Deluxe,Completed,5,19950.73,14843.66
+DEMO-00172,2025-09-22,Delhi,Delhi Grand,Direct,Standard,Completed,5,4113.72,2711.54
+DEMO-00173,2025-02-27,Mumbai,Mumbai Garden,Travel agent,Standard,Confirmed,3,8816.19,5843.11
+DEMO-00174,2025-02-24,Goa,Goa Central,Direct,Standard,Completed,4,7775.87,5462.44
+DEMO-00175,2025-10-20,Goa,Goa Grand,Corporate,Deluxe,Completed,5,5649.73,5061.48
+DEMO-00176,2025-02-15,Jaipur,Jaipur Garden,Corporate,Standard,Completed,3,9391.62,7166.16
+DEMO-00177,2025-03-25,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,28461.98,22260.97
+DEMO-00178,2025-02-06,Mumbai,Mumbai Central,Travel agent,Standard,Cancelled,4,9779.58,7864.43
+DEMO-00179,2025-03-25,Mumbai,Mumbai Grand,Direct,Deluxe,Confirmed,5,7705.48,6655.81
+DEMO-00180,2025-11-26,Jaipur,Jaipur Central,Corporate,Deluxe,Completed,4,18245.12,15002.19
+DEMO-00181,2025-09-03,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,38724.82,27340.84
+DEMO-00182,2025-05-22,Delhi,Delhi Central,Direct,Deluxe,Completed,4,11718.86,7954.63
+DEMO-00183,2025-12-15,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,5775.03,4016.8
+DEMO-00184,2025-10-20,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,2336.0,1852.59
+DEMO-00185,2025-09-15,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,18816.47,13408.54
+DEMO-00186,2025-03-26,Delhi,Delhi Central,Direct,Standard,Completed,4,9085.16,6549.76
+DEMO-00187,2025-02-17,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,22181.03,18125.89
+DEMO-00188,2025-06-22,Mumbai,Mumbai Grand,Travel agent,Suite,Completed,5,55818.39,37459.72
+DEMO-00189,2025-01-06,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,10280.3,7284.07
+DEMO-00190,2025-10-09,Goa,Goa Grand,Corporate,Deluxe,Completed,5,46127.95,33198.38
+DEMO-00191,2025-08-10,Delhi,Delhi Central,Online travel agency,Suite,Cancelled,4,33779.46,22465.56
+DEMO-00192,2025-01-22,Mumbai,Mumbai Central,Online travel agency,Suite,Cancelled,4,51157.62,44052.69
+DEMO-00193,2025-04-07,Kochi,Kochi Central,Direct,Suite,Pending,4,52114.46,37459.63
+DEMO-00194,2025-09-13,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,9269.92,6539.0
+DEMO-00195,2025-01-02,Delhi,Delhi Garden,Travel agent,Deluxe,Confirmed,3,8090.38,6090.12
+DEMO-00196,2025-03-28,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,7757.25,6337.56
+DEMO-00197,2025-09-09,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,17449.64,11785.92
+DEMO-00198,2025-03-05,Kochi,Kochi Central,Direct,Standard,Completed,4,6180.94,5307.62
+DEMO-00199,2025-04-08,Goa,Goa Garden,Direct,Standard,Completed,3,2425.97,1828.67
+DEMO-00200,2025-10-15,Kochi,Kochi Grand,Direct,Standard,Completed,5,14949.98,13015.14
+DEMO-00201,2025-03-25,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,3692.76,3301.38
+DEMO-00202,2025-01-21,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,35126.0,25460.81
+DEMO-00203,2025-02-13,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,12902.92,9214.6
+DEMO-00204,2025-04-03,Goa,Goa Garden,Online travel agency,Deluxe,Completed,3,17871.82,15881.68
+DEMO-00205,2025-12-26,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,2840.07,2055.79
+DEMO-00206,2025-08-11,Kochi,Kochi Grand,Online travel agency,Deluxe,Completed,5,37122.7,29982.31
+DEMO-00207,2025-08-29,Mumbai,Mumbai Garden,Direct,Deluxe,Confirmed,3,24680.64,18277.29
+DEMO-00208,2025-11-04,Delhi,Delhi Grand,Direct,Suite,Completed,5,30027.15,26283.31
+DEMO-00209,2025-09-30,Mumbai,Mumbai Central,Direct,Suite,Confirmed,4,26172.53,23534.7
+DEMO-00210,2025-05-16,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,26531.56,18635.74
+DEMO-00211,2025-11-21,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Pending,4,6318.59,4652.77
+DEMO-00212,2025-02-18,Bengaluru,Bengaluru Garden,Direct,Standard,Confirmed,3,2108.45,1443.15
+DEMO-00213,2025-10-29,Goa,Goa Central,Corporate,Deluxe,Completed,4,16912.42,12960.36
+DEMO-00214,2025-01-25,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,7634.25,5451.25
+DEMO-00215,2025-11-04,Delhi,Delhi Grand,Online travel agency,Standard,Confirmed,5,27744.23,23003.14
+DEMO-00216,2025-12-26,Bengaluru,Bengaluru Garden,Direct,Suite,Completed,3,29579.31,24022.01
+DEMO-00217,2025-02-19,Kochi,Kochi Central,Online travel agency,Deluxe,Confirmed,4,20986.2,14854.36
+DEMO-00218,2025-10-09,Bengaluru,Bengaluru Grand,Corporate,Standard,Completed,5,8546.55,6664.52
+DEMO-00219,2025-08-15,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,42136.22,33038.11
+DEMO-00220,2025-05-03,Goa,Goa Central,Travel agent,Standard,Confirmed,4,11854.85,8374.24
+DEMO-00221,2025-02-04,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Confirmed,5,13805.75,12351.73
+DEMO-00222,2025-03-13,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,6495.38,5751.7
+DEMO-00223,2025-07-02,Kochi,Kochi Grand,Corporate,Deluxe,Completed,5,30751.63,24645.45
+DEMO-00224,2025-02-09,Mumbai,Mumbai Central,Travel agent,Suite,Confirmed,4,43938.77,34598.3
+DEMO-00225,2025-10-31,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,14549.31,10670.77
+DEMO-00226,2025-03-05,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,20671.92,15214.04
+DEMO-00227,2025-02-16,Goa,Goa Central,Corporate,Standard,Confirmed,4,3691.96,2703.45
+DEMO-00228,2025-11-22,Mumbai,Mumbai Garden,Online travel agency,Standard,Confirmed,3,4185.48,3644.24
+DEMO-00229,2025-02-26,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Confirmed,4,17917.84,12478.65
+DEMO-00230,2025-09-06,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,7686.56,6901.14
+DEMO-00231,2025-06-30,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,13894.16,9097.81
+DEMO-00232,2025-04-01,Mumbai,Mumbai Grand,Online travel agency,Standard,Confirmed,5,18787.33,14532.11
+DEMO-00233,2025-08-09,Goa,Goa Garden,Direct,Standard,Completed,3,9749.49,8683.66
+DEMO-00234,2025-07-14,Jaipur,Jaipur Grand,Travel agent,Standard,Cancelled,5,4923.09,4176.68
+DEMO-00235,2025-12-21,Delhi,Delhi Central,Travel agent,Suite,Completed,4,54736.12,41516.58
+DEMO-00236,2025-08-30,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,21839.07,17090.29
+DEMO-00237,2025-04-24,Goa,Goa Central,Corporate,Suite,Pending,4,51768.32,43530.84
+DEMO-00238,2025-08-28,Mumbai,Mumbai Grand,Corporate,Standard,Pending,5,11360.16,8145.83
+DEMO-00239,2025-09-10,Bengaluru,Bengaluru Garden,Direct,Suite,Cancelled,3,34013.36,26312.04
+DEMO-00240,2025-07-06,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,20234.8,18166.27
+DEMO-00241,2025-08-26,Mumbai,Mumbai Central,Corporate,Standard,Confirmed,4,5830.89,4224.56
+DEMO-00242,2025-09-09,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,9233.8,7476.98
+DEMO-00243,2025-05-17,Mumbai,Mumbai Garden,Direct,Deluxe,Completed,3,11849.3,8866.09
+DEMO-00244,2025-02-22,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,5038.46,4300.49
+DEMO-00245,2025-12-10,Kochi,Kochi Grand,Online travel agency,Standard,Pending,5,27960.53,25305.99
+DEMO-00246,2025-12-17,Mumbai,Mumbai Garden,Online travel agency,Standard,Confirmed,3,9451.34,7255.34
+DEMO-00247,2025-11-04,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Cancelled,5,7218.95,6466.8
+DEMO-00248,2025-01-17,Jaipur,Jaipur Central,Online travel agency,Standard,No-show,4,3910.54,2805.02
+DEMO-00249,2025-07-04,Kochi,Kochi Garden,Online travel agency,Suite,No-show,3,20823.28,14544.76
+DEMO-00250,2025-05-28,Kochi,Kochi Garden,Direct,Standard,Completed,3,8078.5,5804.43
+DEMO-00251,2025-05-10,Goa,Goa Central,Online travel agency,Standard,Confirmed,4,15245.43,13477.32
+DEMO-00252,2025-07-26,Jaipur,Jaipur Garden,Direct,Standard,Confirmed,3,6806.78,5852.51
+DEMO-00253,2025-12-08,Kochi,Kochi Central,Online travel agency,Deluxe,Cancelled,4,25158.69,19749.16
+DEMO-00254,2025-06-14,Kochi,Kochi Garden,Direct,Deluxe,Confirmed,3,18682.33,12669.33
+DEMO-00255,2025-03-29,Delhi,Delhi Garden,Direct,Standard,Completed,3,4806.95,3534.36
+DEMO-00256,2025-03-24,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,9970.59,7859.56
+DEMO-00257,2025-04-25,Kochi,Kochi Grand,Corporate,Deluxe,Completed,5,19579.02,14296.59
+DEMO-00258,2025-12-05,Kochi,Kochi Grand,Direct,Suite,Confirmed,5,61224.28,52055.86
+DEMO-00259,2025-10-19,Delhi,Delhi Garden,Corporate,Deluxe,Cancelled,3,19424.71,14889.74
+DEMO-00260,2025-11-07,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,11497.64,8453.41
+DEMO-00261,2025-07-03,Delhi,Delhi Central,Direct,Standard,Completed,4,3170.47,2739.97
+DEMO-00262,2025-01-03,Bengaluru,Bengaluru Grand,Travel agent,Standard,Completed,5,23705.09,16455.94
+DEMO-00263,2025-10-26,Mumbai,Mumbai Grand,Direct,Deluxe,Confirmed,5,41139.59,33135.58
+DEMO-00264,2025-07-05,Bengaluru,Bengaluru Garden,Direct,Deluxe,Cancelled,3,17062.1,15247.26
+DEMO-00265,2025-11-23,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,9859.8,6675.87
+DEMO-00266,2025-04-25,Delhi,Delhi Central,Online travel agency,Suite,Cancelled,4,67285.66,45730.36
+DEMO-00267,2025-12-06,Goa,Goa Central,Online travel agency,Suite,Cancelled,4,46757.37,41313.76
+DEMO-00268,2025-08-12,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,2667.58,1799.14
+DEMO-00269,2025-12-13,Delhi,Delhi Garden,Corporate,Deluxe,Completed,3,22888.9,15238.61
+DEMO-00270,2025-08-31,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,6874.26,5085.58
+DEMO-00271,2025-07-14,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,10799.68,7184.67
+DEMO-00272,2025-07-16,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,17032.59,14399.27
+DEMO-00273,2025-07-05,Bengaluru,Bengaluru Central,Corporate,Deluxe,Completed,4,35245.94,23243.71
+DEMO-00274,2025-02-26,Goa,Goa Central,Direct,Deluxe,Completed,4,31153.52,25950.33
+DEMO-00275,2025-03-16,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,3867.7,3127.95
+DEMO-00276,2025-09-11,Mumbai,Mumbai Central,Direct,Standard,Cancelled,4,2775.26,2330.3
+DEMO-00277,2025-12-13,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,29983.64,24152.53
+DEMO-00278,2025-10-29,Jaipur,Jaipur Central,Travel agent,Suite,Completed,4,8485.0,5900.3
+DEMO-00279,2025-10-06,Bengaluru,Bengaluru Garden,Travel agent,Standard,Cancelled,3,14562.86,10460.64
+DEMO-00280,2025-02-14,Bengaluru,Bengaluru Central,Direct,Suite,Completed,4,19305.27,16698.25
+DEMO-00281,2025-02-20,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,21541.96,14956.22
+DEMO-00282,2025-12-13,Jaipur,Jaipur Central,Corporate,Standard,Completed,4,5609.98,3776.2
+DEMO-00283,2025-01-09,Mumbai,Mumbai Garden,Corporate,Standard,Completed,3,7347.58,5732.37
+DEMO-00284,2025-07-28,Goa,Goa Garden,Direct,Suite,Completed,3,35916.55,29744.5
+DEMO-00285,2025-04-07,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,6276.86,4675.71
+DEMO-00286,2025-03-19,Jaipur,Jaipur Garden,Corporate,Standard,Confirmed,3,10824.42,7459.72
+DEMO-00287,2025-01-04,Goa,Goa Grand,Corporate,Standard,Cancelled,5,9193.83,7391.42
+DEMO-00288,2025-07-24,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Cancelled,4,6357.14,4445.34
+DEMO-00289,2025-02-15,Goa,Goa Grand,Online travel agency,Deluxe,Confirmed,5,38473.65,30568.4
+DEMO-00290,2025-07-14,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,23804.85,18488.04
+DEMO-00291,2025-02-09,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,12953.34,10997.17
+DEMO-00292,2025-12-05,Kochi,Kochi Garden,Travel agent,Standard,Completed,3,13520.87,11700.03
+DEMO-00293,2025-09-20,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,11067.09,9369.3
+DEMO-00294,2025-01-03,Kochi,Kochi Central,Direct,Suite,Confirmed,4,19182.92,14485.25
+DEMO-00295,2025-08-01,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,11894.19,9605.88
+DEMO-00296,2025-11-05,Goa,Goa Grand,Direct,Standard,Cancelled,5,17945.93,14428.37
+DEMO-00297,2025-03-22,Mumbai,Mumbai Central,Corporate,Deluxe,Completed,4,30154.36,25271.26
+DEMO-00298,2025-05-01,Goa,Goa Garden,Online travel agency,Standard,Pending,3,2225.3,1738.72
+DEMO-00299,2025-03-27,Kochi,Kochi Grand,Online travel agency,Standard,Confirmed,5,27816.06,22482.37
+DEMO-00300,2025-03-12,Jaipur,Jaipur Grand,Online travel agency,Suite,Completed,5,13839.86,9757.83
+DEMO-00301,2025-10-27,Delhi,Delhi Central,Direct,Standard,Confirmed,4,18906.56,16911.75
+DEMO-00302,2025-10-12,Kochi,Kochi Central,Online travel agency,Suite,Cancelled,4,37458.95,25290.63
+DEMO-00303,2025-03-26,Delhi,Delhi Garden,Direct,Deluxe,Completed,3,21482.4,16019.52
+DEMO-00304,2025-06-08,Goa,Goa Grand,Travel agent,Deluxe,Completed,5,7720.1,6262.84
+DEMO-00305,2025-08-22,Goa,Goa Grand,Direct,Deluxe,Confirmed,5,44468.93,34798.32
+DEMO-00306,2025-07-09,Goa,Goa Garden,Online travel agency,Standard,Pending,3,7639.33,5309.04
+DEMO-00307,2025-04-27,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,3936.0,3267.35
+DEMO-00308,2025-04-04,Goa,Goa Garden,Direct,Standard,Completed,3,7898.89,6195.17
+DEMO-00309,2025-08-09,Delhi,Delhi Garden,Direct,Standard,Cancelled,3,8987.2,7144.57
+DEMO-00310,2025-05-16,Goa,Goa Central,Corporate,Deluxe,Confirmed,4,23025.28,20511.09
+DEMO-00311,2025-01-10,Jaipur,Jaipur Garden,Direct,Deluxe,Confirmed,3,11797.48,9052.01
+DEMO-00312,2025-08-21,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,17275.47,11627.62
+DEMO-00313,2025-05-29,Jaipur,Jaipur Central,Travel agent,Suite,Confirmed,4,57004.94,39189.81
+DEMO-00314,2025-10-15,Delhi,Delhi Central,Direct,Deluxe,Completed,4,24575.03,20912.19
+DEMO-00315,2025-04-09,Bengaluru,Bengaluru Grand,Direct,Standard,Pending,5,19373.76,13743.11
+DEMO-00316,2025-02-24,Delhi,Delhi Central,Online travel agency,Suite,Cancelled,4,27242.33,19416.75
+DEMO-00317,2025-01-31,Kochi,Kochi Central,Corporate,Standard,Confirmed,4,16342.99,14119.74
+DEMO-00318,2025-10-29,Goa,Goa Central,Online travel agency,Standard,Completed,4,19122.73,16056.34
+DEMO-00319,2025-10-19,Kochi,Kochi Grand,Corporate,Deluxe,Completed,5,14988.47,13354.83
+DEMO-00320,2025-07-16,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,2847.07,2032.68
+DEMO-00321,2025-06-29,Mumbai,Mumbai Garden,Corporate,Deluxe,Completed,3,19830.89,14945.5
+DEMO-00322,2025-03-24,Goa,Goa Central,Online travel agency,Standard,Completed,4,15067.32,12930.02
+DEMO-00323,2025-11-08,Goa,Goa Garden,Online travel agency,Standard,Completed,3,11346.17,8882.89
+DEMO-00324,2025-01-23,Delhi,Delhi Grand,Online travel agency,Suite,Cancelled,5,82795.88,71462.05
+DEMO-00325,2025-01-12,Goa,Goa Central,Corporate,Standard,Completed,4,16082.33,12412.11
+DEMO-00326,2025-05-09,Goa,Goa Central,Direct,Suite,Confirmed,4,22793.88,15642.75
+DEMO-00327,2025-11-11,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,12871.13,9555.18
+DEMO-00328,2025-04-03,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,18093.31,11773.39
+DEMO-00329,2025-04-20,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,14115.92,11286.76
+DEMO-00330,2025-07-14,Jaipur,Jaipur Grand,Corporate,Standard,Confirmed,5,7953.81,5555.99
+DEMO-00331,2025-07-01,Delhi,Delhi Central,Direct,Standard,Completed,4,11293.62,9894.54
+DEMO-00332,2025-07-26,Kochi,Kochi Central,Online travel agency,Deluxe,Cancelled,4,24839.93,18185.28
+DEMO-00333,2025-01-27,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,11466.88,9837.13
+DEMO-00334,2025-03-22,Kochi,Kochi Central,Direct,Suite,Completed,4,51034.18,34966.45
+DEMO-00335,2025-02-12,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,7211.23,6440.27
+DEMO-00336,2025-09-16,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,3985.21,3239.81
+DEMO-00337,2025-05-09,Kochi,Kochi Grand,Corporate,Deluxe,Confirmed,5,5575.08,3978.59
+DEMO-00338,2025-10-19,Jaipur,Jaipur Garden,Corporate,Standard,Completed,3,4166.33,2751.39
+DEMO-00339,2025-01-11,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,12437.12,8258.92
+DEMO-00340,2025-12-06,Jaipur,Jaipur Central,Travel agent,Suite,Completed,4,43147.88,30536.1
+DEMO-00341,2025-06-14,Kochi,Kochi Central,Corporate,Standard,Completed,4,10655.34,7052.47
+DEMO-00342,2025-07-18,Goa,Goa Garden,Online travel agency,Deluxe,Confirmed,3,10715.02,7143.64
+DEMO-00343,2025-10-08,Bengaluru,Bengaluru Central,Online travel agency,Standard,Pending,4,6261.34,5145.73
+DEMO-00344,2025-01-03,Delhi,Delhi Central,Corporate,Standard,Confirmed,4,10177.09,7712.82
+DEMO-00345,2025-02-15,Kochi,Kochi Grand,Online travel agency,Standard,Confirmed,5,8788.67,6282.87
+DEMO-00346,2025-02-13,Bengaluru,Bengaluru Central,Direct,Standard,Cancelled,4,6794.34,4702.27
+DEMO-00347,2025-02-04,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,8768.86,5988.98
+DEMO-00348,2025-07-27,Mumbai,Mumbai Central,Travel agent,Standard,Cancelled,4,15931.89,14392.4
+DEMO-00349,2025-03-16,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,13918.27,11394.63
+DEMO-00350,2025-05-29,Kochi,Kochi Central,Direct,Suite,Completed,4,62473.08,51547.39
+DEMO-00351,2025-06-16,Bengaluru,Bengaluru Grand,Direct,Standard,Confirmed,5,27205.08,18822.43
+DEMO-00352,2025-03-03,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,22139.27,17811.41
+DEMO-00353,2025-03-17,Goa,Goa Central,Corporate,Deluxe,Cancelled,4,24955.16,17808.08
+DEMO-00354,2025-11-01,Jaipur,Jaipur Grand,Travel agent,Standard,Completed,5,7339.66,5389.85
+DEMO-00355,2025-10-19,Goa,Goa Garden,Corporate,Suite,Completed,3,6273.33,4626.32
+DEMO-00356,2025-04-29,Delhi,Delhi Grand,Direct,Standard,Confirmed,5,9351.24,7518.08
+DEMO-00357,2025-04-04,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,3531.73,2413.33
+DEMO-00358,2025-05-27,Goa,Goa Central,Online travel agency,Suite,Completed,4,52164.02,42228.73
+DEMO-00359,2025-04-12,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,10491.39,8484.45
+DEMO-00360,2025-02-21,Mumbai,Mumbai Central,Corporate,Deluxe,Completed,4,10967.08,7727.65
+DEMO-00361,2025-12-24,Kochi,Kochi Central,Corporate,Standard,Cancelled,4,11023.39,9384.75
+DEMO-00362,2025-05-02,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,6165.74,5126.99
+DEMO-00363,2025-04-12,Goa,Goa Garden,Travel agent,Deluxe,Completed,3,14441.19,11167.42
+DEMO-00364,2025-06-01,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,4566.56,3906.12
+DEMO-00365,2025-01-24,Jaipur,Jaipur Grand,Direct,Standard,Cancelled,5,4388.46,3062.8
+DEMO-00366,2025-03-28,Delhi,Delhi Grand,Online travel agency,Deluxe,No-show,5,39357.48,30299.55
+DEMO-00367,2025-08-23,Mumbai,Mumbai Grand,Direct,Suite,Completed,5,38273.58,29808.96
+DEMO-00368,2025-11-04,Bengaluru,Bengaluru Garden,Direct,Deluxe,Confirmed,3,8331.7,7327.98
+DEMO-00369,2025-05-17,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,2470.52,2225.06
+DEMO-00370,2025-02-05,Delhi,Delhi Grand,Corporate,Deluxe,Completed,5,37676.09,27107.87
+DEMO-00371,2025-03-23,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,19530.2,14998.02
+DEMO-00372,2025-05-23,Delhi,Delhi Grand,Travel agent,Deluxe,Completed,5,45521.51,30150.86
+DEMO-00373,2025-01-31,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,13365.62,10914.98
+DEMO-00374,2025-09-17,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,18743.76,15649.21
+DEMO-00375,2025-08-28,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,11498.93,7959.18
+DEMO-00376,2025-10-16,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,6675.86,5535.04
+DEMO-00377,2025-12-11,Delhi,Delhi Garden,Travel agent,Standard,Completed,3,13662.57,9082.5
+DEMO-00378,2025-01-06,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,9550.31,8261.23
+DEMO-00379,2025-08-22,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,10841.71,7396.05
+DEMO-00380,2025-01-17,Mumbai,Mumbai Garden,Online travel agency,Standard,No-show,3,2919.39,2629.6
+DEMO-00381,2025-02-22,Kochi,Kochi Central,Online travel agency,Deluxe,Cancelled,4,9439.33,7618.25
+DEMO-00382,2025-03-05,Bengaluru,Bengaluru Grand,Online travel agency,Suite,Cancelled,5,64469.27,56437.78
+DEMO-00383,2025-05-14,Delhi,Delhi Grand,Online travel agency,Standard,Cancelled,5,20932.11,13919.86
+DEMO-00384,2025-02-23,Mumbai,Mumbai Garden,Corporate,Standard,Confirmed,3,13900.71,11035.66
+DEMO-00385,2025-09-13,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,18599.12,16551.58
+DEMO-00386,2025-07-11,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,46999.85,31887.83
+DEMO-00387,2025-02-04,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,21805.79,14247.43
+DEMO-00388,2025-11-02,Goa,Goa Grand,Online travel agency,Standard,Confirmed,5,9231.76,7939.65
+DEMO-00389,2025-09-05,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,5727.04,3967.15
+DEMO-00390,2025-03-30,Jaipur,Jaipur Central,Travel agent,Standard,Completed,4,6264.53,5569.05
+DEMO-00391,2025-04-20,Delhi,Delhi Central,Online travel agency,Standard,No-show,4,7691.32,6105.24
+DEMO-00392,2025-09-04,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,3562.3,2355.3
+DEMO-00393,2025-01-29,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,28801.69,25846.66
+DEMO-00394,2025-04-25,Jaipur,Jaipur Central,Travel agent,Standard,Completed,4,14514.82,11259.17
+DEMO-00395,2025-07-14,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,9218.44,6449.12
+DEMO-00396,2025-02-19,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,11742.94,9400.77
+DEMO-00397,2025-06-29,Goa,Goa Grand,Travel agent,Standard,Cancelled,5,25000.54,22376.79
+DEMO-00398,2025-11-14,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,16683.75,10955.06
+DEMO-00399,2025-08-07,Jaipur,Jaipur Grand,Travel agent,Standard,Confirmed,5,17546.49,14769.58
+DEMO-00400,2025-10-16,Goa,Goa Garden,Direct,Standard,Completed,3,4913.35,3965.66
+DEMO-00401,2025-11-06,Mumbai,Mumbai Central,Corporate,Standard,Confirmed,4,15714.03,11205.6
+DEMO-00402,2025-05-02,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,15470.96,13361.66
+DEMO-00403,2025-02-27,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,17373.6,11441.31
+DEMO-00404,2025-01-09,Delhi,Delhi Central,Direct,Standard,Completed,4,6352.17,5248.58
+DEMO-00405,2025-09-01,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,18736.9,15332.91
+DEMO-00406,2025-01-01,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,17165.74,13421.63
+DEMO-00407,2025-06-04,Delhi,Delhi Central,Travel agent,Standard,Pending,4,6174.06,4907.0
+DEMO-00408,2025-12-19,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,16411.34,11257.43
+DEMO-00409,2025-09-13,Jaipur,Jaipur Central,Direct,Suite,Cancelled,4,48571.18,40309.65
+DEMO-00410,2025-07-12,Kochi,Kochi Central,Direct,Deluxe,Completed,4,37114.1,29102.42
+DEMO-00411,2025-04-02,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,20245.81,14736.38
+DEMO-00412,2025-01-24,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,14281.36,11729.87
+DEMO-00413,2025-05-27,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,17563.91,13962.88
+DEMO-00414,2025-09-30,Kochi,Kochi Central,Direct,Suite,Confirmed,4,9029.93,7269.29
+DEMO-00415,2025-04-07,Mumbai,Mumbai Central,Direct,Standard,Completed,4,3150.94,2316.91
+DEMO-00416,2025-10-24,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,13219.76,11815.38
+DEMO-00417,2025-11-26,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,8185.79,7008.55
+DEMO-00418,2025-06-26,Delhi,Delhi Grand,Online travel agency,Deluxe,Completed,5,13077.48,9892.73
+DEMO-00419,2025-07-21,Jaipur,Jaipur Grand,Corporate,Standard,Completed,5,8605.75,7469.48
+DEMO-00420,2025-03-14,Kochi,Kochi Central,Online travel agency,Deluxe,Cancelled,4,29285.56,22830.36
+DEMO-00421,2025-08-03,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,11294.81,8492.92
+DEMO-00422,2025-12-21,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,30579.4,23824.57
+DEMO-00423,2025-10-23,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,31751.98,26874.77
+DEMO-00424,2025-01-26,Delhi,Delhi Grand,Direct,Deluxe,Confirmed,5,26987.74,20215.02
+DEMO-00425,2025-07-04,Delhi,Delhi Garden,Direct,Standard,Cancelled,3,7515.03,4916.99
+DEMO-00426,2025-08-18,Kochi,Kochi Grand,Direct,Standard,Confirmed,5,18826.37,13723.13
+DEMO-00427,2025-11-21,Jaipur,Jaipur Garden,Corporate,Deluxe,No-show,3,3971.81,2699.86
+DEMO-00428,2025-08-25,Mumbai,Mumbai Central,Corporate,Suite,Completed,4,38923.01,30342.53
+DEMO-00429,2025-12-04,Goa,Goa Central,Online travel agency,Deluxe,Cancelled,4,24720.77,22324.6
+DEMO-00430,2025-01-06,Goa,Goa Grand,Corporate,Deluxe,Confirmed,5,18603.07,13577.14
+DEMO-00431,2025-06-12,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,13777.35,11698.24
+DEMO-00432,2025-08-04,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,37302.84,31805.63
+DEMO-00433,2025-04-17,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,16595.89,14596.75
+DEMO-00434,2025-09-06,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Cancelled,3,14496.67,12949.05
+DEMO-00435,2025-01-02,Delhi,Delhi Garden,Direct,Standard,Completed,3,5339.61,4706.69
+DEMO-00436,2025-06-10,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,11225.23,8106.33
+DEMO-00437,2025-06-14,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,28533.88,19336.3
+DEMO-00438,2025-10-10,Kochi,Kochi Central,Online travel agency,Suite,Confirmed,4,24142.4,20742.71
+DEMO-00439,2025-07-15,Goa,Goa Grand,Direct,Standard,Completed,5,13931.55,10465.75
+DEMO-00440,2025-10-06,Mumbai,Mumbai Garden,Corporate,Standard,Completed,3,4673.76,3138.73
+DEMO-00441,2025-02-27,Goa,Goa Garden,Corporate,Standard,Completed,3,5824.02,4149.75
+DEMO-00442,2025-05-02,Mumbai,Mumbai Central,Direct,Standard,Completed,4,3457.05,2513.37
+DEMO-00443,2025-05-07,Bengaluru,Bengaluru Central,Corporate,Deluxe,Cancelled,4,29414.71,24762.56
+DEMO-00444,2025-09-23,Goa,Goa Garden,Online travel agency,Standard,Pending,3,6392.32,5177.37
+DEMO-00445,2025-05-20,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,13809.36,9146.21
+DEMO-00446,2025-09-30,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,15546.56,10724.11
+DEMO-00447,2025-05-01,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,29410.4,25633.12
+DEMO-00448,2025-05-30,Kochi,Kochi Grand,Corporate,Deluxe,Completed,5,33152.64,28884.89
+DEMO-00449,2025-06-07,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Pending,5,28913.12,25611.09
+DEMO-00450,2025-11-26,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,12138.09,9282.19
+DEMO-00451,2025-03-19,Goa,Goa Central,Corporate,Standard,Completed,4,3637.78,2657.36
+DEMO-00452,2025-09-29,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,14726.72,10574.23
+DEMO-00453,2025-04-12,Mumbai,Mumbai Grand,Direct,Suite,Confirmed,5,30544.79,26128.25
+DEMO-00454,2025-03-23,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,15692.15,13536.55
+DEMO-00455,2025-10-17,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,14816.8,12851.95
+DEMO-00456,2025-05-11,Delhi,Delhi Grand,Direct,Suite,Completed,5,56768.16,47203.72
+DEMO-00457,2025-03-22,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,2666.97,2021.49
+DEMO-00458,2025-04-10,Goa,Goa Central,Direct,Standard,Cancelled,4,5896.21,4073.91
+DEMO-00459,2025-09-01,Jaipur,Jaipur Grand,Travel agent,Deluxe,Confirmed,5,34617.11,26379.28
+DEMO-00460,2025-01-29,Goa,Goa Central,Online travel agency,Standard,Completed,4,7592.82,5998.1
+DEMO-00461,2025-01-12,Goa,Goa Garden,Online travel agency,Deluxe,Completed,3,4682.73,3799.75
+DEMO-00462,2025-04-15,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,7195.12,6164.11
+DEMO-00463,2025-04-14,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,6291.57,5243.5
+DEMO-00464,2025-07-13,Goa,Goa Garden,Direct,Standard,Completed,3,7176.22,5074.82
+DEMO-00465,2025-10-21,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,2067.09,1853.78
+DEMO-00466,2025-01-02,Jaipur,Jaipur Central,Online travel agency,Standard,Confirmed,4,6635.63,4505.56
+DEMO-00467,2025-02-13,Delhi,Delhi Garden,Online travel agency,Suite,Completed,3,5920.14,5255.88
+DEMO-00468,2025-04-14,Kochi,Kochi Garden,Online travel agency,Deluxe,Pending,3,28567.17,20460.97
+DEMO-00469,2025-02-21,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,33599.79,23006.08
+DEMO-00470,2025-09-26,Kochi,Kochi Central,Direct,Standard,Completed,4,16994.21,14638.05
+DEMO-00471,2025-11-18,Jaipur,Jaipur Central,Corporate,Deluxe,Completed,4,6100.48,4448.94
+DEMO-00472,2025-05-22,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,11995.33,10675.43
+DEMO-00473,2025-03-17,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,7739.09,6056.95
+DEMO-00474,2025-01-26,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,7101.7,4750.97
+DEMO-00475,2025-03-09,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,4482.74,3934.47
+DEMO-00476,2025-05-03,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,27263.2,21926.93
+DEMO-00477,2025-12-28,Mumbai,Mumbai Central,Direct,Suite,Completed,4,24892.2,18411.89
+DEMO-00478,2025-08-31,Mumbai,Mumbai Central,Online travel agency,Standard,Confirmed,4,2903.48,2281.24
+DEMO-00479,2025-03-13,Delhi,Delhi Garden,Direct,Standard,Confirmed,3,10054.98,7688.69
+DEMO-00480,2025-01-04,Bengaluru,Bengaluru Garden,Direct,Deluxe,No-show,3,10764.15,9784.92
+DEMO-00481,2025-12-24,Kochi,Kochi Central,Direct,Standard,Cancelled,4,2738.08,2102.38
+DEMO-00482,2025-08-24,Mumbai,Mumbai Central,Direct,Standard,Completed,4,19051.95,13295.9
+DEMO-00483,2025-06-30,Bengaluru,Bengaluru Central,Direct,Standard,Confirmed,4,5881.26,4687.0
+DEMO-00484,2025-10-24,Mumbai,Mumbai Garden,Direct,Deluxe,Confirmed,3,13064.38,9561.41
+DEMO-00485,2025-11-26,Jaipur,Jaipur Central,Travel agent,Deluxe,Completed,4,26571.32,19724.31
+DEMO-00486,2025-10-24,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,4974.18,4295.72
+DEMO-00487,2025-06-11,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,30406.18,22663.19
+DEMO-00488,2025-03-08,Jaipur,Jaipur Central,Travel agent,Deluxe,Completed,4,26250.7,19062.99
+DEMO-00489,2025-12-14,Mumbai,Mumbai Grand,Corporate,Standard,Confirmed,5,18292.41,15643.25
+DEMO-00490,2025-10-26,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,14502.86,10086.06
+DEMO-00491,2025-01-11,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,3296.89,2768.1
+DEMO-00492,2025-11-18,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,21058.74,14663.51
+DEMO-00493,2025-02-06,Jaipur,Jaipur Garden,Corporate,Deluxe,Completed,3,3745.76,3103.57
+DEMO-00494,2025-08-04,Mumbai,Mumbai Central,Direct,Suite,Confirmed,4,35781.92,29882.21
+DEMO-00495,2025-09-23,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,42626.33,30675.94
+DEMO-00496,2025-12-18,Delhi,Delhi Central,Corporate,Deluxe,Completed,4,12550.26,9414.76
+DEMO-00497,2025-12-30,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,15532.12,11821.99
+DEMO-00498,2025-05-06,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,3815.64,2867.55
+DEMO-00499,2025-07-13,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,8279.97,6276.85
+DEMO-00500,2025-05-01,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,10390.55,9206.04
+DEMO-00501,2025-01-26,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,15283.23,10923.06
+DEMO-00502,2025-05-26,Mumbai,Mumbai Central,Online travel agency,Standard,No-show,4,15805.51,11486.11
+DEMO-00503,2025-10-16,Delhi,Delhi Grand,Online travel agency,Deluxe,Confirmed,5,46264.4,38485.05
+DEMO-00504,2025-12-20,Goa,Goa Garden,Travel agent,Standard,Cancelled,3,10842.8,8438.34
+DEMO-00505,2025-01-30,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Cancelled,5,40455.35,35600.65
+DEMO-00506,2025-09-07,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,7138.61,6034.13
+DEMO-00507,2025-03-11,Mumbai,Mumbai Garden,Online travel agency,Standard,Confirmed,3,11912.13,9500.68
+DEMO-00508,2025-05-04,Delhi,Delhi Grand,Online travel agency,Standard,Cancelled,5,4495.24,2938.38
+DEMO-00509,2025-05-03,Delhi,Delhi Grand,Direct,Standard,Completed,5,18411.66,16640.68
+DEMO-00510,2025-05-26,Goa,Goa Garden,Corporate,Standard,Completed,3,11024.97,8705.54
+DEMO-00511,2025-08-28,Goa,Goa Central,Corporate,Deluxe,Completed,4,17399.2,11403.52
+DEMO-00512,2025-04-11,Goa,Goa Garden,Corporate,Standard,Completed,3,6657.85,4449.9
+DEMO-00513,2025-01-12,Kochi,Kochi Garden,Travel agent,Standard,Completed,3,11568.7,9582.65
+DEMO-00514,2025-07-01,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,23055.49,19823.11
+DEMO-00515,2025-11-11,Delhi,Delhi Central,Direct,Standard,Confirmed,4,18540.31,13764.23
+DEMO-00516,2025-01-15,Kochi,Kochi Garden,Direct,Deluxe,No-show,3,27859.4,22489.07
+DEMO-00517,2025-01-31,Mumbai,Mumbai Central,Direct,Standard,Completed,4,12943.17,10206.86
+DEMO-00518,2025-04-02,Delhi,Delhi Grand,Online travel agency,Deluxe,Cancelled,5,31560.05,21544.86
+DEMO-00519,2025-07-22,Jaipur,Jaipur Central,Travel agent,Standard,Completed,4,3741.49,2434.95
+DEMO-00520,2025-10-24,Goa,Goa Grand,Travel agent,Deluxe,Completed,5,32154.92,26071.87
+DEMO-00521,2025-01-22,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,2846.45,2545.66
+DEMO-00522,2025-01-10,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,12345.01,9665.28
+DEMO-00523,2025-10-24,Goa,Goa Central,Direct,Standard,Completed,4,3654.67,3209.04
+DEMO-00524,2025-07-23,Mumbai,Mumbai Garden,Corporate,Standard,Cancelled,3,5339.43,4709.62
+DEMO-00525,2025-09-10,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,34853.71,31524.84
+DEMO-00526,2025-05-21,Delhi,Delhi Central,Direct,Deluxe,Completed,4,13902.33,9466.03
+DEMO-00527,2025-07-06,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,6682.3,5250.41
+DEMO-00528,2025-03-21,Delhi,Delhi Grand,Direct,Standard,Confirmed,5,14593.33,12218.07
+DEMO-00529,2025-08-01,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,6359.91,5384.9
+DEMO-00530,2025-09-06,Goa,Goa Central,Corporate,Standard,Completed,4,13724.31,11045.89
+DEMO-00531,2025-12-02,Goa,Goa Garden,Corporate,Standard,Confirmed,3,6270.57,4494.9
+DEMO-00532,2025-12-09,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Confirmed,3,4032.56,3264.5
+DEMO-00533,2025-03-25,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Cancelled,3,14454.59,10553.48
+DEMO-00534,2025-02-06,Bengaluru,Bengaluru Central,Corporate,Suite,Confirmed,4,29723.66,21610.91
+DEMO-00535,2025-04-21,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,17877.08,13894.66
+DEMO-00536,2025-02-17,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,42509.59,31325.79
+DEMO-00537,2025-02-24,Delhi,Delhi Grand,Direct,Deluxe,Pending,5,32381.87,22520.89
+DEMO-00538,2025-05-12,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,15107.04,12364.42
+DEMO-00539,2025-01-15,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,22682.86,18494.22
+DEMO-00540,2025-05-26,Mumbai,Mumbai Garden,Direct,Deluxe,Cancelled,3,26629.63,19305.96
+DEMO-00541,2025-07-14,Delhi,Delhi Grand,Corporate,Deluxe,Completed,5,30553.95,23783.7
+DEMO-00542,2025-06-12,Bengaluru,Bengaluru Central,Corporate,Suite,Confirmed,4,10094.51,7604.63
+DEMO-00543,2025-05-31,Delhi,Delhi Central,Corporate,Standard,Confirmed,4,16900.67,11487.53
+DEMO-00544,2025-11-12,Goa,Goa Grand,Online travel agency,Standard,Cancelled,5,7584.85,5746.19
+DEMO-00545,2025-10-10,Kochi,Kochi Central,Corporate,Suite,Completed,4,10327.51,8782.09
+DEMO-00546,2025-11-09,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,8505.81,5841.55
+DEMO-00547,2025-05-14,Bengaluru,Bengaluru Grand,Direct,Standard,No-show,5,19844.15,14200.18
+DEMO-00548,2025-03-22,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,4338.33,3661.49
+DEMO-00549,2025-10-08,Kochi,Kochi Central,Direct,Deluxe,Completed,4,19319.82,13363.58
+DEMO-00550,2025-03-19,Kochi,Kochi Central,Corporate,Deluxe,Completed,4,5509.79,3814.51
+DEMO-00551,2025-05-13,Delhi,Delhi Grand,Direct,Deluxe,Cancelled,5,39997.7,33048.3
+DEMO-00552,2025-09-29,Bengaluru,Bengaluru Central,Corporate,Deluxe,Completed,4,35423.32,28954.21
+DEMO-00553,2025-11-19,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,2990.51,2085.2
+DEMO-00554,2025-06-15,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,19914.18,14610.55
+DEMO-00555,2025-11-09,Kochi,Kochi Grand,Direct,Standard,Completed,5,3885.83,2852.25
+DEMO-00556,2025-06-23,Kochi,Kochi Central,Direct,Standard,Pending,4,13502.39,11018.41
+DEMO-00557,2025-11-25,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,22273.37,16058.27
+DEMO-00558,2025-07-14,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,5575.76,3879.17
+DEMO-00559,2025-03-22,Kochi,Kochi Central,Direct,Standard,Completed,4,9208.09,6500.17
+DEMO-00560,2025-03-15,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Cancelled,5,21611.92,16389.41
+DEMO-00561,2025-11-14,Delhi,Delhi Central,Direct,Suite,Completed,4,31034.87,20843.07
+DEMO-00562,2025-08-23,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Cancelled,4,30598.95,21142.48
+DEMO-00563,2025-04-22,Jaipur,Jaipur Central,Direct,Standard,Confirmed,4,14312.74,12558.07
+DEMO-00564,2025-05-05,Bengaluru,Bengaluru Central,Direct,Suite,Completed,4,57443.13,44104.91
+DEMO-00565,2025-11-09,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Completed,3,13676.03,10312.48
+DEMO-00566,2025-11-21,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,20554.93,14076.25
+DEMO-00567,2025-04-19,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,2801.83,2266.94
+DEMO-00568,2025-01-24,Jaipur,Jaipur Central,Online travel agency,Suite,Confirmed,4,19985.12,15311.94
+DEMO-00569,2025-07-18,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,14060.53,11351.71
+DEMO-00570,2025-05-28,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,18137.67,15004.71
+DEMO-00571,2025-01-19,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,2787.97,1864.07
+DEMO-00572,2025-08-01,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,14309.15,11272.01
+DEMO-00573,2025-05-13,Bengaluru,Bengaluru Central,Travel agent,Standard,Cancelled,4,11959.45,10672.01
+DEMO-00574,2025-06-25,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,19686.97,16168.76
+DEMO-00575,2025-07-27,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,5451.27,3649.62
+DEMO-00576,2025-10-03,Jaipur,Jaipur Central,Direct,Standard,Completed,4,6230.06,4997.63
+DEMO-00577,2025-12-19,Jaipur,Jaipur Central,Online travel agency,Suite,Confirmed,4,31017.45,22372.88
+DEMO-00578,2025-03-27,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,14375.26,10976.68
+DEMO-00579,2025-03-18,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,24322.57,19471.29
+DEMO-00580,2025-11-12,Delhi,Delhi Grand,Online travel agency,Standard,Cancelled,5,16339.38,11624.77
+DEMO-00581,2025-07-02,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,17074.21,12883.58
+DEMO-00582,2025-11-04,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,21748.91,18322.11
+DEMO-00583,2025-05-02,Mumbai,Mumbai Garden,Direct,Deluxe,Completed,3,17449.71,12589.66
+DEMO-00584,2025-01-03,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Cancelled,3,5339.36,4547.05
+DEMO-00585,2025-03-15,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Completed,3,28224.58,18516.67
+DEMO-00586,2025-02-15,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Confirmed,3,16705.1,12132.54
+DEMO-00587,2025-03-28,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,14442.9,11469.82
+DEMO-00588,2025-04-28,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,8734.98,6450.59
+DEMO-00589,2025-11-10,Delhi,Delhi Central,Direct,Deluxe,Completed,4,38246.51,29256.58
+DEMO-00590,2025-03-15,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,7578.36,5908.81
+DEMO-00591,2025-04-16,Goa,Goa Central,Corporate,Standard,Completed,4,23074.06,16298.25
+DEMO-00592,2025-01-15,Goa,Goa Grand,Online travel agency,Standard,Completed,5,11755.1,9682.21
+DEMO-00593,2025-12-02,Goa,Goa Garden,Online travel agency,Standard,Completed,3,14422.93,10185.32
+DEMO-00594,2025-05-13,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,8815.32,7176.26
+DEMO-00595,2025-02-26,Goa,Goa Central,Corporate,Standard,Cancelled,4,15274.71,12292.42
+DEMO-00596,2025-07-22,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,53508.82,37950.11
+DEMO-00597,2025-09-28,Mumbai,Mumbai Garden,Travel agent,Standard,Completed,3,17185.96,14364.14
+DEMO-00598,2025-01-24,Mumbai,Mumbai Garden,Direct,Standard,Cancelled,3,6798.69,5073.98
+DEMO-00599,2025-04-27,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,15629.07,11832.98
+DEMO-00600,2025-10-08,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,24285.31,16799.65
+DEMO-00601,2025-04-23,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,4277.95,3731.59
+DEMO-00602,2025-08-30,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,14035.54,11368.22
+DEMO-00603,2025-03-21,Jaipur,Jaipur Garden,Corporate,Deluxe,Completed,3,23542.91,19599.22
+DEMO-00604,2025-08-12,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,10948.72,8558.63
+DEMO-00605,2025-06-27,Delhi,Delhi Grand,Online travel agency,Deluxe,Completed,5,22981.47,18578.03
+DEMO-00606,2025-09-24,Kochi,Kochi Garden,Online travel agency,Standard,Confirmed,3,8188.63,6439.92
+DEMO-00607,2025-08-13,Mumbai,Mumbai Garden,Corporate,Standard,Confirmed,3,11089.88,8120.24
+DEMO-00608,2025-02-25,Kochi,Kochi Garden,Direct,Standard,No-show,3,17024.46,12064.15
+DEMO-00609,2025-06-03,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,27277.55,18123.92
+DEMO-00610,2025-11-27,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,5850.09,4346.31
+DEMO-00611,2025-04-11,Jaipur,Jaipur Central,Direct,Standard,Confirmed,4,6734.68,5232.0
+DEMO-00612,2025-11-30,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,12990.49,11595.31
+DEMO-00613,2025-05-31,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,32349.69,24091.88
+DEMO-00614,2025-01-06,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,54333.8,39478.1
+DEMO-00615,2025-01-09,Delhi,Delhi Central,Corporate,Deluxe,Completed,4,29536.12,20517.44
+DEMO-00616,2025-05-05,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Completed,3,28011.78,18599.3
+DEMO-00617,2025-07-04,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,10924.4,8349.14
+DEMO-00618,2025-07-05,Goa,Goa Garden,Travel agent,Standard,Completed,3,13249.07,11624.36
+DEMO-00619,2025-07-02,Kochi,Kochi Garden,Direct,Standard,Completed,3,7909.86,7052.83
+DEMO-00620,2025-01-29,Kochi,Kochi Central,Corporate,Standard,Completed,4,23188.14,15602.62
+DEMO-00621,2025-06-22,Kochi,Kochi Garden,Direct,Standard,Completed,3,7817.85,7096.36
+DEMO-00622,2025-11-13,Mumbai,Mumbai Central,Direct,Suite,Completed,4,31557.74,21531.18
+DEMO-00623,2025-05-02,Kochi,Kochi Grand,Online travel agency,Deluxe,Cancelled,5,35180.69,24624.71
+DEMO-00624,2025-12-21,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,12850.75,10604.59
+DEMO-00625,2025-01-20,Jaipur,Jaipur Central,Direct,Suite,Completed,4,29780.28,20304.98
+DEMO-00626,2025-02-09,Kochi,Kochi Central,Corporate,Deluxe,Completed,4,30226.74,21669.53
+DEMO-00627,2025-03-04,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,8360.02,5593.08
+DEMO-00628,2025-02-21,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,24285.54,16024.7
+DEMO-00629,2025-04-17,Jaipur,Jaipur Central,Direct,Standard,Completed,4,17110.51,11734.13
+DEMO-00630,2025-02-03,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,9729.4,8126.43
+DEMO-00631,2025-08-17,Goa,Goa Central,Direct,Standard,Completed,4,11590.18,8321.03
+DEMO-00632,2025-01-17,Goa,Goa Garden,Online travel agency,Standard,Completed,3,8555.29,5699.16
+DEMO-00633,2025-04-05,Jaipur,Jaipur Grand,Corporate,Deluxe,Confirmed,5,38982.96,31935.14
+DEMO-00634,2025-11-16,Goa,Goa Central,Direct,Deluxe,Completed,4,26618.8,23648.37
+DEMO-00635,2025-06-28,Bengaluru,Bengaluru Grand,Corporate,Suite,Completed,5,69189.76,57919.98
+DEMO-00636,2025-10-05,Kochi,Kochi Central,Corporate,Standard,Confirmed,4,23893.72,16228.48
+DEMO-00637,2025-10-14,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,26248.25,22264.41
+DEMO-00638,2025-08-24,Mumbai,Mumbai Garden,Travel agent,Deluxe,Completed,3,6785.73,5691.53
+DEMO-00639,2025-05-03,Goa,Goa Grand,Online travel agency,Standard,Cancelled,5,14777.18,11239.64
+DEMO-00640,2025-04-15,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,12907.82,11470.73
+DEMO-00641,2025-05-29,Bengaluru,Bengaluru Central,Direct,Standard,Confirmed,4,16636.06,13418.5
+DEMO-00642,2025-02-23,Kochi,Kochi Grand,Online travel agency,Suite,Cancelled,5,39572.45,27376.81
+DEMO-00643,2025-05-11,Jaipur,Jaipur Central,Online travel agency,Deluxe,Confirmed,4,9800.69,8584.17
+DEMO-00644,2025-05-18,Delhi,Delhi Central,Direct,Deluxe,Confirmed,4,5862.42,5202.52
+DEMO-00645,2025-10-02,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,13875.25,11973.79
+DEMO-00646,2025-11-06,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,7674.22,6552.68
+DEMO-00647,2025-10-30,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,21778.69,15603.63
+DEMO-00648,2025-08-03,Bengaluru,Bengaluru Garden,Direct,Deluxe,Confirmed,3,21586.05,15366.6
+DEMO-00649,2025-10-12,Bengaluru,Bengaluru Central,Direct,Standard,No-show,4,6878.41,5300.26
+DEMO-00650,2025-04-23,Kochi,Kochi Central,Online travel agency,Standard,Cancelled,4,7200.86,5957.07
+DEMO-00651,2025-03-15,Mumbai,Mumbai Central,Direct,Standard,Confirmed,4,9521.88,8214.61
+DEMO-00652,2025-09-08,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,5476.43,4926.51
+DEMO-00653,2025-02-23,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,13638.98,12236.47
+DEMO-00654,2025-02-23,Delhi,Delhi Central,Travel agent,Deluxe,Completed,4,20954.18,17606.43
+DEMO-00655,2025-02-03,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,28740.59,24201.8
+DEMO-00656,2025-03-30,Bengaluru,Bengaluru Central,Direct,Suite,Confirmed,4,48988.13,39159.16
+DEMO-00657,2025-09-30,Goa,Goa Central,Travel agent,Standard,Confirmed,4,7093.63,5874.82
+DEMO-00658,2025-10-02,Mumbai,Mumbai Garden,Direct,Standard,Confirmed,3,14086.89,11055.1
+DEMO-00659,2025-02-05,Delhi,Delhi Grand,Direct,Deluxe,Confirmed,5,35800.66,27467.95
+DEMO-00660,2025-10-05,Mumbai,Mumbai Garden,Travel agent,Deluxe,Completed,3,3787.31,3360.37
+DEMO-00661,2025-11-18,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,14275.78,10479.69
+DEMO-00662,2025-12-01,Mumbai,Mumbai Central,Direct,Suite,Confirmed,4,47439.5,37087.02
+DEMO-00663,2025-02-11,Goa,Goa Central,Corporate,Deluxe,Completed,4,5151.05,3483.64
+DEMO-00664,2025-09-25,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Cancelled,3,9504.7,6654.37
+DEMO-00665,2025-02-23,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Cancelled,3,8563.48,7604.06
+DEMO-00666,2025-02-18,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,23694.12,17537.34
+DEMO-00667,2025-11-03,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,13011.44,10481.92
+DEMO-00668,2025-07-30,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,14008.01,10153.62
+DEMO-00669,2025-01-24,Kochi,Kochi Central,Direct,Standard,Completed,4,6215.05,4280.99
+DEMO-00670,2025-08-18,Kochi,Kochi Garden,Online travel agency,Suite,Cancelled,3,8439.38,6938.77
+DEMO-00671,2025-02-27,Kochi,Kochi Garden,Corporate,Standard,Completed,3,12605.92,8613.9
+DEMO-00672,2025-03-26,Bengaluru,Bengaluru Grand,Online travel agency,Suite,Completed,5,77921.49,65174.25
+DEMO-00673,2025-09-19,Delhi,Delhi Garden,Online travel agency,Suite,Completed,3,30235.4,24248.77
+DEMO-00674,2025-03-30,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,16247.82,12807.03
+DEMO-00675,2025-01-25,Jaipur,Jaipur Central,Travel agent,Suite,Completed,4,24095.42,20104.05
+DEMO-00676,2025-10-14,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,7045.44,5386.36
+DEMO-00677,2025-11-02,Bengaluru,Bengaluru Central,Direct,Deluxe,Confirmed,4,11287.91,9120.64
+DEMO-00678,2025-01-30,Mumbai,Mumbai Central,Corporate,Deluxe,Completed,4,5194.4,3472.42
+DEMO-00679,2025-02-11,Kochi,Kochi Central,Direct,Deluxe,Completed,4,16448.74,14044.39
+DEMO-00680,2025-10-27,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,5648.04,4968.46
+DEMO-00681,2025-06-12,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Confirmed,3,27878.48,23533.58
+DEMO-00682,2025-04-17,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,8966.15,7907.17
+DEMO-00683,2025-08-28,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,34095.29,23623.88
+DEMO-00684,2025-05-21,Jaipur,Jaipur Grand,Corporate,Deluxe,Completed,5,19109.81,14510.99
+DEMO-00685,2025-01-06,Delhi,Delhi Grand,Direct,Standard,Cancelled,5,4273.03,3371.2
+DEMO-00686,2025-01-03,Kochi,Kochi Garden,Corporate,Suite,Confirmed,3,16701.76,14432.92
+DEMO-00687,2025-02-05,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,3876.94,3141.03
+DEMO-00688,2025-04-27,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,27284.71,23596.47
+DEMO-00689,2025-12-30,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,7019.39,6171.49
+DEMO-00690,2025-05-31,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,22036.69,19455.64
+DEMO-00691,2025-02-26,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,9221.17,7882.4
+DEMO-00692,2025-07-04,Kochi,Kochi Garden,Online travel agency,Suite,Pending,3,8497.98,5604.99
+DEMO-00693,2025-05-20,Delhi,Delhi Garden,Corporate,Deluxe,Confirmed,3,6939.68,4606.71
+DEMO-00694,2025-05-06,Goa,Goa Grand,Travel agent,Standard,Completed,5,20759.92,16820.51
+DEMO-00695,2025-05-09,Goa,Goa Grand,Corporate,Deluxe,Confirmed,5,40575.94,33841.74
+DEMO-00696,2025-11-15,Mumbai,Mumbai Grand,Corporate,Deluxe,Completed,5,7954.34,5674.05
+DEMO-00697,2025-09-27,Bengaluru,Bengaluru Grand,Corporate,Suite,Confirmed,5,81281.72,55246.21
+DEMO-00698,2025-08-30,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,28402.82,22931.4
+DEMO-00699,2025-10-05,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,36173.45,30613.14
+DEMO-00700,2025-08-24,Delhi,Delhi Central,Direct,Standard,Completed,4,16951.21,11908.16
+DEMO-00701,2025-05-09,Jaipur,Jaipur Grand,Online travel agency,Standard,Confirmed,5,11035.14,9143.15
+DEMO-00702,2025-07-09,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,15509.59,12296.96
+DEMO-00703,2025-02-05,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,9207.34,7343.09
+DEMO-00704,2025-09-15,Mumbai,Mumbai Garden,Corporate,Standard,No-show,3,12816.61,11208.59
+DEMO-00705,2025-01-09,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,25331.7,20428.14
+DEMO-00706,2025-09-11,Goa,Goa Central,Online travel agency,Standard,Completed,4,15725.55,10746.17
+DEMO-00707,2025-03-13,Mumbai,Mumbai Garden,Direct,Deluxe,Completed,3,10513.93,7316.27
+DEMO-00708,2025-03-16,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,8905.23,5885.72
+DEMO-00709,2025-04-06,Jaipur,Jaipur Garden,Corporate,Standard,Completed,3,2604.97,1711.89
+DEMO-00710,2025-02-21,Kochi,Kochi Central,Direct,Deluxe,Confirmed,4,26758.22,18355.51
+DEMO-00711,2025-10-19,Delhi,Delhi Central,Corporate,Standard,Pending,4,3094.06,2095.44
+DEMO-00712,2025-08-17,Goa,Goa Central,Direct,Deluxe,Completed,4,11925.57,8659.81
+DEMO-00713,2025-06-19,Goa,Goa Central,Corporate,Standard,Completed,4,5873.41,5157.66
+DEMO-00714,2025-08-22,Goa,Goa Central,Travel agent,Standard,Completed,4,6078.3,4329.88
+DEMO-00715,2025-05-24,Goa,Goa Central,Corporate,Deluxe,Confirmed,4,18545.47,13328.44
+DEMO-00716,2025-07-13,Goa,Goa Central,Online travel agency,Standard,Completed,4,9492.6,6282.69
+DEMO-00717,2025-06-07,Goa,Goa Garden,Online travel agency,Deluxe,Cancelled,3,11171.43,7713.37
+DEMO-00718,2025-12-20,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,13909.42,11286.45
+DEMO-00719,2025-10-19,Goa,Goa Central,Direct,Standard,Completed,4,11880.93,8788.18
+DEMO-00720,2025-11-27,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,15116.25,11264.78
+DEMO-00721,2025-01-16,Goa,Goa Central,Travel agent,Standard,Completed,4,14401.67,11502.76
+DEMO-00722,2025-12-08,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Confirmed,5,23550.75,18793.15
+DEMO-00723,2025-02-27,Goa,Goa Central,Online travel agency,Standard,Completed,4,22332.18,18599.18
+DEMO-00724,2025-07-17,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,2190.16,1963.87
+DEMO-00725,2025-12-24,Jaipur,Jaipur Grand,Direct,Suite,Confirmed,5,13781.99,12268.59
+DEMO-00726,2025-01-18,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,6179.43,5482.44
+DEMO-00727,2025-04-14,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,18587.22,13958.02
+DEMO-00728,2025-04-26,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,6545.53,4637.92
+DEMO-00729,2025-01-11,Mumbai,Mumbai Central,Direct,Standard,Completed,4,7710.22,5321.39
+DEMO-00730,2025-12-15,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,18057.18,12377.88
+DEMO-00731,2025-12-02,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,2542.53,1698.04
+DEMO-00732,2025-03-05,Delhi,Delhi Central,Direct,Suite,Cancelled,4,8126.5,6973.33
+DEMO-00733,2025-06-29,Goa,Goa Central,Online travel agency,Standard,Completed,4,14345.48,12951.68
+DEMO-00734,2025-01-21,Bengaluru,Bengaluru Central,Direct,Standard,Confirmed,4,11594.77,10083.16
+DEMO-00735,2025-11-01,Mumbai,Mumbai Grand,Travel agent,Standard,Confirmed,5,3988.34,2989.22
+DEMO-00736,2025-07-23,Bengaluru,Bengaluru Grand,Travel agent,Standard,Completed,5,12056.19,7837.83
+DEMO-00737,2025-01-21,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,18761.01,12221.09
+DEMO-00738,2025-02-07,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,11628.47,8305.01
+DEMO-00739,2025-12-16,Mumbai,Mumbai Central,Direct,Standard,Cancelled,4,14602.93,11922.48
+DEMO-00740,2025-05-25,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,31042.92,25996.9
+DEMO-00741,2025-05-11,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,8325.66,7428.07
+DEMO-00742,2025-12-03,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,18461.44,14208.91
+DEMO-00743,2025-05-07,Kochi,Kochi Central,Travel agent,Deluxe,No-show,4,20833.41,17370.11
+DEMO-00744,2025-12-29,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,7640.11,5360.22
+DEMO-00745,2025-09-23,Bengaluru,Bengaluru Central,Direct,Deluxe,Confirmed,4,30240.83,23477.53
+DEMO-00746,2025-06-22,Goa,Goa Garden,Online travel agency,Standard,Completed,3,12407.75,9672.64
+DEMO-00747,2025-07-23,Mumbai,Mumbai Central,Direct,Standard,Cancelled,4,9273.24,8067.47
+DEMO-00748,2025-05-06,Jaipur,Jaipur Central,Corporate,Standard,Completed,4,9111.08,7570.04
+DEMO-00749,2025-03-13,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,4360.2,3384.57
+DEMO-00750,2025-06-21,Goa,Goa Grand,Online travel agency,Standard,Confirmed,5,12551.69,9307.6
+DEMO-00751,2025-01-28,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Cancelled,5,13272.35,8755.42
+DEMO-00752,2025-07-04,Goa,Goa Grand,Direct,Deluxe,Completed,5,7875.73,6825.44
+DEMO-00753,2025-03-16,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,17765.67,13774.97
+DEMO-00754,2025-06-14,Kochi,Kochi Garden,Corporate,Standard,Completed,3,2716.25,1818.27
+DEMO-00755,2025-10-20,Bengaluru,Bengaluru Central,Direct,Standard,Cancelled,4,3479.96,2293.99
+DEMO-00756,2025-08-28,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,17824.14,13390.95
+DEMO-00757,2025-02-01,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,10034.78,8945.18
+DEMO-00758,2025-08-23,Kochi,Kochi Grand,Travel agent,Suite,Completed,5,13475.67,12140.75
+DEMO-00759,2025-03-16,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,6375.94,4723.57
+DEMO-00760,2025-04-29,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,34848.71,27467.4
+DEMO-00761,2025-09-15,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,5741.26,4623.84
+DEMO-00762,2025-09-30,Jaipur,Jaipur Central,Corporate,Standard,Pending,4,12159.1,9513.21
+DEMO-00763,2025-06-21,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,18571.51,16444.22
+DEMO-00764,2025-05-31,Jaipur,Jaipur Central,Online travel agency,Suite,Completed,4,22666.63,18792.68
+DEMO-00765,2025-10-09,Kochi,Kochi Central,Corporate,Suite,Pending,4,48297.82,37772.33
+DEMO-00766,2025-02-19,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,11540.73,8799.46
+DEMO-00767,2025-03-17,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,15801.49,11111.03
+DEMO-00768,2025-04-03,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,7246.69,6129.31
+DEMO-00769,2025-03-05,Goa,Goa Garden,Direct,Suite,Completed,3,38529.16,28238.19
+DEMO-00770,2025-01-25,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,18244.1,12622.78
+DEMO-00771,2025-03-17,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,2963.73,2426.6
+DEMO-00772,2025-05-25,Delhi,Delhi Central,Direct,Standard,Confirmed,4,19659.44,15077.64
+DEMO-00773,2025-03-16,Mumbai,Mumbai Central,Online travel agency,Suite,Confirmed,4,41134.75,26978.43
+DEMO-00774,2025-02-17,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,7304.12,6488.48
+DEMO-00775,2025-08-07,Goa,Goa Central,Online travel agency,Standard,Completed,4,20736.12,17996.35
+DEMO-00776,2025-01-07,Kochi,Kochi Central,Direct,Deluxe,Completed,4,5291.03,3845.42
+DEMO-00777,2025-04-14,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,19945.26,16661.21
+DEMO-00778,2025-05-02,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,12868.66,10827.11
+DEMO-00779,2025-12-15,Goa,Goa Central,Online travel agency,Suite,Cancelled,4,49559.25,32798.91
+DEMO-00780,2025-06-26,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,11760.08,9891.18
+DEMO-00781,2025-12-22,Bengaluru,Bengaluru Central,Direct,Suite,Completed,4,34401.82,29956.41
+DEMO-00782,2025-02-02,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,3324.21,2951.43
+DEMO-00783,2025-04-30,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Cancelled,5,15645.73,12564.73
+DEMO-00784,2025-01-04,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Completed,3,4401.97,3698.66
+DEMO-00785,2025-08-26,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,6942.26,5130.56
+DEMO-00786,2025-04-09,Jaipur,Jaipur Central,Online travel agency,Suite,Cancelled,4,8127.67,7380.08
+DEMO-00787,2025-09-15,Mumbai,Mumbai Garden,Online travel agency,Standard,Completed,3,7810.75,6889.08
+DEMO-00788,2025-09-19,Bengaluru,Bengaluru Garden,Travel agent,Standard,Cancelled,3,11407.82,9074.61
+DEMO-00789,2025-09-21,Bengaluru,Bengaluru Garden,Corporate,Standard,Completed,3,2115.4,1844.74
+DEMO-00790,2025-08-30,Kochi,Kochi Central,Corporate,Standard,Cancelled,4,6343.0,5680.29
+DEMO-00791,2025-06-09,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,24670.47,20174.24
+DEMO-00792,2025-03-25,Goa,Goa Central,Online travel agency,Deluxe,Pending,4,23522.13,20308.8
+DEMO-00793,2025-08-08,Kochi,Kochi Central,Direct,Deluxe,Completed,4,21710.65,17011.63
+DEMO-00794,2025-05-29,Mumbai,Mumbai Grand,Online travel agency,Standard,Confirmed,5,14997.69,10791.13
+DEMO-00795,2025-02-04,Jaipur,Jaipur Garden,Direct,Standard,Confirmed,3,13160.81,11517.79
+DEMO-00796,2025-04-22,Mumbai,Mumbai Central,Direct,Standard,Confirmed,4,3048.47,2762.45
+DEMO-00797,2025-02-15,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,2816.16,2143.82
+DEMO-00798,2025-12-28,Mumbai,Mumbai Central,Travel agent,Standard,Completed,4,11912.14,7930.16
+DEMO-00799,2025-11-18,Goa,Goa Garden,Corporate,Deluxe,Completed,3,12977.99,8515.64
+DEMO-00800,2025-10-01,Bengaluru,Bengaluru Central,Direct,Deluxe,Cancelled,4,13616.72,8941.87
+DEMO-00801,2025-12-01,Kochi,Kochi Grand,Online travel agency,Standard,Completed,5,16960.61,13669.28
+DEMO-00802,2025-04-02,Delhi,Delhi Central,Corporate,Suite,Completed,4,33214.19,23791.99
+DEMO-00803,2025-09-19,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,22881.23,17461.18
+DEMO-00804,2025-05-05,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,16532.13,14561.58
+DEMO-00805,2025-08-05,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,6142.39,4712.92
+DEMO-00806,2025-11-19,Kochi,Kochi Central,Corporate,Standard,Confirmed,4,15388.42,12890.35
+DEMO-00807,2025-07-23,Goa,Goa Grand,Online travel agency,Standard,Confirmed,5,4133.58,3258.13
+DEMO-00808,2025-02-25,Bengaluru,Bengaluru Grand,Direct,Deluxe,Completed,5,6212.79,5393.85
+DEMO-00809,2025-09-28,Goa,Goa Central,Online travel agency,Deluxe,Confirmed,4,30649.32,23300.51
+DEMO-00810,2025-04-02,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,8649.43,7542.84
+DEMO-00811,2025-10-18,Mumbai,Mumbai Garden,Travel agent,Standard,Completed,3,16804.87,12505.38
+DEMO-00812,2025-12-17,Goa,Goa Garden,Direct,Standard,Completed,3,2626.45,2179.69
+DEMO-00813,2025-01-07,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,10591.12,8023.32
+DEMO-00814,2025-04-08,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,17938.48,15540.78
+DEMO-00815,2025-06-23,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,5282.96,3962.98
+DEMO-00816,2025-03-15,Goa,Goa Central,Online travel agency,Standard,Completed,4,9621.75,6406.36
+DEMO-00817,2025-08-28,Goa,Goa Central,Online travel agency,Standard,Completed,4,19016.07,15892.28
+DEMO-00818,2025-03-14,Delhi,Delhi Grand,Online travel agency,Deluxe,Confirmed,5,23613.42,17849.04
+DEMO-00819,2025-08-31,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,8484.13,7253.07
+DEMO-00820,2025-01-29,Delhi,Delhi Garden,Direct,Standard,Completed,3,7565.2,5291.28
+DEMO-00821,2025-02-15,Bengaluru,Bengaluru Grand,Online travel agency,Suite,Completed,5,19857.3,12984.56
+DEMO-00822,2025-02-03,Jaipur,Jaipur Central,Online travel agency,Suite,Cancelled,4,50478.6,45591.11
+DEMO-00823,2025-05-27,Mumbai,Mumbai Central,Direct,Standard,No-show,4,11599.85,9719.92
+DEMO-00824,2025-10-15,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,2440.84,2191.66
+DEMO-00825,2025-12-30,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,6302.53,4634.25
+DEMO-00826,2025-05-02,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,7072.71,5249.18
+DEMO-00827,2025-07-08,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,13784.36,9771.36
+DEMO-00828,2025-11-24,Delhi,Delhi Central,Direct,Standard,Cancelled,4,5718.32,4686.54
+DEMO-00829,2025-05-26,Jaipur,Jaipur Grand,Travel agent,Deluxe,Completed,5,36556.71,29677.09
+DEMO-00830,2025-10-04,Jaipur,Jaipur Garden,Direct,Standard,Confirmed,3,4317.89,3482.3
+DEMO-00831,2025-12-12,Goa,Goa Central,Online travel agency,Standard,Completed,4,19988.37,17193.93
+DEMO-00832,2025-06-09,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,51365.53,45216.75
+DEMO-00833,2025-05-08,Kochi,Kochi Central,Direct,Deluxe,Completed,4,23794.57,17531.86
+DEMO-00834,2025-07-08,Delhi,Delhi Central,Direct,Standard,Completed,4,23806.15,19026.23
+DEMO-00835,2025-09-12,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Cancelled,5,33550.59,27985.79
+DEMO-00836,2025-04-17,Goa,Goa Central,Online travel agency,Standard,Completed,4,14842.35,12407.92
+DEMO-00837,2025-11-21,Kochi,Kochi Garden,Travel agent,Deluxe,Completed,3,26088.89,20688.74
+DEMO-00838,2025-04-17,Goa,Goa Garden,Travel agent,Standard,Confirmed,3,7780.0,6199.56
+DEMO-00839,2025-07-16,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,15914.05,14279.95
+DEMO-00840,2025-09-15,Delhi,Delhi Garden,Direct,Deluxe,Pending,3,22269.43,20065.88
+DEMO-00841,2025-04-11,Goa,Goa Central,Online travel agency,Deluxe,Cancelled,4,8892.54,5913.7
+DEMO-00842,2025-10-06,Goa,Goa Central,Direct,Standard,Completed,4,22440.13,16869.6
+DEMO-00843,2025-11-12,Kochi,Kochi Grand,Corporate,Deluxe,Completed,5,27066.46,23304.45
+DEMO-00844,2025-07-29,Goa,Goa Garden,Direct,Standard,Cancelled,3,11909.93,9965.26
+DEMO-00845,2025-03-30,Delhi,Delhi Garden,Online travel agency,Suite,No-show,3,29569.24,21812.96
+DEMO-00846,2025-03-19,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,12165.44,7910.56
+DEMO-00847,2025-03-25,Goa,Goa Garden,Direct,Standard,Completed,3,8554.35,7621.18
+DEMO-00848,2025-05-28,Goa,Goa Garden,Direct,Deluxe,Completed,3,4723.04,3470.04
+DEMO-00849,2025-07-06,Jaipur,Jaipur Garden,Travel agent,Standard,Completed,3,9808.78,8560.61
+DEMO-00850,2025-04-22,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,6155.53,4100.05
+DEMO-00851,2025-05-18,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Confirmed,5,21670.93,15796.62
+DEMO-00852,2025-05-25,Jaipur,Jaipur Garden,Corporate,Deluxe,Cancelled,3,14313.76,12861.36
+DEMO-00853,2025-10-23,Delhi,Delhi Garden,Corporate,Deluxe,Completed,3,26454.46,18441.17
+DEMO-00854,2025-09-18,Goa,Goa Grand,Online travel agency,Standard,Completed,5,18521.82,14345.31
+DEMO-00855,2025-05-03,Mumbai,Mumbai Central,Direct,Standard,Cancelled,4,17260.17,12433.11
+DEMO-00856,2025-12-25,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,11634.35,9616.6
+DEMO-00857,2025-07-13,Bengaluru,Bengaluru Central,Corporate,Deluxe,Completed,4,14411.91,9393.15
+DEMO-00858,2025-03-21,Delhi,Delhi Grand,Corporate,Suite,Completed,5,22467.57,16383.24
+DEMO-00859,2025-06-14,Kochi,Kochi Central,Direct,Deluxe,Confirmed,4,5715.62,4772.3
+DEMO-00860,2025-05-03,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,17759.05,13110.03
+DEMO-00861,2025-10-06,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,6373.49,5376.11
+DEMO-00862,2025-06-14,Delhi,Delhi Garden,Travel agent,Suite,Completed,3,14966.66,12833.78
+DEMO-00863,2025-12-07,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,6182.8,5201.07
+DEMO-00864,2025-02-20,Goa,Goa Garden,Online travel agency,Deluxe,Completed,3,4740.03,3400.03
+DEMO-00865,2025-06-09,Kochi,Kochi Garden,Online travel agency,Deluxe,Confirmed,3,3649.95,2997.7
+DEMO-00866,2025-09-10,Jaipur,Jaipur Central,Direct,Deluxe,Confirmed,4,23835.15,20970.58
+DEMO-00867,2025-09-15,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,38032.19,30097.91
+DEMO-00868,2025-05-10,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,14909.82,12851.8
+DEMO-00869,2025-01-25,Kochi,Kochi Garden,Online travel agency,Deluxe,Cancelled,3,7156.89,5626.63
+DEMO-00870,2025-09-15,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,2346.52,2128.42
+DEMO-00871,2025-04-21,Kochi,Kochi Central,Direct,Standard,Completed,4,18604.45,14424.69
+DEMO-00872,2025-02-07,Goa,Goa Central,Online travel agency,Deluxe,No-show,4,12015.86,10556.72
+DEMO-00873,2025-03-13,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,24303.83,16106.24
+DEMO-00874,2025-11-24,Goa,Goa Garden,Travel agent,Standard,Completed,3,14443.16,9472.19
+DEMO-00875,2025-07-25,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,9533.94,6249.23
+DEMO-00876,2025-03-26,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,17803.23,14898.65
+DEMO-00877,2025-02-01,Bengaluru,Bengaluru Grand,Direct,Standard,Cancelled,5,9351.72,7474.93
+DEMO-00878,2025-03-16,Kochi,Kochi Grand,Online travel agency,Standard,No-show,5,7262.24,6017.74
+DEMO-00879,2025-01-29,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,55274.42,42430.65
+DEMO-00880,2025-10-09,Goa,Goa Central,Corporate,Standard,Completed,4,3215.13,2606.45
+DEMO-00881,2025-04-24,Mumbai,Mumbai Grand,Corporate,Standard,Cancelled,5,3923.23,2587.69
+DEMO-00882,2025-10-26,Jaipur,Jaipur Central,Travel agent,Standard,Completed,4,19795.5,15061.44
+DEMO-00883,2025-03-19,Goa,Goa Central,Online travel agency,Suite,Completed,4,44553.49,30490.5
+DEMO-00884,2025-07-01,Jaipur,Jaipur Grand,Online travel agency,Suite,Completed,5,20050.85,14804.58
+DEMO-00885,2025-06-24,Delhi,Delhi Garden,Direct,Standard,Completed,3,11819.31,8863.59
+DEMO-00886,2025-01-07,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,10624.58,9180.45
+DEMO-00887,2025-03-09,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,14642.15,11558.82
+DEMO-00888,2025-08-29,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,4715.8,3502.14
+DEMO-00889,2025-05-19,Goa,Goa Garden,Direct,Suite,Confirmed,3,14762.74,10456.46
+DEMO-00890,2025-02-18,Delhi,Delhi Central,Direct,Standard,Completed,4,7629.91,5593.09
+DEMO-00891,2025-12-31,Goa,Goa Garden,Online travel agency,Deluxe,Confirmed,3,8079.51,7267.07
+DEMO-00892,2025-07-10,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Cancelled,5,14597.55,11746.63
+DEMO-00893,2025-08-29,Goa,Goa Grand,Direct,Deluxe,Cancelled,5,28324.43,19867.58
+DEMO-00894,2025-02-26,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,14964.73,12059.15
+DEMO-00895,2025-12-06,Kochi,Kochi Central,Online travel agency,Deluxe,Confirmed,4,17418.85,12942.48
+DEMO-00896,2025-05-22,Bengaluru,Bengaluru Grand,Travel agent,Standard,Confirmed,5,27253.87,22348.47
+DEMO-00897,2025-08-23,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,12488.53,11221.11
+DEMO-00898,2025-08-17,Mumbai,Mumbai Garden,Corporate,Deluxe,Completed,3,21252.65,14026.5
+DEMO-00899,2025-11-27,Goa,Goa Garden,Direct,Suite,Confirmed,3,8021.4,6911.5
+DEMO-00900,2025-05-18,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,10003.75,7606.7
+DEMO-00901,2025-11-28,Jaipur,Jaipur Central,Travel agent,Standard,Completed,4,6191.59,4056.01
+DEMO-00902,2025-03-10,Delhi,Delhi Grand,Direct,Standard,Cancelled,5,27717.41,24494.59
+DEMO-00903,2025-09-29,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,10085.92,7719.62
+DEMO-00904,2025-05-13,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Completed,5,42021.73,33270.56
+DEMO-00905,2025-01-22,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,5706.77,3797.18
+DEMO-00906,2025-12-08,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,4522.01,3389.54
+DEMO-00907,2025-03-04,Kochi,Kochi Central,Direct,Standard,Completed,4,15735.26,13593.5
+DEMO-00908,2025-06-18,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,21299.76,15535.83
+DEMO-00909,2025-07-14,Jaipur,Jaipur Garden,Direct,Standard,Confirmed,3,5368.86,4443.27
+DEMO-00910,2025-07-19,Kochi,Kochi Grand,Direct,Suite,Completed,5,27769.06,18918.54
+DEMO-00911,2025-06-10,Bengaluru,Bengaluru Garden,Corporate,Standard,Completed,3,11639.74,10440.61
+DEMO-00912,2025-01-05,Goa,Goa Grand,Online travel agency,Standard,Cancelled,5,4844.36,3171.67
+DEMO-00913,2025-05-14,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,15433.69,14035.39
+DEMO-00914,2025-01-15,Delhi,Delhi Grand,Online travel agency,Deluxe,Completed,5,22538.37,19853.34
+DEMO-00915,2025-04-20,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,6343.43,5603.17
+DEMO-00916,2025-02-21,Kochi,Kochi Central,Corporate,Suite,Completed,4,11119.35,9158.56
+DEMO-00917,2025-06-01,Jaipur,Jaipur Garden,Corporate,Standard,Completed,3,10948.64,9228.51
+DEMO-00918,2025-12-27,Delhi,Delhi Garden,Direct,Standard,Confirmed,3,8849.37,7680.91
+DEMO-00919,2025-07-05,Jaipur,Jaipur Central,Corporate,Deluxe,Pending,4,13020.78,10402.06
+DEMO-00920,2025-09-21,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,21732.69,14486.62
+DEMO-00921,2025-05-21,Jaipur,Jaipur Grand,Online travel agency,Standard,Cancelled,5,25471.02,17975.06
+DEMO-00922,2025-12-29,Mumbai,Mumbai Garden,Corporate,Deluxe,No-show,3,20471.67,16787.96
+DEMO-00923,2025-12-08,Delhi,Delhi Grand,Online travel agency,Standard,No-show,5,13236.04,9201.79
+DEMO-00924,2025-05-08,Jaipur,Jaipur Central,Online travel agency,Suite,Completed,4,26389.65,23828.68
+DEMO-00925,2025-12-30,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,37732.4,28195.61
+DEMO-00926,2025-01-31,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,9023.2,6610.58
+DEMO-00927,2025-10-31,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,2570.44,2011.28
+DEMO-00928,2025-07-29,Goa,Goa Central,Online travel agency,Standard,Completed,4,9829.72,6991.88
+DEMO-00929,2025-04-10,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,20502.32,17929.4
+DEMO-00930,2025-10-19,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,17225.28,13883.71
+DEMO-00931,2025-02-25,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,24058.37,18392.44
+DEMO-00932,2025-07-18,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,15059.16,12070.27
+DEMO-00933,2025-07-17,Bengaluru,Bengaluru Grand,Direct,Deluxe,Completed,5,18300.46,13915.06
+DEMO-00934,2025-07-13,Kochi,Kochi Central,Direct,Suite,Pending,4,9900.8,7091.2
+DEMO-00935,2025-04-13,Delhi,Delhi Central,Direct,Deluxe,Confirmed,4,6329.61,4266.68
+DEMO-00936,2025-04-23,Jaipur,Jaipur Central,Travel agent,Standard,Confirmed,4,14883.09,12408.58
+DEMO-00937,2025-10-06,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,5933.06,4690.42
+DEMO-00938,2025-01-08,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,9743.73,6949.59
+DEMO-00939,2025-11-16,Kochi,Kochi Garden,Direct,Standard,Confirmed,3,9519.99,7886.2
+DEMO-00940,2025-04-18,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,20727.92,14824.14
+DEMO-00941,2025-07-22,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,9909.88,7259.62
+DEMO-00942,2025-08-11,Kochi,Kochi Grand,Travel agent,Standard,Confirmed,5,7269.08,6552.79
+DEMO-00943,2025-09-08,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,9161.23,6734.18
+DEMO-00944,2025-09-19,Jaipur,Jaipur Central,Direct,Suite,Completed,4,8214.02,5950.68
+DEMO-00945,2025-03-20,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Cancelled,5,13303.08,11386.6
+DEMO-00946,2025-09-28,Goa,Goa Central,Direct,Standard,Cancelled,4,21026.87,14363.18
+DEMO-00947,2025-07-02,Kochi,Kochi Garden,Online travel agency,Deluxe,Confirmed,3,24912.38,16473.72
+DEMO-00948,2025-06-18,Mumbai,Mumbai Garden,Direct,Standard,No-show,3,10649.16,9547.89
+DEMO-00949,2025-04-10,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,3180.43,2651.19
+DEMO-00950,2025-06-17,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,20881.65,16744.17
+DEMO-00951,2025-01-28,Mumbai,Mumbai Central,Online travel agency,Suite,Pending,4,56491.05,39474.46
+DEMO-00952,2025-01-07,Goa,Goa Central,Corporate,Deluxe,Completed,4,25375.63,22256.39
+DEMO-00953,2025-11-25,Kochi,Kochi Garden,Corporate,Suite,Completed,3,35233.71,30355.73
+DEMO-00954,2025-01-30,Kochi,Kochi Garden,Corporate,Deluxe,Cancelled,3,7850.05,6516.65
+DEMO-00955,2025-04-19,Delhi,Delhi Garden,Direct,Deluxe,Confirmed,3,7437.83,5250.01
+DEMO-00956,2025-09-24,Goa,Goa Central,Direct,Deluxe,Completed,4,16148.67,14412.78
+DEMO-00957,2025-06-01,Bengaluru,Bengaluru Central,Travel agent,Standard,Cancelled,4,19275.1,16726.87
+DEMO-00958,2025-06-05,Goa,Goa Garden,Online travel agency,Deluxe,Cancelled,3,9382.19,6731.29
+DEMO-00959,2025-09-10,Mumbai,Mumbai Grand,Direct,Deluxe,Cancelled,5,37911.57,25064.7
+DEMO-00960,2025-06-29,Goa,Goa Garden,Direct,Deluxe,Completed,3,17778.17,15985.63
+DEMO-00961,2025-11-26,Jaipur,Jaipur Grand,Online travel agency,Standard,Confirmed,5,14869.61,13318.53
+DEMO-00962,2025-06-24,Kochi,Kochi Central,Online travel agency,Suite,Cancelled,4,67766.32,59270.49
+DEMO-00963,2025-01-21,Goa,Goa Central,Direct,Standard,Completed,4,7877.31,5689.74
+DEMO-00964,2025-01-08,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,18818.19,16957.85
+DEMO-00965,2025-09-20,Goa,Goa Garden,Online travel agency,Deluxe,Completed,3,17680.19,14367.83
+DEMO-00966,2025-04-12,Mumbai,Mumbai Central,Direct,Standard,Completed,4,18201.5,15283.39
+DEMO-00967,2025-12-18,Mumbai,Mumbai Central,Online travel agency,Deluxe,Cancelled,4,4986.43,4364.05
+DEMO-00968,2025-12-10,Goa,Goa Grand,Online travel agency,Standard,Completed,5,3672.54,2824.27
+DEMO-00969,2025-12-06,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,9014.99,7990.05
+DEMO-00970,2025-01-04,Goa,Goa Central,Travel agent,Deluxe,Completed,4,19825.76,16218.31
+DEMO-00971,2025-03-27,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Confirmed,5,17231.6,15593.07
+DEMO-00972,2025-12-22,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,7960.82,5676.52
+DEMO-00973,2025-12-24,Goa,Goa Central,Direct,Suite,Completed,4,19889.97,17787.39
+DEMO-00974,2025-03-27,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,2803.33,2543.9
+DEMO-00975,2025-01-17,Jaipur,Jaipur Central,Direct,Suite,Confirmed,4,33744.36,28502.7
+DEMO-00976,2025-07-02,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Completed,3,4536.29,3297.6
+DEMO-00977,2025-04-05,Goa,Goa Garden,Corporate,Suite,Completed,3,37361.71,31331.72
+DEMO-00978,2025-12-06,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,14732.36,12251.63
+DEMO-00979,2025-08-11,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,4718.81,3581.79
+DEMO-00980,2025-06-09,Delhi,Delhi Central,Direct,Deluxe,Completed,4,24557.48,18120.57
+DEMO-00981,2025-08-09,Delhi,Delhi Garden,Direct,Deluxe,Completed,3,3393.12,2712.04
+DEMO-00982,2025-04-26,Delhi,Delhi Grand,Online travel agency,Suite,Cancelled,5,64576.83,47763.69
+DEMO-00983,2025-05-23,Delhi,Delhi Garden,Direct,Deluxe,No-show,3,25676.67,18041.15
+DEMO-00984,2025-09-14,Jaipur,Jaipur Central,Travel agent,Standard,Cancelled,4,17053.73,15046.12
+DEMO-00985,2025-08-17,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,35255.14,26574.08
+DEMO-00986,2025-09-01,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,32310.49,21959.25
+DEMO-00987,2025-12-04,Goa,Goa Central,Online travel agency,Suite,Cancelled,4,47342.23,31042.96
+DEMO-00988,2025-09-14,Mumbai,Mumbai Central,Direct,Suite,Completed,4,36735.55,29966.07
+DEMO-00989,2025-12-17,Mumbai,Mumbai Central,Travel agent,Standard,Cancelled,4,15117.46,13174.91
+DEMO-00990,2025-10-16,Goa,Goa Central,Online travel agency,Deluxe,Pending,4,29667.9,21351.14
+DEMO-00991,2025-02-20,Jaipur,Jaipur Grand,Direct,Deluxe,Pending,5,18022.33,14562.82
+DEMO-00992,2025-12-26,Goa,Goa Central,Direct,Suite,Confirmed,4,61678.76,55453.7
+DEMO-00993,2025-12-30,Mumbai,Mumbai Garden,Travel agent,Standard,Confirmed,3,6330.56,4764.45
+DEMO-00994,2025-08-10,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,17859.8,15135.59
+DEMO-00995,2025-07-27,Bengaluru,Bengaluru Grand,Direct,Standard,Pending,5,13396.41,9385.5
+DEMO-00996,2025-11-11,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,14227.99,10622.37
+DEMO-00997,2025-06-04,Kochi,Kochi Central,Travel agent,Deluxe,Completed,4,22180.57,15026.98
+DEMO-00998,2025-05-23,Jaipur,Jaipur Central,Online travel agency,Standard,Pending,4,18238.41,14032.12
+DEMO-00999,2025-01-04,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,4339.91,3264.52
+DEMO-01000,2025-10-05,Mumbai,Mumbai Garden,Online travel agency,Standard,Completed,3,13520.41,12199.3
+DEMO-01001,2025-11-23,Delhi,Delhi Central,Direct,Standard,Completed,4,20522.89,14971.77
+DEMO-01002,2025-01-11,Mumbai,Mumbai Garden,Direct,Standard,Confirmed,3,11764.25,9785.92
+DEMO-01003,2025-07-27,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Confirmed,3,3374.08,2794.02
+DEMO-01004,2025-02-04,Goa,Goa Central,Direct,Deluxe,Completed,4,14006.86,10396.54
+DEMO-01005,2025-10-31,Goa,Goa Garden,Online travel agency,Standard,Completed,3,4177.44,3592.49
+DEMO-01006,2025-08-23,Bengaluru,Bengaluru Central,Online travel agency,Standard,Confirmed,4,14339.34,9961.06
+DEMO-01007,2025-11-25,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,17238.76,11729.82
+DEMO-01008,2025-04-10,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,7067.33,6130.66
+DEMO-01009,2025-05-30,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,6240.35,4682.27
+DEMO-01010,2025-07-26,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,30846.61,25675.62
+DEMO-01011,2025-01-23,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Confirmed,5,44687.55,35881.77
+DEMO-01012,2025-12-23,Kochi,Kochi Garden,Travel agent,Deluxe,Completed,3,21707.46,17980.19
+DEMO-01013,2025-07-02,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,9388.52,6330.85
+DEMO-01014,2025-07-12,Delhi,Delhi Grand,Corporate,Standard,Completed,5,15793.16,11226.38
+DEMO-01015,2025-12-18,Goa,Goa Garden,Direct,Deluxe,Completed,3,12715.59,9655.2
+DEMO-01016,2025-03-10,Kochi,Kochi Grand,Travel agent,Deluxe,Completed,5,12407.24,10850.96
+DEMO-01017,2025-01-09,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,5888.45,4061.66
+DEMO-01018,2025-07-03,Delhi,Delhi Grand,Direct,Suite,Completed,5,13881.06,12340.27
+DEMO-01019,2025-08-28,Jaipur,Jaipur Central,Corporate,Deluxe,Completed,4,20520.13,15263.21
+DEMO-01020,2025-10-23,Goa,Goa Garden,Corporate,Standard,Completed,3,6935.1,5317.95
+DEMO-01021,2025-04-13,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,16374.99,14654.15
+DEMO-01022,2025-02-12,Delhi,Delhi Garden,Corporate,Standard,Completed,3,14672.17,11845.28
+DEMO-01023,2025-07-12,Goa,Goa Central,Travel agent,Standard,Confirmed,4,8230.21,6630.85
+DEMO-01024,2025-04-16,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,18796.45,14802.05
+DEMO-01025,2025-07-02,Delhi,Delhi Central,Online travel agency,Suite,Confirmed,4,33676.58,27296.54
+DEMO-01026,2025-06-29,Kochi,Kochi Garden,Travel agent,Standard,Completed,3,8521.92,7198.39
+DEMO-01027,2025-04-07,Delhi,Delhi Garden,Direct,Deluxe,Confirmed,3,26293.68,23578.04
+DEMO-01028,2025-01-26,Kochi,Kochi Garden,Direct,Standard,Completed,3,4683.14,3658.09
+DEMO-01029,2025-09-30,Kochi,Kochi Central,Corporate,Deluxe,Completed,4,16980.85,14533.26
+DEMO-01030,2025-11-15,Goa,Goa Garden,Online travel agency,Standard,Confirmed,3,14397.97,12604.63
+DEMO-01031,2025-04-01,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,27065.37,24233.27
+DEMO-01032,2025-06-11,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,26286.35,21335.31
+DEMO-01033,2025-02-27,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Confirmed,4,12131.56,9266.79
+DEMO-01034,2025-01-09,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Confirmed,3,11506.61,9791.38
+DEMO-01035,2025-08-29,Kochi,Kochi Central,Online travel agency,Deluxe,No-show,4,26629.28,21893.8
+DEMO-01036,2025-01-13,Goa,Goa Garden,Direct,Standard,Completed,3,10979.38,8971.59
+DEMO-01037,2025-01-26,Kochi,Kochi Central,Online travel agency,Standard,Pending,4,8843.67,7130.41
+DEMO-01038,2025-09-08,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,6990.74,6115.59
+DEMO-01039,2025-07-05,Mumbai,Mumbai Central,Direct,Standard,Completed,4,9998.39,7895.13
+DEMO-01040,2025-07-07,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,14079.71,11658.61
+DEMO-01041,2025-04-01,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,15895.92,11753.33
+DEMO-01042,2025-08-29,Kochi,Kochi Central,Direct,Standard,Completed,4,9794.5,8892.95
+DEMO-01043,2025-12-04,Jaipur,Jaipur Central,Online travel agency,Standard,Confirmed,4,10452.33,7744.08
+DEMO-01044,2025-05-15,Delhi,Delhi Central,Direct,Suite,Completed,4,10680.96,8869.12
+DEMO-01045,2025-02-19,Mumbai,Mumbai Grand,Corporate,Deluxe,Completed,5,17231.1,11343.26
+DEMO-01046,2025-07-28,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,6610.6,4554.23
+DEMO-01047,2025-05-11,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,4483.21,3403.69
+DEMO-01048,2025-08-09,Goa,Goa Central,Direct,Standard,Completed,4,3640.07,3043.37
+DEMO-01049,2025-01-02,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,2078.04,1744.03
+DEMO-01050,2025-06-11,Goa,Goa Grand,Online travel agency,Deluxe,Cancelled,5,38008.48,28295.11
+DEMO-01051,2025-03-23,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,29364.02,25079.51
+DEMO-01052,2025-09-23,Delhi,Delhi Garden,Direct,Deluxe,Completed,3,17438.78,14482.16
+DEMO-01053,2025-11-09,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,17833.84,12695.7
+DEMO-01054,2025-02-28,Jaipur,Jaipur Garden,Direct,Standard,Cancelled,3,7835.15,5642.71
+DEMO-01055,2025-08-31,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Cancelled,5,25824.65,17476.96
+DEMO-01056,2025-06-30,Kochi,Kochi Central,Online travel agency,Suite,Completed,4,42404.96,37115.13
+DEMO-01057,2025-03-28,Bengaluru,Bengaluru Grand,Direct,Deluxe,Completed,5,7271.67,5973.01
+DEMO-01058,2025-10-21,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,23575.66,18956.8
+DEMO-01059,2025-06-24,Jaipur,Jaipur Central,Direct,Deluxe,Confirmed,4,4906.42,4186.66
+DEMO-01060,2025-01-10,Mumbai,Mumbai Grand,Direct,Deluxe,No-show,5,38319.22,30749.81
+DEMO-01061,2025-12-18,Bengaluru,Bengaluru Grand,Online travel agency,Suite,Completed,5,53374.7,40245.29
+DEMO-01062,2025-12-29,Delhi,Delhi Grand,Corporate,Deluxe,Confirmed,5,43549.0,39067.3
+DEMO-01063,2025-01-24,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,27008.9,18778.97
+DEMO-01064,2025-05-25,Jaipur,Jaipur Garden,Direct,Deluxe,Completed,3,4167.84,3586.14
+DEMO-01065,2025-08-04,Mumbai,Mumbai Central,Travel agent,Deluxe,Completed,4,9222.42,6436.34
+DEMO-01066,2025-12-18,Bengaluru,Bengaluru Garden,Travel agent,Suite,Completed,3,12910.85,10392.59
+DEMO-01067,2025-01-25,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,10649.67,6967.35
+DEMO-01068,2025-10-24,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,14358.61,12028.14
+DEMO-01069,2025-12-09,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,22162.35,14613.32
+DEMO-01070,2025-09-14,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,19267.26,13720.44
+DEMO-01071,2025-04-21,Goa,Goa Garden,Direct,Standard,Pending,3,8377.61,5965.86
+DEMO-01072,2025-11-14,Kochi,Kochi Garden,Corporate,Standard,Completed,3,7181.38,5425.23
+DEMO-01073,2025-06-07,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,5514.94,3594.74
+DEMO-01074,2025-08-14,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,11857.18,9589.3
+DEMO-01075,2025-04-13,Kochi,Kochi Grand,Travel agent,Standard,Cancelled,5,11245.6,8588.13
+DEMO-01076,2025-02-20,Kochi,Kochi Garden,Direct,Suite,Completed,3,7976.45,5295.21
+DEMO-01077,2025-09-22,Kochi,Kochi Garden,Direct,Standard,Completed,3,2356.47,1759.72
+DEMO-01078,2025-07-26,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,4832.29,3841.29
+DEMO-01079,2025-05-15,Goa,Goa Central,Online travel agency,Standard,Completed,4,17019.82,14724.42
+DEMO-01080,2025-10-05,Kochi,Kochi Garden,Direct,Standard,Completed,3,2922.11,2303.93
+DEMO-01081,2025-07-27,Kochi,Kochi Central,Corporate,Deluxe,Confirmed,4,29449.17,22101.89
+DEMO-01082,2025-10-30,Delhi,Delhi Central,Direct,Suite,Completed,4,9395.76,7240.97
+DEMO-01083,2025-12-22,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Cancelled,3,3296.72,2747.55
+DEMO-01084,2025-11-12,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,12353.96,8991.21
+DEMO-01085,2025-12-22,Mumbai,Mumbai Central,Online travel agency,Deluxe,No-show,4,24000.14,21269.91
+DEMO-01086,2025-03-15,Delhi,Delhi Grand,Corporate,Standard,Cancelled,5,18892.69,12668.95
+DEMO-01087,2025-05-03,Jaipur,Jaipur Grand,Online travel agency,Suite,Completed,5,22207.45,16516.26
+DEMO-01088,2025-03-20,Jaipur,Jaipur Central,Direct,Standard,Confirmed,4,3497.39,2514.1
+DEMO-01089,2025-05-30,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,25209.62,22470.35
+DEMO-01090,2025-03-12,Goa,Goa Grand,Travel agent,Deluxe,Completed,5,7604.13,6500.14
+DEMO-01091,2025-03-13,Mumbai,Mumbai Central,Online travel agency,Deluxe,Cancelled,4,25215.1,18498.78
+DEMO-01092,2025-03-12,Delhi,Delhi Garden,Online travel agency,Deluxe,Confirmed,3,22517.91,16601.45
+DEMO-01093,2025-06-20,Delhi,Delhi Garden,Direct,Standard,Completed,3,12776.12,10053.86
+DEMO-01094,2025-01-13,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Cancelled,3,9014.87,7265.87
+DEMO-01095,2025-06-18,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,12696.94,10663.85
+DEMO-01096,2025-07-13,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,19174.96,14944.84
+DEMO-01097,2025-06-23,Delhi,Delhi Garden,Corporate,Standard,Completed,3,2633.86,2369.43
+DEMO-01098,2025-02-22,Goa,Goa Grand,Online travel agency,Suite,Completed,5,65748.64,53840.74
+DEMO-01099,2025-02-04,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,5753.7,4212.13
+DEMO-01100,2025-01-12,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Cancelled,3,16132.83,13498.43
+DEMO-01101,2025-03-29,Jaipur,Jaipur Garden,Online travel agency,Standard,No-show,3,2376.12,1834.85
+DEMO-01102,2025-03-01,Jaipur,Jaipur Garden,Online travel agency,Suite,Completed,3,6989.75,5776.66
+DEMO-01103,2025-07-31,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,8784.13,7256.09
+DEMO-01104,2025-05-27,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,25080.87,16538.56
+DEMO-01105,2025-06-05,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,9952.15,8420.49
+DEMO-01106,2025-02-12,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,9724.65,7750.57
+DEMO-01107,2025-03-31,Mumbai,Mumbai Garden,Online travel agency,Standard,Confirmed,3,9876.27,8584.91
+DEMO-01108,2025-04-03,Kochi,Kochi Central,Online travel agency,Deluxe,Confirmed,4,12527.54,8498.57
+DEMO-01109,2025-01-03,Bengaluru,Bengaluru Grand,Travel agent,Deluxe,Completed,5,5832.32,4296.91
+DEMO-01110,2025-12-24,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,36975.89,24668.08
+DEMO-01111,2025-10-17,Goa,Goa Garden,Travel agent,Deluxe,Completed,3,7606.11,6844.47
+DEMO-01112,2025-07-24,Mumbai,Mumbai Garden,Online travel agency,Standard,Completed,3,2399.04,1786.72
+DEMO-01113,2025-08-16,Jaipur,Jaipur Central,Direct,Deluxe,Confirmed,4,23688.0,18718.48
+DEMO-01114,2025-08-09,Delhi,Delhi Grand,Online travel agency,Suite,Completed,5,30885.13,21286.23
+DEMO-01115,2025-09-18,Mumbai,Mumbai Grand,Corporate,Standard,Pending,5,7006.03,5685.75
+DEMO-01116,2025-09-02,Kochi,Kochi Garden,Direct,Deluxe,Pending,3,22385.52,20323.68
+DEMO-01117,2025-06-23,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,10312.46,7789.65
+DEMO-01118,2025-01-31,Kochi,Kochi Garden,Online travel agency,Suite,Cancelled,3,6947.77,6203.32
+DEMO-01119,2025-08-27,Bengaluru,Bengaluru Central,Corporate,Standard,Cancelled,4,3449.58,2659.64
+DEMO-01120,2025-07-24,Mumbai,Mumbai Central,Travel agent,Deluxe,Completed,4,14393.16,11493.7
+DEMO-01121,2025-03-04,Delhi,Delhi Central,Corporate,Suite,Completed,4,49028.73,33597.76
+DEMO-01122,2025-09-30,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,17825.1,14372.44
+DEMO-01123,2025-08-16,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,11340.58,9077.29
+DEMO-01124,2025-11-05,Goa,Goa Grand,Direct,Standard,Completed,5,3720.37,2804.8
+DEMO-01125,2025-11-01,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,18910.95,13819.23
+DEMO-01126,2025-07-27,Goa,Goa Garden,Online travel agency,Suite,Completed,3,26543.68,20792.16
+DEMO-01127,2025-10-06,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Confirmed,5,27800.13,23109.41
+DEMO-01128,2025-11-11,Delhi,Delhi Grand,Online travel agency,Suite,Confirmed,5,21157.03,16307.27
+DEMO-01129,2025-06-02,Jaipur,Jaipur Central,Travel agent,Standard,Confirmed,4,19274.77,12593.38
+DEMO-01130,2025-04-02,Goa,Goa Garden,Corporate,Deluxe,Completed,3,17542.09,15339.99
+DEMO-01131,2025-10-14,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,15844.2,12317.2
+DEMO-01132,2025-11-23,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,12704.37,11435.18
+DEMO-01133,2025-11-10,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,25302.94,16672.47
+DEMO-01134,2025-04-14,Goa,Goa Grand,Direct,Deluxe,Completed,5,23083.72,20009.07
+DEMO-01135,2025-07-01,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,20586.82,17419.38
+DEMO-01136,2025-03-06,Delhi,Delhi Grand,Direct,Standard,Completed,5,18115.3,13106.01
+DEMO-01137,2025-07-18,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,9692.44,7642.33
+DEMO-01138,2025-01-14,Kochi,Kochi Central,Direct,Standard,Confirmed,4,7931.86,5720.21
+DEMO-01139,2025-02-27,Mumbai,Mumbai Garden,Direct,Suite,Completed,3,37000.37,24983.46
+DEMO-01140,2025-12-01,Goa,Goa Grand,Direct,Standard,Completed,5,12826.79,10736.38
+DEMO-01141,2025-12-19,Kochi,Kochi Central,Travel agent,Standard,Completed,4,12171.1,10937.74
+DEMO-01142,2025-06-06,Delhi,Delhi Grand,Online travel agency,Suite,Cancelled,5,74944.59,51847.08
+DEMO-01143,2025-01-29,Delhi,Delhi Garden,Travel agent,Standard,Confirmed,3,7953.2,6367.57
+DEMO-01144,2025-09-10,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,8968.83,6413.38
+DEMO-01145,2025-10-22,Bengaluru,Bengaluru Grand,Travel agent,Standard,Completed,5,11664.73,9485.27
+DEMO-01146,2025-12-16,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,3371.47,2906.62
+DEMO-01147,2025-04-06,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,15515.81,11036.63
+DEMO-01148,2025-03-02,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,39278.37,28339.73
+DEMO-01149,2025-09-04,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Confirmed,3,20563.61,14147.48
+DEMO-01150,2025-04-14,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,14333.64,9530.55
+DEMO-01151,2025-08-17,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Confirmed,3,16835.25,13807.54
+DEMO-01152,2025-09-29,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,2905.44,1944.12
+DEMO-01153,2025-09-18,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,28599.61,24340.28
+DEMO-01154,2025-06-16,Delhi,Delhi Grand,Corporate,Standard,Completed,5,4419.7,3081.21
+DEMO-01155,2025-05-07,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,28716.7,25712.47
+DEMO-01156,2025-08-02,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,23562.4,16751.66
+DEMO-01157,2025-01-19,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,2735.49,2453.54
+DEMO-01158,2025-02-24,Goa,Goa Garden,Corporate,Deluxe,Completed,3,19017.06,16262.37
+DEMO-01159,2025-12-20,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,6902.32,5016.62
+DEMO-01160,2025-11-18,Bengaluru,Bengaluru Garden,Direct,Deluxe,Completed,3,27434.35,21403.51
+DEMO-01161,2025-03-15,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,8954.95,6811.71
+DEMO-01162,2025-07-17,Bengaluru,Bengaluru Central,Travel agent,Standard,Completed,4,11076.54,7418.77
+DEMO-01163,2025-09-28,Kochi,Kochi Grand,Travel agent,Suite,Pending,5,55289.25,43619.73
+DEMO-01164,2025-03-01,Kochi,Kochi Central,Direct,Standard,Completed,4,12948.46,8510.04
+DEMO-01165,2025-12-16,Kochi,Kochi Garden,Direct,Standard,Cancelled,3,8606.04,5934.58
+DEMO-01166,2025-06-03,Kochi,Kochi Garden,Direct,Standard,Completed,3,12838.6,9762.94
+DEMO-01167,2025-02-25,Bengaluru,Bengaluru Garden,Direct,Standard,Confirmed,3,4617.19,3907.73
+DEMO-01168,2025-06-07,Kochi,Kochi Grand,Corporate,Suite,Completed,5,46537.84,30270.46
+DEMO-01169,2025-06-28,Goa,Goa Grand,Direct,Standard,Completed,5,4568.26,3410.31
+DEMO-01170,2025-01-24,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Completed,3,8360.46,6253.26
+DEMO-01171,2025-12-29,Delhi,Delhi Central,Direct,Standard,Completed,4,11803.82,9238.97
+DEMO-01172,2025-12-28,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,18673.61,16206.58
+DEMO-01173,2025-02-18,Goa,Goa Central,Corporate,Suite,Completed,4,50213.16,39487.43
+DEMO-01174,2025-07-04,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,16483.22,12989.79
+DEMO-01175,2025-04-02,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,26340.88,22447.58
+DEMO-01176,2025-03-30,Jaipur,Jaipur Central,Direct,Standard,Completed,4,15050.38,12368.65
+DEMO-01177,2025-03-23,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,8990.74,6126.44
+DEMO-01178,2025-07-19,Jaipur,Jaipur Central,Direct,Standard,Confirmed,4,5485.18,4141.04
+DEMO-01179,2025-01-18,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,12213.48,9338.42
+DEMO-01180,2025-06-08,Mumbai,Mumbai Central,Online travel agency,Deluxe,Confirmed,4,13344.54,8766.49
+DEMO-01181,2025-01-02,Delhi,Delhi Grand,Corporate,Standard,Completed,5,25524.31,16898.85
+DEMO-01182,2025-11-03,Kochi,Kochi Central,Online travel agency,Suite,Cancelled,4,32227.47,26896.21
+DEMO-01183,2025-09-17,Kochi,Kochi Garden,Direct,Deluxe,Completed,3,13657.73,9630.81
+DEMO-01184,2025-07-09,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,7577.12,4996.33
+DEMO-01185,2025-04-03,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,10190.05,7997.31
+DEMO-01186,2025-08-02,Bengaluru,Bengaluru Garden,Direct,Standard,Cancelled,3,11715.3,8905.01
+DEMO-01187,2025-01-01,Goa,Goa Grand,Direct,Deluxe,Confirmed,5,37558.79,26389.9
+DEMO-01188,2025-09-03,Bengaluru,Bengaluru Garden,Corporate,Standard,Confirmed,3,14275.86,11678.75
+DEMO-01189,2025-05-07,Jaipur,Jaipur Central,Corporate,Standard,Completed,4,11080.68,8653.89
+DEMO-01190,2025-05-06,Delhi,Delhi Grand,Corporate,Standard,Completed,5,17795.27,15828.01
+DEMO-01191,2025-03-24,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,14507.74,10632.8
+DEMO-01192,2025-08-01,Goa,Goa Grand,Direct,Suite,Completed,5,43749.57,34855.66
+DEMO-01193,2025-05-31,Mumbai,Mumbai Garden,Corporate,Standard,Cancelled,3,10444.05,7048.53
+DEMO-01194,2025-09-13,Goa,Goa Grand,Online travel agency,Suite,Cancelled,5,12114.3,10018.47
+DEMO-01195,2025-07-02,Jaipur,Jaipur Garden,Corporate,Standard,Completed,3,2301.86,2036.73
+DEMO-01196,2025-04-22,Mumbai,Mumbai Central,Corporate,Standard,Confirmed,4,11061.53,9006.89
+DEMO-01197,2025-07-20,Mumbai,Mumbai Grand,Travel agent,Standard,Completed,5,22442.73,15371.6
+DEMO-01198,2025-03-30,Jaipur,Jaipur Central,Online travel agency,Standard,Confirmed,4,8709.48,5683.97
+DEMO-01199,2025-05-17,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,27161.3,22191.54
+DEMO-01200,2025-05-08,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,12964.97,8467.46
+DEMO-01201,2025-12-26,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,29980.28,21761.24
+DEMO-01202,2025-06-29,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,3291.84,2459.29
+DEMO-01203,2025-06-25,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Cancelled,3,11148.19,8393.53
+DEMO-01204,2025-07-20,Bengaluru,Bengaluru Central,Direct,Suite,Cancelled,4,19387.59,13416.98
+DEMO-01205,2025-12-08,Jaipur,Jaipur Grand,Online travel agency,Standard,Cancelled,5,13680.37,9905.07
+DEMO-01206,2025-08-03,Mumbai,Mumbai Garden,Travel agent,Standard,Completed,3,5857.33,4797.85
+DEMO-01207,2025-07-30,Goa,Goa Garden,Corporate,Deluxe,Completed,3,18769.37,14751.33
+DEMO-01208,2025-03-16,Kochi,Kochi Central,Direct,Deluxe,Completed,4,17036.28,13892.08
+DEMO-01209,2025-06-06,Mumbai,Mumbai Garden,Online travel agency,Suite,Completed,3,31080.91,21600.74
+DEMO-01210,2025-10-05,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,24069.23,16085.13
+DEMO-01211,2025-07-28,Mumbai,Mumbai Grand,Online travel agency,Suite,Completed,5,10260.92,7500.04
+DEMO-01212,2025-09-09,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,23460.17,18393.08
+DEMO-01213,2025-03-24,Kochi,Kochi Central,Travel agent,Standard,Confirmed,4,14448.49,11258.37
+DEMO-01214,2025-03-05,Delhi,Delhi Central,Direct,Deluxe,Confirmed,4,6107.16,5510.57
+DEMO-01215,2025-02-20,Kochi,Kochi Grand,Travel agent,Standard,Completed,5,14071.77,10342.6
+DEMO-01216,2025-04-14,Kochi,Kochi Central,Corporate,Suite,Completed,4,26746.55,17458.32
+DEMO-01217,2025-06-09,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,24276.0,16350.35
+DEMO-01218,2025-03-26,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,5904.28,5187.96
+DEMO-01219,2025-02-08,Delhi,Delhi Central,Corporate,Standard,Completed,4,7322.9,4848.03
+DEMO-01220,2025-09-07,Mumbai,Mumbai Garden,Corporate,Standard,Confirmed,3,5075.62,3373.24
+DEMO-01221,2025-06-02,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,12572.22,9766.08
+DEMO-01222,2025-11-27,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,20545.8,13930.36
+DEMO-01223,2025-12-15,Delhi,Delhi Grand,Corporate,Suite,Completed,5,12092.12,8455.46
+DEMO-01224,2025-05-29,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,3063.2,2476.59
+DEMO-01225,2025-03-19,Kochi,Kochi Garden,Direct,Standard,Confirmed,3,11871.45,10644.31
+DEMO-01226,2025-03-07,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,8772.35,7258.61
+DEMO-01227,2025-08-18,Kochi,Kochi Grand,Online travel agency,Deluxe,Completed,5,13329.89,10437.3
+DEMO-01228,2025-01-21,Jaipur,Jaipur Garden,Direct,Standard,Cancelled,3,7322.01,5834.94
+DEMO-01229,2025-09-14,Mumbai,Mumbai Garden,Online travel agency,Deluxe,Completed,3,8639.8,7105.23
+DEMO-01230,2025-06-13,Bengaluru,Bengaluru Central,Corporate,Deluxe,Cancelled,4,22430.0,16685.48
+DEMO-01231,2025-07-12,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Confirmed,3,21796.41,16204.83
+DEMO-01232,2025-05-12,Delhi,Delhi Garden,Direct,Standard,Completed,3,2364.15,1565.81
+DEMO-01233,2025-05-22,Kochi,Kochi Grand,Travel agent,Standard,Completed,5,4856.26,3543.63
+DEMO-01234,2025-06-15,Kochi,Kochi Grand,Online travel agency,Suite,Confirmed,5,40872.02,29152.71
+DEMO-01235,2025-04-20,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,9017.26,7276.58
+DEMO-01236,2025-04-22,Delhi,Delhi Central,Direct,Standard,Cancelled,4,3320.49,3007.69
+DEMO-01237,2025-09-03,Goa,Goa Grand,Online travel agency,Deluxe,Completed,5,23563.39,18373.44
+DEMO-01238,2025-01-22,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,19781.24,16281.72
+DEMO-01239,2025-09-27,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,21583.82,18906.86
+DEMO-01240,2025-06-05,Mumbai,Mumbai Central,Online travel agency,Deluxe,Cancelled,4,4604.5,3577.78
+DEMO-01241,2025-07-28,Goa,Goa Grand,Online travel agency,Suite,Completed,5,36348.02,31255.5
+DEMO-01242,2025-10-23,Jaipur,Jaipur Garden,Direct,Deluxe,Confirmed,3,13023.53,9721.28
+DEMO-01243,2025-11-21,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,11846.33,10563.16
+DEMO-01244,2025-06-13,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,17145.41,14880.12
+DEMO-01245,2025-07-18,Jaipur,Jaipur Grand,Online travel agency,Deluxe,Completed,5,20021.9,15469.42
+DEMO-01246,2025-04-25,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,23129.04,16196.16
+DEMO-01247,2025-09-06,Delhi,Delhi Grand,Direct,Standard,Confirmed,5,12590.61,8247.9
+DEMO-01248,2025-04-18,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,21523.91,14074.25
+DEMO-01249,2025-09-06,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,18614.16,12792.15
+DEMO-01250,2025-11-09,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,20680.8,13733.8
+DEMO-01251,2025-05-25,Jaipur,Jaipur Grand,Corporate,Suite,Confirmed,5,72614.43,50993.65
+DEMO-01252,2025-12-31,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,16106.43,11013.35
+DEMO-01253,2025-07-09,Delhi,Delhi Central,Travel agent,Standard,Confirmed,4,13714.19,9583.9
+DEMO-01254,2025-12-22,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,11450.63,9261.46
+DEMO-01255,2025-01-02,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,31836.86,28292.5
+DEMO-01256,2025-07-18,Mumbai,Mumbai Grand,Online travel agency,Standard,Confirmed,5,13170.22,11463.88
+DEMO-01257,2025-01-31,Kochi,Kochi Central,Direct,Standard,Completed,4,18656.5,15911.43
+DEMO-01258,2025-11-30,Kochi,Kochi Central,Direct,Deluxe,Confirmed,4,18961.14,15800.36
+DEMO-01259,2025-04-02,Delhi,Delhi Garden,Online travel agency,Suite,Cancelled,3,13138.69,10498.44
+DEMO-01260,2025-04-11,Jaipur,Jaipur Garden,Corporate,Deluxe,Confirmed,3,11975.2,10574.07
+DEMO-01261,2025-12-22,Mumbai,Mumbai Central,Corporate,Standard,Confirmed,4,17665.0,16045.25
+DEMO-01262,2025-09-12,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,19612.5,14503.06
+DEMO-01263,2025-09-12,Mumbai,Mumbai Central,Corporate,Deluxe,Completed,4,23419.6,19826.39
+DEMO-01264,2025-05-10,Bengaluru,Bengaluru Grand,Direct,Deluxe,Confirmed,5,6819.66,5155.19
+DEMO-01265,2025-12-02,Jaipur,Jaipur Central,Direct,Standard,Completed,4,7877.2,5159.42
+DEMO-01266,2025-04-30,Goa,Goa Grand,Corporate,Standard,Cancelled,5,13331.94,10431.05
+DEMO-01267,2025-09-11,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,6331.75,4969.24
+DEMO-01268,2025-04-01,Bengaluru,Bengaluru Garden,Travel agent,Suite,Completed,3,23994.87,19259.66
+DEMO-01269,2025-05-24,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Cancelled,5,15571.11,13235.33
+DEMO-01270,2025-07-22,Mumbai,Mumbai Grand,Online travel agency,Suite,Completed,5,13652.18,11747.18
+DEMO-01271,2025-03-12,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,18740.06,14687.95
+DEMO-01272,2025-08-28,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,18551.62,12477.54
+DEMO-01273,2025-10-11,Mumbai,Mumbai Central,Online travel agency,Standard,No-show,4,7190.78,4933.7
+DEMO-01274,2025-03-10,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,26044.46,18471.37
+DEMO-01275,2025-06-22,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,11518.05,7842.01
+DEMO-01276,2025-10-13,Delhi,Delhi Grand,Travel agent,Standard,Completed,5,22362.53,15360.78
+DEMO-01277,2025-08-02,Goa,Goa Central,Online travel agency,Standard,Completed,4,11146.11,9875.37
+DEMO-01278,2025-03-05,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,16743.83,11601.26
+DEMO-01279,2025-04-19,Kochi,Kochi Central,Online travel agency,Suite,Completed,4,34157.67,24950.17
+DEMO-01280,2025-11-16,Bengaluru,Bengaluru Grand,Corporate,Deluxe,Completed,5,35213.66,30362.71
+DEMO-01281,2025-04-07,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,5807.83,4828.9
+DEMO-01282,2025-02-28,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,12975.14,9186.52
+DEMO-01283,2025-08-16,Kochi,Kochi Garden,Direct,Standard,Completed,3,8912.38,7547.27
+DEMO-01284,2025-02-13,Bengaluru,Bengaluru Grand,Online travel agency,Suite,Completed,5,30664.84,26558.0
+DEMO-01285,2025-10-25,Goa,Goa Central,Online travel agency,Deluxe,No-show,4,12232.99,10733.87
+DEMO-01286,2025-09-15,Delhi,Delhi Grand,Direct,Standard,Completed,5,7155.69,6285.34
+DEMO-01287,2025-11-06,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,No-show,3,10585.86,8395.44
+DEMO-01288,2025-03-13,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,26749.6,21662.27
+DEMO-01289,2025-04-18,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,6619.52,4594.35
+DEMO-01290,2025-01-08,Goa,Goa Central,Travel agent,Suite,Completed,4,53396.93,35197.86
+DEMO-01291,2025-09-16,Mumbai,Mumbai Central,Direct,Suite,Completed,4,27770.76,24846.0
+DEMO-01292,2025-07-06,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,33679.05,25611.04
+DEMO-01293,2025-02-28,Jaipur,Jaipur Central,Direct,Standard,Completed,4,14181.23,11006.05
+DEMO-01294,2025-08-10,Mumbai,Mumbai Central,Travel agent,Suite,Completed,4,17219.64,12509.56
+DEMO-01295,2025-04-01,Goa,Goa Grand,Corporate,Standard,Completed,5,7767.32,5350.73
+DEMO-01296,2025-02-07,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,10021.55,7189.81
+DEMO-01297,2025-04-02,Kochi,Kochi Central,Corporate,Suite,Pending,4,7931.23,6838.59
+DEMO-01298,2025-02-22,Bengaluru,Bengaluru Central,Travel agent,Deluxe,Pending,4,4708.77,4123.72
+DEMO-01299,2025-02-07,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,7803.34,5536.94
+DEMO-01300,2025-06-08,Goa,Goa Central,Online travel agency,Suite,Cancelled,4,41623.21,27830.39
+DEMO-01301,2025-09-29,Goa,Goa Central,Direct,Deluxe,Completed,4,27287.0,19737.93
+DEMO-01302,2025-04-24,Kochi,Kochi Central,Online travel agency,Deluxe,Confirmed,4,20876.71,15268.22
+DEMO-01303,2025-09-07,Mumbai,Mumbai Central,Direct,Standard,Completed,4,2876.14,2344.57
+DEMO-01304,2025-01-04,Delhi,Delhi Grand,Corporate,Standard,Cancelled,5,9061.27,7772.89
+DEMO-01305,2025-07-04,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,7733.7,6295.25
+DEMO-01306,2025-02-19,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,17670.76,13993.75
+DEMO-01307,2025-04-08,Delhi,Delhi Central,Direct,Standard,Completed,4,16510.01,11853.75
+DEMO-01308,2025-01-19,Kochi,Kochi Central,Online travel agency,Suite,Confirmed,4,18108.41,15805.4
+DEMO-01309,2025-10-08,Kochi,Kochi Garden,Corporate,Suite,Confirmed,3,8210.79,5959.6
+DEMO-01310,2025-01-30,Goa,Goa Central,Corporate,Standard,Completed,4,11854.54,7775.61
+DEMO-01311,2025-02-08,Kochi,Kochi Central,Online travel agency,Standard,Cancelled,4,9102.07,7519.73
+DEMO-01312,2025-12-11,Jaipur,Jaipur Central,Corporate,Standard,Completed,4,20896.98,18645.19
+DEMO-01313,2025-12-18,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,4243.23,3164.96
+DEMO-01314,2025-05-20,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,19334.26,16532.46
+DEMO-01315,2025-09-22,Goa,Goa Garden,Online travel agency,Standard,Completed,3,15796.6,12977.14
+DEMO-01316,2025-07-14,Delhi,Delhi Grand,Online travel agency,Suite,Completed,5,42570.12,32788.6
+DEMO-01317,2025-03-18,Mumbai,Mumbai Central,Travel agent,Standard,Pending,4,15605.78,12395.9
+DEMO-01318,2025-05-04,Delhi,Delhi Garden,Travel agent,Standard,Completed,3,5929.31,4057.62
+DEMO-01319,2025-07-07,Goa,Goa Central,Online travel agency,Suite,Completed,4,11081.01,8954.52
+DEMO-01320,2025-12-10,Goa,Goa Central,Online travel agency,Standard,Completed,4,6920.29,4769.93
+DEMO-01321,2025-02-20,Delhi,Delhi Garden,Direct,Deluxe,Completed,3,10946.77,9150.6
+DEMO-01322,2025-06-01,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,37862.69,33559.7
+DEMO-01323,2025-10-21,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,17959.31,13255.67
+DEMO-01324,2025-07-29,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,53290.44,41798.7
+DEMO-01325,2025-05-28,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,11865.97,9921.79
+DEMO-01326,2025-05-09,Kochi,Kochi Grand,Corporate,Standard,No-show,5,12013.25,9466.16
+DEMO-01327,2025-11-12,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,10939.68,9211.69
+DEMO-01328,2025-07-23,Goa,Goa Grand,Online travel agency,Standard,Completed,5,20589.73,14097.55
+DEMO-01329,2025-05-14,Bengaluru,Bengaluru Central,Online travel agency,Suite,Cancelled,4,51680.11,46167.72
+DEMO-01330,2025-04-07,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,9239.09,6834.6
+DEMO-01331,2025-11-24,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,14350.72,12896.89
+DEMO-01332,2025-11-05,Kochi,Kochi Garden,Direct,Standard,Completed,3,11051.48,7739.43
+DEMO-01333,2025-09-16,Goa,Goa Central,Travel agent,Standard,Completed,4,15319.64,10903.02
+DEMO-01334,2025-06-24,Goa,Goa Grand,Online travel agency,Deluxe,Confirmed,5,5551.03,4232.48
+DEMO-01335,2025-11-10,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,17646.6,13436.96
+DEMO-01336,2025-09-26,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,9792.25,6787.16
+DEMO-01337,2025-05-13,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,4482.19,4025.73
+DEMO-01338,2025-01-02,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,5596.89,4049.34
+DEMO-01339,2025-03-08,Goa,Goa Grand,Corporate,Suite,Confirmed,5,69719.83,51243.3
+DEMO-01340,2025-02-03,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,2695.57,1785.97
+DEMO-01341,2025-02-09,Mumbai,Mumbai Garden,Direct,Deluxe,Confirmed,3,13200.43,11689.3
+DEMO-01342,2025-04-25,Mumbai,Mumbai Garden,Direct,Suite,Pending,3,15701.83,13585.01
+DEMO-01343,2025-08-03,Kochi,Kochi Central,Corporate,Standard,Completed,4,8435.81,7581.47
+DEMO-01344,2025-10-18,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,18640.43,12201.45
+DEMO-01345,2025-08-14,Jaipur,Jaipur Central,Direct,Suite,Completed,4,19332.34,14617.5
+DEMO-01346,2025-04-24,Kochi,Kochi Central,Online travel agency,Standard,Cancelled,4,14007.25,9740.09
+DEMO-01347,2025-03-02,Jaipur,Jaipur Garden,Corporate,Standard,Cancelled,3,13267.53,9184.55
+DEMO-01348,2025-10-04,Delhi,Delhi Garden,Online travel agency,Standard,Completed,3,13157.7,8825.21
+DEMO-01349,2025-02-26,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,11111.76,7444.18
+DEMO-01350,2025-05-04,Goa,Goa Garden,Direct,Standard,Completed,3,5457.76,3635.18
+DEMO-01351,2025-12-29,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,6563.47,4500.35
+DEMO-01352,2025-08-01,Goa,Goa Central,Direct,Deluxe,Confirmed,4,24044.98,18696.69
+DEMO-01353,2025-04-02,Goa,Goa Grand,Online travel agency,Deluxe,Confirmed,5,11857.42,8414.36
+DEMO-01354,2025-01-20,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,7688.74,5121.59
+DEMO-01355,2025-02-19,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Pending,3,11218.33,7886.27
+DEMO-01356,2025-10-13,Mumbai,Mumbai Garden,Online travel agency,Standard,Confirmed,3,2431.15,1962.23
+DEMO-01357,2025-07-03,Jaipur,Jaipur Garden,Corporate,Standard,Confirmed,3,8802.83,7632.6
+DEMO-01358,2025-08-31,Kochi,Kochi Central,Direct,Standard,Completed,4,15232.09,12810.53
+DEMO-01359,2025-08-23,Mumbai,Mumbai Grand,Travel agent,Standard,Completed,5,23202.55,20362.89
+DEMO-01360,2025-12-21,Kochi,Kochi Central,Direct,Standard,Confirmed,4,10313.78,7300.15
+DEMO-01361,2025-05-08,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,9446.02,6506.81
+DEMO-01362,2025-06-30,Jaipur,Jaipur Grand,Online travel agency,Standard,Pending,5,4938.92,3740.72
+DEMO-01363,2025-06-01,Kochi,Kochi Garden,Direct,Standard,Completed,3,10109.5,7047.47
+DEMO-01364,2025-04-10,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,18311.05,13927.28
+DEMO-01365,2025-12-19,Mumbai,Mumbai Garden,Online travel agency,Standard,Cancelled,3,7452.08,5848.96
+DEMO-01366,2025-10-14,Bengaluru,Bengaluru Grand,Direct,Suite,Completed,5,11892.24,9670.27
+DEMO-01367,2025-12-04,Delhi,Delhi Central,Corporate,Standard,Confirmed,4,11753.95,10574.1
+DEMO-01368,2025-02-13,Delhi,Delhi Central,Direct,Standard,Completed,4,20905.11,14634.46
+DEMO-01369,2025-06-17,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Cancelled,3,8663.3,6289.15
+DEMO-01370,2025-10-05,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,19175.0,16035.13
+DEMO-01371,2025-02-24,Jaipur,Jaipur Central,Corporate,Suite,Completed,4,42277.32,34909.38
+DEMO-01372,2025-01-28,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,4225.24,3786.9
+DEMO-01373,2025-10-01,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Cancelled,5,21777.56,17841.6
+DEMO-01374,2025-05-11,Kochi,Kochi Grand,Direct,Standard,Cancelled,5,18270.73,16087.3
+DEMO-01375,2025-02-18,Goa,Goa Grand,Corporate,Standard,Confirmed,5,8527.76,7217.56
+DEMO-01376,2025-01-22,Goa,Goa Garden,Online travel agency,Deluxe,Cancelled,3,6657.32,4371.66
+DEMO-01377,2025-10-15,Jaipur,Jaipur Central,Online travel agency,Standard,Confirmed,4,11847.85,10010.34
+DEMO-01378,2025-08-01,Kochi,Kochi Grand,Direct,Standard,Completed,5,3408.48,2793.98
+DEMO-01379,2025-04-16,Goa,Goa Central,Corporate,Suite,Completed,4,54112.34,39975.85
+DEMO-01380,2025-04-04,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,2186.76,1902.15
+DEMO-01381,2025-08-16,Goa,Goa Central,Direct,Deluxe,Completed,4,26971.38,19166.68
+DEMO-01382,2025-09-07,Mumbai,Mumbai Garden,Direct,Deluxe,Completed,3,3511.73,2297.18
+DEMO-01383,2025-12-27,Jaipur,Jaipur Central,Online travel agency,Deluxe,Completed,4,26471.41,19282.98
+DEMO-01384,2025-11-23,Goa,Goa Central,Direct,Standard,Completed,4,18403.56,12551.07
+DEMO-01385,2025-04-07,Kochi,Kochi Central,Travel agent,Standard,Confirmed,4,10347.77,9042.29
+DEMO-01386,2025-01-09,Mumbai,Mumbai Garden,Corporate,Standard,Completed,3,13673.33,10941.32
+DEMO-01387,2025-01-19,Delhi,Delhi Garden,Corporate,Standard,Completed,3,5037.77,4332.07
+DEMO-01388,2025-05-03,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,19034.88,14091.03
+DEMO-01389,2025-04-11,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,17109.25,12028.85
+DEMO-01390,2025-12-06,Goa,Goa Grand,Online travel agency,Suite,Confirmed,5,49107.2,33878.15
+DEMO-01391,2025-06-07,Delhi,Delhi Central,Corporate,Standard,Completed,4,18928.12,16742.08
+DEMO-01392,2025-09-07,Goa,Goa Garden,Direct,Deluxe,Completed,3,12803.27,10863.91
+DEMO-01393,2025-05-02,Kochi,Kochi Grand,Corporate,Standard,Cancelled,5,14989.25,10558.33
+DEMO-01394,2025-04-27,Delhi,Delhi Central,Direct,Standard,Completed,4,19520.48,15104.42
+DEMO-01395,2025-09-18,Delhi,Delhi Garden,Corporate,Standard,Confirmed,3,17963.08,14657.61
+DEMO-01396,2025-05-14,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,2541.83,2218.9
+DEMO-01397,2025-02-22,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,11181.56,9227.17
+DEMO-01398,2025-06-09,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,12470.25,9772.28
+DEMO-01399,2025-03-25,Mumbai,Mumbai Central,Online travel agency,Standard,No-show,4,3628.59,3045.26
+DEMO-01400,2025-03-12,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,11808.99,8716.46
+DEMO-01401,2025-11-01,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,5985.59,4910.01
+DEMO-01402,2025-11-21,Goa,Goa Central,Travel agent,Standard,Completed,4,15528.65,12739.8
+DEMO-01403,2025-09-14,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,30504.6,19869.71
+DEMO-01404,2025-03-02,Jaipur,Jaipur Central,Direct,Standard,Completed,4,19118.22,16740.6
+DEMO-01405,2025-12-18,Kochi,Kochi Garden,Corporate,Deluxe,Confirmed,3,12489.62,10541.66
+DEMO-01406,2025-03-11,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,9142.67,7875.14
+DEMO-01407,2025-05-23,Kochi,Kochi Central,Direct,Deluxe,Confirmed,4,5205.66,4009.81
+DEMO-01408,2025-11-26,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,3788.83,2767.74
+DEMO-01409,2025-09-20,Jaipur,Jaipur Garden,Travel agent,Deluxe,Confirmed,3,4157.83,2758.92
+DEMO-01410,2025-06-23,Goa,Goa Garden,Online travel agency,Standard,Pending,3,14318.27,9746.75
+DEMO-01411,2025-11-02,Mumbai,Mumbai Grand,Corporate,Suite,Completed,5,78338.27,71147.53
+DEMO-01412,2025-03-14,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,13119.44,11460.64
+DEMO-01413,2025-02-11,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,31461.57,25204.45
+DEMO-01414,2025-06-20,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,2937.96,2360.47
+DEMO-01415,2025-10-03,Bengaluru,Bengaluru Central,Direct,Standard,Confirmed,4,6314.48,4146.25
+DEMO-01416,2025-09-20,Goa,Goa Grand,Online travel agency,Standard,Completed,5,10414.95,8663.28
+DEMO-01417,2025-08-22,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,2961.11,2426.91
+DEMO-01418,2025-12-22,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,15778.34,11445.45
+DEMO-01419,2025-10-06,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,14328.52,10050.49
+DEMO-01420,2025-11-10,Delhi,Delhi Grand,Travel agent,Deluxe,Completed,5,23890.91,19528.08
+DEMO-01421,2025-03-28,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,4655.1,3371.65
+DEMO-01422,2025-12-07,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,4323.4,3306.17
+DEMO-01423,2025-04-08,Jaipur,Jaipur Grand,Online travel agency,Suite,Completed,5,9847.62,8027.49
+DEMO-01424,2025-07-10,Goa,Goa Grand,Online travel agency,Deluxe,Cancelled,5,20181.78,13423.43
+DEMO-01425,2025-02-16,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,7822.72,6194.76
+DEMO-01426,2025-06-16,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,45324.66,36293.44
+DEMO-01427,2025-05-09,Delhi,Delhi Garden,Direct,Deluxe,Confirmed,3,25097.57,19646.49
+DEMO-01428,2025-03-08,Bengaluru,Bengaluru Garden,Corporate,Standard,Completed,3,2635.4,2118.83
+DEMO-01429,2025-12-13,Goa,Goa Grand,Online travel agency,Standard,Cancelled,5,23367.24,18144.51
+DEMO-01430,2025-07-18,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Completed,3,10986.11,8235.6
+DEMO-01431,2025-12-14,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,6152.98,5299.79
+DEMO-01432,2025-04-29,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,29232.22,26490.52
+DEMO-01433,2025-10-25,Delhi,Delhi Grand,Online travel agency,Deluxe,Completed,5,29238.7,24717.84
+DEMO-01434,2025-10-19,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,10910.39,8782.52
+DEMO-01435,2025-02-21,Goa,Goa Central,Corporate,Deluxe,Completed,4,12746.14,10074.41
+DEMO-01436,2025-05-31,Kochi,Kochi Garden,Direct,Standard,Completed,3,5292.45,4160.22
+DEMO-01437,2025-06-09,Goa,Goa Garden,Online travel agency,Suite,Completed,3,24591.46,16804.07
+DEMO-01438,2025-01-17,Kochi,Kochi Garden,Direct,Deluxe,Completed,3,13213.62,8964.09
+DEMO-01439,2025-09-21,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,15049.5,10188.53
+DEMO-01440,2025-12-25,Delhi,Delhi Garden,Direct,Standard,Confirmed,3,8671.81,6654.14
+DEMO-01441,2025-03-13,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Pending,3,11762.1,8430.84
+DEMO-01442,2025-03-03,Mumbai,Mumbai Grand,Online travel agency,Suite,Completed,5,10049.39,8144.71
+DEMO-01443,2025-07-09,Kochi,Kochi Grand,Direct,Standard,Completed,5,11425.48,9695.19
+DEMO-01444,2025-04-02,Mumbai,Mumbai Grand,Travel agent,Standard,Confirmed,5,3496.68,3181.04
+DEMO-01445,2025-11-30,Bengaluru,Bengaluru Garden,Direct,Deluxe,Cancelled,3,11235.31,9219.99
+DEMO-01446,2025-03-21,Jaipur,Jaipur Central,Travel agent,Deluxe,Completed,4,16135.49,13718.53
+DEMO-01447,2025-02-26,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,7289.36,6261.78
+DEMO-01448,2025-08-20,Goa,Goa Central,Direct,Suite,Completed,4,10044.46,8365.71
+DEMO-01449,2025-07-04,Jaipur,Jaipur Central,Direct,Standard,Completed,4,20603.74,15474.32
+DEMO-01450,2025-01-17,Kochi,Kochi Central,Direct,Standard,Completed,4,18683.16,12961.79
+DEMO-01451,2025-12-19,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,15938.07,12666.27
+DEMO-01452,2025-04-10,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Completed,3,41689.04,30605.33
+DEMO-01453,2025-09-05,Bengaluru,Bengaluru Central,Corporate,Suite,Completed,4,40443.25,28791.13
+DEMO-01454,2025-05-09,Bengaluru,Bengaluru Central,Online travel agency,Standard,Cancelled,4,9647.2,8441.82
+DEMO-01455,2025-08-11,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,10498.06,7105.84
+DEMO-01456,2025-10-16,Goa,Goa Central,Direct,Standard,Completed,4,10979.82,8012.42
+DEMO-01457,2025-05-20,Bengaluru,Bengaluru Central,Direct,Deluxe,Pending,4,23180.51,21080.78
+DEMO-01458,2025-02-23,Jaipur,Jaipur Garden,Direct,Deluxe,Confirmed,3,18337.23,13480.22
+DEMO-01459,2025-10-20,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,32581.13,26615.55
+DEMO-01460,2025-12-12,Delhi,Delhi Garden,Direct,Suite,Confirmed,3,20980.5,16593.28
+DEMO-01461,2025-01-14,Goa,Goa Central,Corporate,Suite,Completed,4,32809.65,22349.66
+DEMO-01462,2025-01-07,Delhi,Delhi Garden,Direct,Suite,Cancelled,3,31400.6,21072.51
+DEMO-01463,2025-06-20,Bengaluru,Bengaluru Central,Direct,Suite,Completed,4,21838.0,19592.23
+DEMO-01464,2025-01-16,Goa,Goa Central,Online travel agency,Standard,Completed,4,19243.57,17163.35
+DEMO-01465,2025-08-19,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,10430.49,8553.55
+DEMO-01466,2025-09-27,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,6540.08,5163.92
+DEMO-01467,2025-10-04,Goa,Goa Central,Corporate,Suite,Completed,4,29197.89,21463.95
+DEMO-01468,2025-09-18,Kochi,Kochi Garden,Direct,Standard,Completed,3,13438.49,8980.3
+DEMO-01469,2025-06-06,Delhi,Delhi Central,Travel agent,Standard,Completed,4,10140.78,6766.47
+DEMO-01470,2025-09-21,Delhi,Delhi Grand,Direct,Standard,Pending,5,17501.15,12159.39
+DEMO-01471,2025-01-28,Delhi,Delhi Central,Travel agent,Suite,Completed,4,56943.66,40313.66
+DEMO-01472,2025-04-11,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,20335.06,15426.12
+DEMO-01473,2025-02-01,Goa,Goa Garden,Corporate,Standard,Confirmed,3,5816.92,4252.93
+DEMO-01474,2025-08-12,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Confirmed,4,14242.06,11135.66
+DEMO-01475,2025-03-04,Delhi,Delhi Grand,Direct,Standard,Completed,5,11536.17,8834.59
+DEMO-01476,2025-06-09,Mumbai,Mumbai Central,Online travel agency,Suite,Pending,4,31875.06,23007.3
+DEMO-01477,2025-08-18,Goa,Goa Grand,Online travel agency,Standard,Completed,5,3942.75,2789.49
+DEMO-01478,2025-05-31,Kochi,Kochi Grand,Online travel agency,Deluxe,Cancelled,5,27606.71,18985.7
+DEMO-01479,2025-02-26,Goa,Goa Central,Corporate,Standard,Completed,4,16009.59,13134.95
+DEMO-01480,2025-11-10,Delhi,Delhi Garden,Travel agent,Standard,Completed,3,7511.68,6530.53
+DEMO-01481,2025-07-14,Delhi,Delhi Central,Corporate,Standard,Completed,4,8558.27,5964.79
+DEMO-01482,2025-07-03,Jaipur,Jaipur Central,Direct,Deluxe,Completed,4,9767.45,7113.98
+DEMO-01483,2025-02-01,Bengaluru,Bengaluru Central,Direct,Standard,Pending,4,17570.11,11885.38
+DEMO-01484,2025-07-15,Delhi,Delhi Garden,Corporate,Suite,Confirmed,3,18885.58,16567.75
+DEMO-01485,2025-07-03,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,11763.78,10465.2
+DEMO-01486,2025-04-23,Jaipur,Jaipur Garden,Direct,Suite,Completed,3,30323.73,27002.09
+DEMO-01487,2025-03-19,Delhi,Delhi Grand,Direct,Deluxe,Cancelled,5,29056.73,20261.45
+DEMO-01488,2025-07-22,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,22843.02,19453.92
+DEMO-01489,2025-04-28,Kochi,Kochi Garden,Online travel agency,Deluxe,Completed,3,8800.04,6906.84
+DEMO-01490,2025-06-29,Goa,Goa Central,Direct,Deluxe,Confirmed,4,4790.88,3851.49
+DEMO-01491,2025-09-03,Goa,Goa Central,Online travel agency,Deluxe,Confirmed,4,29083.59,23811.71
+DEMO-01492,2025-02-04,Kochi,Kochi Grand,Online travel agency,Deluxe,Pending,5,39194.22,34764.09
+DEMO-01493,2025-01-01,Kochi,Kochi Garden,Direct,Deluxe,Cancelled,3,11971.32,8515.28
+DEMO-01494,2025-03-24,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,24706.15,21538.99
+DEMO-01495,2025-02-11,Bengaluru,Bengaluru Central,Online travel agency,Suite,Completed,4,47321.77,41127.01
+DEMO-01496,2025-10-19,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,9335.02,8033.89
+DEMO-01497,2025-06-14,Kochi,Kochi Central,Corporate,Standard,Confirmed,4,10187.84,7686.11
+DEMO-01498,2025-02-03,Delhi,Delhi Central,Direct,Deluxe,Cancelled,4,22955.14,19952.32
+DEMO-01499,2025-10-12,Goa,Goa Garden,Direct,Standard,Confirmed,3,13718.67,9032.23
+DEMO-01500,2025-05-19,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,25223.17,20631.61
+DEMO-01501,2025-01-31,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,31364.88,20388.19
+DEMO-01502,2025-11-27,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,19482.01,13835.51
+DEMO-01503,2025-03-21,Goa,Goa Garden,Direct,Deluxe,Cancelled,3,12401.82,10332.03
+DEMO-01504,2025-04-01,Kochi,Kochi Garden,Corporate,Standard,Completed,3,11187.55,8753.38
+DEMO-01505,2025-09-30,Jaipur,Jaipur Garden,Online travel agency,Standard,Pending,3,4849.5,3454.43
+DEMO-01506,2025-01-28,Mumbai,Mumbai Garden,Direct,Deluxe,Confirmed,3,21274.04,16919.58
+DEMO-01507,2025-05-18,Mumbai,Mumbai Grand,Online travel agency,Standard,Completed,5,8534.55,6263.69
+DEMO-01508,2025-07-03,Mumbai,Mumbai Central,Direct,Deluxe,Confirmed,4,23524.74,15789.79
+DEMO-01509,2025-05-23,Delhi,Delhi Central,Online travel agency,Deluxe,Confirmed,4,24982.87,18200.1
+DEMO-01510,2025-07-05,Goa,Goa Central,Direct,Deluxe,Completed,4,11714.26,8209.67
+DEMO-01511,2025-06-03,Bengaluru,Bengaluru Central,Travel agent,Standard,Confirmed,4,3889.65,3142.55
+DEMO-01512,2025-02-26,Delhi,Delhi Garden,Online travel agency,Standard,Cancelled,3,14941.07,10405.28
+DEMO-01513,2025-08-09,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,15883.01,12968.09
+DEMO-01514,2025-10-20,Bengaluru,Bengaluru Central,Corporate,Suite,Completed,4,31710.04,25956.36
+DEMO-01515,2025-05-24,Kochi,Kochi Grand,Travel agent,Deluxe,Completed,5,29695.98,26290.68
+DEMO-01516,2025-07-17,Bengaluru,Bengaluru Garden,Corporate,Standard,Confirmed,3,10807.17,9256.62
+DEMO-01517,2025-07-23,Bengaluru,Bengaluru Grand,Direct,Standard,Completed,5,18579.61,16616.15
+DEMO-01518,2025-10-12,Delhi,Delhi Garden,Online travel agency,Deluxe,Completed,3,8757.36,7861.51
+DEMO-01519,2025-06-10,Kochi,Kochi Garden,Online travel agency,Standard,Completed,3,12723.13,9978.32
+DEMO-01520,2025-06-29,Delhi,Delhi Grand,Direct,Standard,Confirmed,5,10849.78,8257.29
+DEMO-01521,2025-02-18,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,5298.27,4750.17
+DEMO-01522,2025-08-04,Mumbai,Mumbai Central,Travel agent,Standard,Completed,4,7236.07,4831.05
+DEMO-01523,2025-09-12,Goa,Goa Garden,Corporate,Standard,Completed,3,8701.59,6067.3
+DEMO-01524,2025-10-28,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,7947.31,5460.87
+DEMO-01525,2025-02-13,Bengaluru,Bengaluru Garden,Corporate,Standard,Completed,3,2655.14,2370.47
+DEMO-01526,2025-01-26,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,18409.46,14531.99
+DEMO-01527,2025-09-20,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,9633.71,7126.46
+DEMO-01528,2025-06-25,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,6753.85,4843.75
+DEMO-01529,2025-07-10,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,16983.9,15336.69
+DEMO-01530,2025-05-29,Mumbai,Mumbai Central,Direct,Standard,Pending,4,19669.04,13293.09
+DEMO-01531,2025-03-30,Jaipur,Jaipur Grand,Corporate,Suite,Completed,5,56485.91,49680.1
+DEMO-01532,2025-08-17,Mumbai,Mumbai Grand,Direct,Standard,Completed,5,14105.28,10658.22
+DEMO-01533,2025-05-05,Bengaluru,Bengaluru Central,Direct,Suite,Confirmed,4,44948.91,32696.84
+DEMO-01534,2025-06-11,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,16338.88,11165.05
+DEMO-01535,2025-02-09,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Confirmed,3,9195.3,7098.28
+DEMO-01536,2025-05-06,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,3701.78,3113.78
+DEMO-01537,2025-08-02,Goa,Goa Central,Online travel agency,Standard,Completed,4,11153.92,9146.39
+DEMO-01538,2025-12-20,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,2646.46,2104.53
+DEMO-01539,2025-08-21,Mumbai,Mumbai Garden,Online travel agency,Suite,Cancelled,3,30478.84,27167.6
+DEMO-01540,2025-10-31,Bengaluru,Bengaluru Central,Travel agent,Suite,Cancelled,4,20519.78,14754.68
+DEMO-01541,2025-03-17,Kochi,Kochi Grand,Travel agent,Standard,Completed,5,21240.25,14165.14
+DEMO-01542,2025-12-29,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Confirmed,5,34961.41,26121.97
+DEMO-01543,2025-07-08,Delhi,Delhi Garden,Direct,Standard,Completed,3,11746.93,10679.12
+DEMO-01544,2025-07-07,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Completed,3,21155.32,18134.69
+DEMO-01545,2025-01-16,Goa,Goa Grand,Online travel agency,Deluxe,Completed,5,36280.02,23940.92
+DEMO-01546,2025-03-09,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,15384.91,12455.46
+DEMO-01547,2025-11-19,Goa,Goa Garden,Online travel agency,Standard,Cancelled,3,8716.35,5720.8
+DEMO-01548,2025-05-22,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,17632.76,11939.31
+DEMO-01549,2025-09-08,Jaipur,Jaipur Grand,Corporate,Standard,Completed,5,3915.76,3006.39
+DEMO-01550,2025-03-12,Kochi,Kochi Garden,Corporate,Deluxe,Completed,3,8414.47,6748.6
+DEMO-01551,2025-10-16,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,11824.47,10038.1
+DEMO-01552,2025-07-22,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,4917.97,4382.19
+DEMO-01553,2025-02-25,Delhi,Delhi Grand,Online travel agency,Suite,Pending,5,76146.21,53044.79
+DEMO-01554,2025-06-11,Mumbai,Mumbai Central,Travel agent,Standard,Cancelled,4,2797.52,2252.73
+DEMO-01555,2025-07-21,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,4897.59,4155.36
+DEMO-01556,2025-01-22,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,11343.42,8160.61
+DEMO-01557,2025-07-08,Delhi,Delhi Central,Corporate,Standard,Completed,4,9081.48,6612.64
+DEMO-01558,2025-10-28,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,21836.81,18554.36
+DEMO-01559,2025-06-28,Kochi,Kochi Garden,Online travel agency,Deluxe,Cancelled,3,11449.75,8618.27
+DEMO-01560,2025-10-20,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Confirmed,3,4276.15,3675.08
+DEMO-01561,2025-03-21,Goa,Goa Central,Corporate,Standard,Confirmed,4,21640.14,17597.69
+DEMO-01562,2025-09-04,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,8890.97,7830.02
+DEMO-01563,2025-05-10,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,5939.78,4752.59
+DEMO-01564,2025-04-22,Delhi,Delhi Central,Online travel agency,Deluxe,No-show,4,26295.58,18874.4
+DEMO-01565,2025-03-26,Kochi,Kochi Central,Online travel agency,Standard,Completed,4,11924.94,9635.35
+DEMO-01566,2025-09-07,Jaipur,Jaipur Central,Direct,Standard,Completed,4,3325.29,2166.85
+DEMO-01567,2025-05-09,Mumbai,Mumbai Garden,Direct,Standard,Confirmed,3,14670.16,13310.37
+DEMO-01568,2025-04-20,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,11358.2,9186.7
+DEMO-01569,2025-12-23,Delhi,Delhi Grand,Direct,Standard,Confirmed,5,8026.55,5270.94
+DEMO-01570,2025-01-26,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Pending,4,25022.32,18541.58
+DEMO-01571,2025-01-01,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Completed,3,8525.21,6080.45
+DEMO-01572,2025-01-07,Goa,Goa Grand,Corporate,Standard,Completed,5,13669.89,10405.02
+DEMO-01573,2025-04-13,Kochi,Kochi Central,Online travel agency,Deluxe,Completed,4,13805.77,10233.67
+DEMO-01574,2025-05-07,Jaipur,Jaipur Central,Online travel agency,Deluxe,Cancelled,4,27138.52,18874.21
+DEMO-01575,2025-10-13,Goa,Goa Garden,Direct,Standard,Completed,3,16375.18,14297.1
+DEMO-01576,2025-08-31,Jaipur,Jaipur Central,Corporate,Standard,Cancelled,4,2844.88,1896.9
+DEMO-01577,2025-02-08,Goa,Goa Grand,Online travel agency,Deluxe,Cancelled,5,21065.89,16653.66
+DEMO-01578,2025-10-28,Goa,Goa Garden,Travel agent,Standard,Completed,3,15811.95,10788.9
+DEMO-01579,2025-08-27,Goa,Goa Central,Online travel agency,Deluxe,Cancelled,4,12467.21,8779.14
+DEMO-01580,2025-04-22,Bengaluru,Bengaluru Garden,Corporate,Standard,Completed,3,11081.1,7278.24
+DEMO-01581,2025-12-18,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,5571.31,4938.18
+DEMO-01582,2025-06-15,Delhi,Delhi Grand,Online travel agency,Deluxe,Cancelled,5,16519.2,11621.37
+DEMO-01583,2025-10-30,Jaipur,Jaipur Central,Direct,Standard,Confirmed,4,15539.94,14110.69
+DEMO-01584,2025-02-21,Mumbai,Mumbai Garden,Corporate,Standard,Completed,3,6461.24,4593.92
+DEMO-01585,2025-12-17,Kochi,Kochi Garden,Travel agent,Standard,Confirmed,3,13060.93,8811.14
+DEMO-01586,2025-10-18,Mumbai,Mumbai Grand,Corporate,Standard,Completed,5,7385.99,5761.37
+DEMO-01587,2025-11-14,Kochi,Kochi Central,Direct,Deluxe,Completed,4,26012.42,19699.72
+DEMO-01588,2025-07-24,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,23260.77,18104.48
+DEMO-01589,2025-05-23,Goa,Goa Grand,Direct,Deluxe,Completed,5,27914.93,22990.61
+DEMO-01590,2025-10-29,Goa,Goa Central,Direct,Deluxe,Confirmed,4,22538.17,18955.3
+DEMO-01591,2025-06-16,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,9513.55,7839.04
+DEMO-01592,2025-08-17,Delhi,Delhi Central,Direct,Standard,Completed,4,3989.49,3548.22
+DEMO-01593,2025-12-18,Bengaluru,Bengaluru Garden,Corporate,Standard,Confirmed,3,4104.98,3419.62
+DEMO-01594,2025-06-15,Delhi,Delhi Garden,Online travel agency,Standard,Confirmed,3,14507.52,10280.33
+DEMO-01595,2025-05-04,Goa,Goa Central,Online travel agency,Standard,Completed,4,16333.01,13261.1
+DEMO-01596,2025-03-22,Jaipur,Jaipur Grand,Direct,Suite,Completed,5,48848.23,38918.19
+DEMO-01597,2025-04-24,Mumbai,Mumbai Garden,Travel agent,Standard,Pending,3,5333.82,4254.44
+DEMO-01598,2025-08-04,Kochi,Kochi Central,Corporate,Suite,Cancelled,4,34139.67,24470.13
+DEMO-01599,2025-06-08,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,19320.09,15673.34
+DEMO-01600,2025-11-22,Goa,Goa Garden,Travel agent,Standard,Completed,3,4689.73,3064.53
+DEMO-01601,2025-10-11,Goa,Goa Central,Direct,Standard,Cancelled,4,22159.62,15535.99
+DEMO-01602,2025-08-16,Mumbai,Mumbai Central,Corporate,Standard,Completed,4,20852.27,13914.31
+DEMO-01603,2025-07-06,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,6684.99,5851.7
+DEMO-01604,2025-11-11,Mumbai,Mumbai Garden,Direct,Deluxe,Cancelled,3,3345.72,2311.39
+DEMO-01605,2025-11-06,Kochi,Kochi Central,Corporate,Deluxe,Completed,4,35049.01,29493.02
+DEMO-01606,2025-05-04,Delhi,Delhi Garden,Online travel agency,Deluxe,Cancelled,3,7784.77,5402.78
+DEMO-01607,2025-01-09,Kochi,Kochi Central,Travel agent,Standard,Completed,4,19418.49,15825.32
+DEMO-01608,2025-09-10,Mumbai,Mumbai Central,Online travel agency,Standard,Confirmed,4,3917.83,3303.07
+DEMO-01609,2025-10-17,Mumbai,Mumbai Central,Direct,Suite,Completed,4,31637.84,22605.57
+DEMO-01610,2025-05-06,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Confirmed,5,45811.43,30551.99
+DEMO-01611,2025-12-01,Goa,Goa Central,Online travel agency,Standard,Completed,4,18050.19,14907.83
+DEMO-01612,2025-08-05,Mumbai,Mumbai Central,Online travel agency,Standard,Cancelled,4,5737.51,4928.58
+DEMO-01613,2025-03-27,Mumbai,Mumbai Garden,Direct,Deluxe,Confirmed,3,27594.46,21786.55
+DEMO-01614,2025-02-14,Mumbai,Mumbai Central,Corporate,Standard,No-show,4,19789.43,15349.74
+DEMO-01615,2025-03-06,Mumbai,Mumbai Central,Travel agent,Suite,Completed,4,61944.06,45591.53
+DEMO-01616,2025-09-04,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,3567.94,2694.04
+DEMO-01617,2025-04-18,Mumbai,Mumbai Grand,Direct,Suite,Completed,5,35031.71,27639.94
+DEMO-01618,2025-06-22,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Confirmed,5,4334.06,3380.31
+DEMO-01619,2025-07-25,Jaipur,Jaipur Garden,Online travel agency,Standard,Cancelled,3,16488.28,11770.04
+DEMO-01620,2025-09-14,Mumbai,Mumbai Garden,Corporate,Deluxe,Completed,3,3933.81,3218.79
+DEMO-01621,2025-10-03,Goa,Goa Garden,Online travel agency,Suite,Completed,3,31369.67,23220.95
+DEMO-01622,2025-01-10,Mumbai,Mumbai Garden,Online travel agency,Standard,Completed,3,16720.56,13561.77
+DEMO-01623,2025-06-07,Goa,Goa Garden,Online travel agency,Standard,Completed,3,17016.15,12087.57
+DEMO-01624,2025-02-23,Delhi,Delhi Grand,Online travel agency,Standard,Completed,5,3834.81,2860.38
+DEMO-01625,2025-10-01,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,7128.89,5764.21
+DEMO-01626,2025-07-19,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Confirmed,3,6811.07,5500.02
+DEMO-01627,2025-08-06,Kochi,Kochi Garden,Direct,Deluxe,Completed,3,24760.63,21904.69
+DEMO-01628,2025-02-05,Kochi,Kochi Grand,Travel agent,Standard,Confirmed,5,3663.76,3147.01
+DEMO-01629,2025-12-26,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Cancelled,3,16775.68,15125.31
+DEMO-01630,2025-05-27,Bengaluru,Bengaluru Grand,Direct,Suite,Confirmed,5,54788.19,36586.36
+DEMO-01631,2025-10-17,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,8710.59,6411.71
+DEMO-01632,2025-03-09,Jaipur,Jaipur Central,Travel agent,Standard,No-show,4,18906.29,16504.61
+DEMO-01633,2025-04-13,Jaipur,Jaipur Central,Direct,Standard,Completed,4,6777.62,5786.51
+DEMO-01634,2025-10-18,Goa,Goa Central,Online travel agency,Deluxe,Cancelled,4,5645.89,4838.18
+DEMO-01635,2025-06-20,Delhi,Delhi Central,Corporate,Standard,Cancelled,4,14043.72,10672.34
+DEMO-01636,2025-10-12,Goa,Goa Garden,Direct,Standard,Completed,3,11881.26,10564.74
+DEMO-01637,2025-06-27,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Confirmed,5,11253.93,9387.25
+DEMO-01638,2025-12-17,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,27691.54,20202.2
+DEMO-01639,2025-11-22,Bengaluru,Bengaluru Grand,Direct,Standard,Confirmed,5,7118.45,4639.43
+DEMO-01640,2025-07-05,Kochi,Kochi Garden,Corporate,Standard,Confirmed,3,2749.49,1951.59
+DEMO-01641,2025-10-18,Bengaluru,Bengaluru Garden,Corporate,Deluxe,Confirmed,3,26824.94,20098.96
+DEMO-01642,2025-08-04,Jaipur,Jaipur Central,Direct,Standard,Completed,4,20990.03,16674.14
+DEMO-01643,2025-12-07,Kochi,Kochi Central,Corporate,Standard,Completed,4,19532.61,17144.87
+DEMO-01644,2025-02-28,Goa,Goa Central,Direct,Suite,Completed,4,22967.0,18136.76
+DEMO-01645,2025-01-24,Delhi,Delhi Garden,Direct,Standard,Completed,3,7057.37,5180.78
+DEMO-01646,2025-11-23,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,2861.68,2001.69
+DEMO-01647,2025-05-01,Bengaluru,Bengaluru Garden,Online travel agency,Standard,Confirmed,3,2875.74,2259.17
+DEMO-01648,2025-05-16,Bengaluru,Bengaluru Central,Corporate,Standard,Confirmed,4,3928.1,3166.52
+DEMO-01649,2025-12-24,Jaipur,Jaipur Garden,Online travel agency,Standard,Confirmed,3,2282.56,1795.22
+DEMO-01650,2025-08-31,Goa,Goa Grand,Online travel agency,Standard,Completed,5,24939.16,16329.92
+DEMO-01651,2025-11-27,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,24141.12,18021.3
+DEMO-01652,2025-12-28,Delhi,Delhi Central,Online travel agency,Suite,Completed,4,40551.64,35587.81
+DEMO-01653,2025-11-10,Mumbai,Mumbai Central,Direct,Standard,Confirmed,4,20339.56,14740.67
+DEMO-01654,2025-05-24,Goa,Goa Garden,Travel agent,Suite,Completed,3,21075.33,15202.31
+DEMO-01655,2025-04-25,Jaipur,Jaipur Central,Online travel agency,Deluxe,Pending,4,5021.37,3779.91
+DEMO-01656,2025-09-27,Jaipur,Jaipur Central,Online travel agency,Deluxe,Confirmed,4,31323.93,25200.62
+DEMO-01657,2025-05-26,Mumbai,Mumbai Garden,Corporate,Suite,Confirmed,3,15611.55,10753.58
+DEMO-01658,2025-08-08,Kochi,Kochi Garden,Online travel agency,Deluxe,Cancelled,3,25359.93,20679.56
+DEMO-01659,2025-01-18,Mumbai,Mumbai Central,Direct,Standard,Cancelled,4,3707.56,2946.08
+DEMO-01660,2025-03-24,Mumbai,Mumbai Central,Direct,Deluxe,Confirmed,4,5577.51,4645.07
+DEMO-01661,2025-09-10,Kochi,Kochi Grand,Online travel agency,Deluxe,Cancelled,5,37782.04,32478.96
+DEMO-01662,2025-09-05,Goa,Goa Grand,Travel agent,Suite,Completed,5,20426.37,16775.24
+DEMO-01663,2025-05-31,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,17078.81,14685.59
+DEMO-01664,2025-02-17,Jaipur,Jaipur Garden,Online travel agency,Standard,Completed,3,10456.87,8825.09
+DEMO-01665,2025-02-13,Jaipur,Jaipur Grand,Direct,Deluxe,Completed,5,13346.66,9930.51
+DEMO-01666,2025-02-20,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,20221.92,17514.76
+DEMO-01667,2025-06-12,Bengaluru,Bengaluru Garden,Direct,Standard,Completed,3,8502.72,6320.15
+DEMO-01668,2025-08-26,Goa,Goa Central,Corporate,Standard,Completed,4,18445.55,15733.37
+DEMO-01669,2025-04-29,Bengaluru,Bengaluru Central,Direct,Deluxe,No-show,4,26811.85,23700.94
+DEMO-01670,2025-07-26,Jaipur,Jaipur Grand,Direct,Deluxe,Confirmed,5,46079.06,38989.56
+DEMO-01671,2025-05-22,Jaipur,Jaipur Central,Online travel agency,Standard,Completed,4,14412.39,9570.3
+DEMO-01672,2025-07-17,Jaipur,Jaipur Central,Online travel agency,Suite,Confirmed,4,27489.91,24111.73
+DEMO-01673,2025-02-07,Jaipur,Jaipur Garden,Online travel agency,Suite,Completed,3,13558.82,10600.61
+DEMO-01674,2025-10-11,Goa,Goa Central,Travel agent,Standard,Completed,4,16146.84,12963.49
+DEMO-01675,2025-11-06,Goa,Goa Central,Online travel agency,Deluxe,Completed,4,20726.34,17204.57
+DEMO-01676,2025-06-14,Delhi,Delhi Central,Corporate,Suite,Cancelled,4,25745.11,22031.62
+DEMO-01677,2025-10-22,Delhi,Delhi Central,Travel agent,Standard,Completed,4,7457.73,6736.11
+DEMO-01678,2025-03-24,Kochi,Kochi Grand,Direct,Deluxe,Confirmed,5,17457.06,15322.99
+DEMO-01679,2025-06-26,Jaipur,Jaipur Central,Travel agent,Deluxe,Completed,4,14392.51,10459.96
+DEMO-01680,2025-11-20,Delhi,Delhi Grand,Online travel agency,Standard,No-show,5,7635.51,6767.33
+DEMO-01681,2025-08-07,Kochi,Kochi Central,Corporate,Standard,Cancelled,4,6405.77,5826.56
+DEMO-01682,2025-02-08,Kochi,Kochi Garden,Direct,Deluxe,Completed,3,20523.49,14645.05
+DEMO-01683,2025-04-11,Goa,Goa Central,Direct,Standard,Confirmed,4,7260.45,4793.27
+DEMO-01684,2025-08-26,Goa,Goa Grand,Corporate,Deluxe,Completed,5,42209.85,36077.07
+DEMO-01685,2025-12-15,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,20335.24,14539.06
+DEMO-01686,2025-05-01,Mumbai,Mumbai Central,Online travel agency,Deluxe,Completed,4,21596.5,18266.91
+DEMO-01687,2025-05-23,Bengaluru,Bengaluru Central,Direct,Deluxe,Completed,4,28677.12,24942.62
+DEMO-01688,2025-07-06,Goa,Goa Central,Online travel agency,Standard,Completed,4,19122.37,17366.24
+DEMO-01689,2025-12-09,Delhi,Delhi Central,Direct,Standard,Completed,4,11811.34,7850.99
+DEMO-01690,2025-03-29,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,2186.92,1850.1
+DEMO-01691,2025-05-20,Goa,Goa Grand,Online travel agency,Standard,Completed,5,13299.42,11031.4
+DEMO-01692,2025-10-13,Delhi,Delhi Central,Online travel agency,Standard,Completed,4,9199.75,7365.68
+DEMO-01693,2025-07-02,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,18876.61,12683.71
+DEMO-01694,2025-04-25,Delhi,Delhi Central,Direct,Standard,Confirmed,4,11744.4,8796.44
+DEMO-01695,2025-10-17,Mumbai,Mumbai Central,Travel agent,Standard,No-show,4,18176.03,15892.83
+DEMO-01696,2025-07-07,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,7224.75,5627.48
+DEMO-01697,2025-03-22,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,17974.56,12999.3
+DEMO-01698,2025-04-28,Bengaluru,Bengaluru Grand,Online travel agency,Standard,Completed,5,15726.09,11408.65
+DEMO-01699,2025-11-12,Jaipur,Jaipur Central,Corporate,Suite,No-show,4,19180.64,13719.75
+DEMO-01700,2025-01-10,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,11903.1,8869.31
+DEMO-01701,2025-11-30,Mumbai,Mumbai Garden,Corporate,Deluxe,Cancelled,3,13928.89,10516.8
+DEMO-01702,2025-09-06,Jaipur,Jaipur Central,Corporate,Deluxe,Completed,4,37602.41,32729.27
+DEMO-01703,2025-09-14,Goa,Goa Central,Online travel agency,Standard,Completed,4,13663.07,9822.84
+DEMO-01704,2025-12-20,Delhi,Delhi Central,Online travel agency,Deluxe,Completed,4,10908.16,7319.79
+DEMO-01705,2025-06-27,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,4652.53,3916.85
+DEMO-01706,2025-02-25,Kochi,Kochi Central,Direct,Deluxe,Completed,4,30800.45,21543.46
+DEMO-01707,2025-04-25,Mumbai,Mumbai Central,Online travel agency,Suite,Completed,4,44148.2,30002.99
+DEMO-01708,2025-02-10,Kochi,Kochi Garden,Travel agent,Deluxe,Confirmed,3,4466.02,3214.06
+DEMO-01709,2025-04-29,Goa,Goa Central,Corporate,Standard,Completed,4,16424.22,14313.72
+DEMO-01710,2025-08-11,Delhi,Delhi Garden,Online travel agency,Suite,Completed,3,40583.91,36097.37
+DEMO-01711,2025-03-21,Goa,Goa Garden,Direct,Deluxe,Completed,3,14091.03,9194.83
+DEMO-01712,2025-08-05,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,11778.42,8913.17
+DEMO-01713,2025-01-02,Mumbai,Mumbai Garden,Corporate,Standard,Pending,3,12327.28,8020.62
+DEMO-01714,2025-09-21,Delhi,Delhi Central,Online travel agency,Standard,Cancelled,4,21015.29,14081.02
+DEMO-01715,2025-09-10,Jaipur,Jaipur Grand,Corporate,Deluxe,Completed,5,20374.71,17918.14
+DEMO-01716,2025-11-28,Goa,Goa Central,Online travel agency,Suite,Completed,4,42304.23,32454.34
+DEMO-01717,2025-03-07,Mumbai,Mumbai Central,Online travel agency,Deluxe,Cancelled,4,32826.02,24233.37
+DEMO-01718,2025-06-29,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,11519.15,7896.15
+DEMO-01719,2025-05-14,Mumbai,Mumbai Grand,Online travel agency,Standard,Cancelled,5,22008.6,19633.6
+DEMO-01720,2025-03-22,Goa,Goa Central,Direct,Standard,Cancelled,4,19173.11,13351.32
+DEMO-01721,2025-10-23,Mumbai,Mumbai Garden,Travel agent,Standard,Completed,3,5462.37,4371.85
+DEMO-01722,2025-05-22,Goa,Goa Central,Corporate,Deluxe,Confirmed,4,16896.77,15227.43
+DEMO-01723,2025-03-13,Kochi,Kochi Garden,Online travel agency,Standard,Cancelled,3,8405.81,6401.79
+DEMO-01724,2025-12-03,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,14854.12,10975.56
+DEMO-01725,2025-05-22,Kochi,Kochi Grand,Corporate,Standard,Completed,5,3409.19,2299.45
+DEMO-01726,2025-07-11,Kochi,Kochi Grand,Corporate,Suite,Confirmed,5,10355.51,7135.46
+DEMO-01727,2025-12-20,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,7758.64,6332.0
+DEMO-01728,2025-08-20,Kochi,Kochi Garden,Travel agent,Standard,Completed,3,2456.47,2174.91
+DEMO-01729,2025-06-29,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,17736.49,13407.24
+DEMO-01730,2025-08-29,Bengaluru,Bengaluru Central,Direct,Standard,Completed,4,16449.72,11630.86
+DEMO-01731,2025-08-28,Goa,Goa Central,Direct,Standard,Completed,4,6157.3,5490.21
+DEMO-01732,2025-10-28,Bengaluru,Bengaluru Central,Online travel agency,Suite,Confirmed,4,41541.38,28016.5
+DEMO-01733,2025-10-09,Kochi,Kochi Grand,Online travel agency,Standard,Cancelled,5,8123.0,7228.33
+DEMO-01734,2025-04-02,Delhi,Delhi Garden,Online travel agency,Deluxe,Cancelled,3,23567.65,16084.19
+DEMO-01735,2025-05-26,Delhi,Delhi Central,Online travel agency,Deluxe,Cancelled,4,18375.78,15640.92
+DEMO-01736,2025-11-26,Delhi,Delhi Central,Online travel agency,Standard,Confirmed,4,8981.09,6234.08
+DEMO-01737,2025-08-13,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,7310.18,4904.65
+DEMO-01738,2025-07-18,Goa,Goa Garden,Corporate,Deluxe,Completed,3,7319.41,6025.23
+DEMO-01739,2025-08-11,Delhi,Delhi Grand,Direct,Deluxe,Completed,5,34511.44,30831.51
+DEMO-01740,2025-07-08,Goa,Goa Garden,Direct,Standard,Completed,3,2426.73,2106.74
+DEMO-01741,2025-01-18,Kochi,Kochi Central,Corporate,Standard,Completed,4,6141.02,4260.69
+DEMO-01742,2025-10-18,Kochi,Kochi Grand,Online travel agency,Deluxe,Completed,5,7216.55,5213.36
+DEMO-01743,2025-08-23,Jaipur,Jaipur Central,Direct,Suite,Completed,4,8199.33,7233.37
+DEMO-01744,2025-08-28,Kochi,Kochi Garden,Online travel agency,Deluxe,Pending,3,21058.68,18989.95
+DEMO-01745,2025-08-24,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Cancelled,4,8843.03,7172.12
+DEMO-01746,2025-07-29,Goa,Goa Grand,Online travel agency,Standard,Pending,5,9885.85,8697.67
+DEMO-01747,2025-03-21,Mumbai,Mumbai Garden,Direct,Standard,Completed,3,11556.72,8592.41
+DEMO-01748,2025-10-27,Goa,Goa Grand,Travel agent,Suite,Completed,5,71352.21,47581.59
+DEMO-01749,2025-07-22,Kochi,Kochi Garden,Direct,Standard,Cancelled,3,6966.76,5294.89
+DEMO-01750,2025-09-09,Bengaluru,Bengaluru Garden,Online travel agency,Deluxe,Cancelled,3,22678.63,16525.67
+DEMO-01751,2025-07-08,Goa,Goa Grand,Travel agent,Suite,Confirmed,5,36607.02,26356.72
+DEMO-01752,2025-08-03,Delhi,Delhi Garden,Travel agent,Suite,Confirmed,3,12996.94,10639.41
+DEMO-01753,2025-01-28,Kochi,Kochi Grand,Direct,Standard,Completed,5,8306.61,6062.57
+DEMO-01754,2025-04-24,Mumbai,Mumbai Central,Direct,Deluxe,Completed,4,24901.28,22112.85
+DEMO-01755,2025-02-19,Mumbai,Mumbai Garden,Direct,Deluxe,Completed,3,17545.96,13956.26
+DEMO-01756,2025-09-29,Goa,Goa Garden,Corporate,Suite,No-show,3,43990.78,28727.22
+DEMO-01757,2025-04-30,Jaipur,Jaipur Grand,Direct,Standard,Completed,5,11925.29,8198.12
+DEMO-01758,2025-01-23,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Cancelled,4,38080.79,32293.07
+DEMO-01759,2025-07-21,Kochi,Kochi Garden,Online travel agency,Deluxe,Confirmed,3,22669.16,18537.64
+DEMO-01760,2025-02-22,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Completed,5,14113.95,11820.93
+DEMO-01761,2025-02-22,Mumbai,Mumbai Grand,Direct,Suite,Confirmed,5,38311.89,29247.97
+DEMO-01762,2025-01-16,Kochi,Kochi Grand,Direct,Deluxe,Completed,5,6265.95,5125.33
+DEMO-01763,2025-06-22,Jaipur,Jaipur Garden,Online travel agency,Deluxe,Confirmed,3,13342.75,9425.43
+DEMO-01764,2025-05-25,Jaipur,Jaipur Central,Direct,Standard,Cancelled,4,15756.92,12604.75
+DEMO-01765,2025-09-20,Jaipur,Jaipur Grand,Online travel agency,Standard,Completed,5,9792.55,8708.68
+DEMO-01766,2025-02-08,Delhi,Delhi Grand,Online travel agency,Standard,Cancelled,5,24332.34,20409.37
+DEMO-01767,2025-03-16,Mumbai,Mumbai Garden,Online travel agency,Deluxe,No-show,3,15831.15,12992.98
+DEMO-01768,2025-08-10,Delhi,Delhi Garden,Direct,Deluxe,Completed,3,7522.44,6238.66
+DEMO-01769,2025-03-07,Kochi,Kochi Garden,Travel agent,Deluxe,Completed,3,6642.0,4376.09
+DEMO-01770,2025-11-14,Goa,Goa Central,Corporate,Standard,Completed,4,7007.33,5524.17
+DEMO-01771,2025-02-10,Jaipur,Jaipur Central,Online travel agency,Suite,Completed,4,41624.17,30022.18
+DEMO-01772,2025-10-11,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Completed,5,20974.64,16604.69
+DEMO-01773,2025-12-09,Goa,Goa Central,Online travel agency,Deluxe,Cancelled,4,18483.65,13332.61
+DEMO-01774,2025-05-03,Kochi,Kochi Grand,Corporate,Standard,Confirmed,5,23046.8,17513.93
+DEMO-01775,2025-05-18,Kochi,Kochi Garden,Online travel agency,Deluxe,Cancelled,3,22403.53,17435.65
+DEMO-01776,2025-09-16,Mumbai,Mumbai Central,Online travel agency,Standard,Completed,4,6607.41,4442.21
+DEMO-01777,2025-10-07,Mumbai,Mumbai Garden,Travel agent,Standard,Completed,3,15824.25,10747.24
+DEMO-01778,2025-01-13,Goa,Goa Central,Corporate,Standard,Completed,4,20605.19,18151.14
+DEMO-01779,2025-11-05,Kochi,Kochi Central,Online travel agency,Standard,Confirmed,4,11315.25,9346.24
+DEMO-01780,2025-09-07,Bengaluru,Bengaluru Central,Direct,Standard,Cancelled,4,13528.5,10822.66
+DEMO-01781,2025-01-03,Jaipur,Jaipur Grand,Direct,Suite,Completed,5,40888.78,36598.16
+DEMO-01782,2025-10-31,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,5110.29,4338.72
+DEMO-01783,2025-11-06,Delhi,Delhi Grand,Online travel agency,Standard,Confirmed,5,25825.48,22793.34
+DEMO-01784,2025-04-09,Jaipur,Jaipur Central,Online travel agency,Standard,Cancelled,4,5566.17,4218.2
+DEMO-01785,2025-05-03,Kochi,Kochi Garden,Direct,Deluxe,Confirmed,3,19626.01,15806.18
+DEMO-01786,2025-10-23,Mumbai,Mumbai Grand,Online travel agency,Deluxe,Confirmed,5,13957.79,9951.56
+DEMO-01787,2025-06-23,Goa,Goa Central,Online travel agency,Standard,Cancelled,4,17484.39,13363.93
+DEMO-01788,2025-03-29,Bengaluru,Bengaluru Central,Online travel agency,Standard,Completed,4,7834.69,5944.17
+DEMO-01789,2025-09-12,Bengaluru,Bengaluru Garden,Online travel agency,Suite,Confirmed,3,29469.61,19972.15
+DEMO-01790,2025-01-08,Delhi,Delhi Grand,Online travel agency,Deluxe,No-show,5,30358.96,22555.82
+DEMO-01791,2025-03-04,Goa,Goa Grand,Online travel agency,Deluxe,Cancelled,5,11403.87,9197.48
+DEMO-01792,2025-03-27,Bengaluru,Bengaluru Central,Online travel agency,Deluxe,Completed,4,5045.01,3414.39
+DEMO-01793,2025-06-03,Bengaluru,Bengaluru Central,Direct,Deluxe,Cancelled,4,5156.86,3650.44
+DEMO-01794,2025-05-31,Goa,Goa Central,Direct,Deluxe,Completed,4,26498.8,18867.28
+DEMO-01795,2025-02-08,Bengaluru,Bengaluru Grand,Online travel agency,Deluxe,Confirmed,5,25906.07,22432.42
+DEMO-01796,2025-07-12,Jaipur,Jaipur Central,Travel agent,Standard,Confirmed,4,2794.66,2227.73
+DEMO-01797,2025-12-01,Mumbai,Mumbai Grand,Direct,Deluxe,Completed,5,5452.35,4153.54
+DEMO-01798,2025-02-09,Jaipur,Jaipur Central,Online travel agency,Deluxe,Confirmed,4,17451.42,12799.3
+DEMO-01799,2025-11-17,Jaipur,Jaipur Garden,Direct,Standard,Completed,3,17865.75,15203.27
+DEMO-01800,2025-05-28,Bengaluru,Bengaluru Central,Corporate,Standard,Completed,4,21786.11,14664.18

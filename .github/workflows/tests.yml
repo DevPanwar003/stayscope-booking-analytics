@@ -1,0 +1,47 @@
+name: Python tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Python 3.12 / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    env:
+      PYTHONUTF8: "1"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install documented dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check dependency compatibility
+        run: python -m pip check
+      - name: Run full test suite
+        run: python -m pytest -q -ra
+      - name: Verify demo initialization and metrics
+        run: |
+          python scripts/init_db.py
+          python scripts/audit_metrics.py

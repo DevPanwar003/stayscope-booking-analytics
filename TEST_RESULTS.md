@@ -1,10 +1,33 @@
-# Quality audit verification — 23 October 2026
+# Verification record
 
-## Portfolio release preparation — latest run
+## Latest portfolio documentation and clean-install verification — 24 October 2026
+
+**95 passed, 0 failed, 0 skipped, 75 warnings in 195.68 seconds.** The full suite ran in a newly created Windows Python 3.12.14 virtual environment with `include-system-site-packages = false`. JUnit confirms the test counts. The baseline rerun before this work also passed all 95 tests (0 failures/errors/skips; JUnit duration 65.612 seconds).
+
+Commands executed from the project folder (environment creation and installation originally ran from the surrounding workspace using equivalent paths):
+
+```powershell
+& 'C:\Users\devpa\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m venv ..\..\work\stayscope-clean
+..\..\work\stayscope-clean\Scripts\python.exe -m pip install -r requirements.txt
+..\..\work\stayscope-clean\Scripts\python.exe -m pip check
+..\..\work\stayscope-clean\Scripts\python.exe -m pytest -q -ra --junitxml=..\..\work\clean-install-tests.xml
+```
+
+Installation succeeded and `pip check` reported no broken requirements. Resolved direct versions: pandas 2.3.3, NumPy 2.5.4, Streamlit 1.66.1, Plotly 6.9.0, openpyxl 3.1.5, pytest 9.1.1. `requirements-tested.txt` retains the earlier tested direct-version snapshot (NumPy 2.3.5); it is not the new environment's lockfile.
+
+**Remaining warning:** 75 NumPy timedelta deprecation warnings originate at `src/analytics.py:21` during date filtering with this dependency combination. They do not fail current tests, but future dependency upgrades need verification. No warning suppression or weakened assertion was introduced.
+
+A workspace-only smoke script (`work/verify_clean_setup.py`, outside the repository) copied the application and synthetic sample to a separate temporary directory. With the fresh interpreter, it ran `scripts/init_db.py`, `scripts/audit_metrics.py`, and a real Streamlit subprocess on a free loopback port. All eight KPIs reconciled; SQLite integrity was `ok`, foreign-key violations were zero, and HTTP `/_stcore/health` returned `ok`. Only that smoke subprocess was stopped. The existing dashboard and live database were preserved; the database SHA256 remains `672760AC61EDF01101B8AEBBCF9F226D4135502FFF1DB66B30A026257EB7C495`.
+
+The new GitHub Actions Windows/Ubuntu workflow is configured but **has not run remotely**. This verifies a fresh virtual environment on this Windows machine, not a different machine, Linux compatibility, a load test or production security. Genuine screenshot capture remains pending. Application source, tests and dependencies were not changed in this documentation/CI task.
+
+Git inspection found initial commit `63176f6`, branch `main`, and an existing `origin`. No Git configuration/history was changed and nothing was staged, committed or pushed. Tracked files contain the synthetic CSV but no ignored local database, environment, upload or secret file. Common credential-pattern scanning found no matches; this is not an exhaustive security assessment. See the [release checklist](docs/RELEASE_CHECKLIST.md).
+
+## Historical portfolio release preparation — 23 October
 
 Full suite rerun: **95 passed, 0 failed, 0 skipped in 65.63 seconds**. JUnit XML reports 95 tests, 0 failures, 0 errors and 0 skipped. Command: `..\..\work\.venv\Scripts\python.exe -m pytest -q -ra --junitxml=..\..\work\release-tests.xml`.
 
-No application code or tests changed during release preparation. `pip check` passed, the synthetic CSV matched the seed-42 generator exactly, and all 1,800 rows passed validation. Git ignore rules were tested with an external temporary Git directory; the project remains uninitialized and unstaged. No push, publication, deployment or user-data modification occurred. See [release checklist](docs/RELEASE_CHECKLIST.md) for the proposed first commit and manual publishing commands.
+No application code or tests changed during release preparation. `pip check` passed, the synthetic CSV matched the seed-42 generator exactly, and all 1,800 rows passed validation. Git ignore rules were tested with an external temporary Git directory; the project was uninitialized and unstaged at that review (it now has initial commit `63176f6`). No push, publication, deployment or user-data modification occurred. See [release checklist](docs/RELEASE_CHECKLIST.md) for the proposed first commit and manual publishing commands.
 
 ## Latest reliability follow-up
 

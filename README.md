@@ -8,6 +8,8 @@ A Python business intelligence application that turns hotel booking files into v
 
 Hotel managers need to reconcile booking totals, understand cancellation patterns and compare sales channels without confusing selling value with revenue or profit. Spreadsheet exports often contain inconsistent columns, missing values and duplicates. StayScope makes those quality decisions visible before analysis and uses the same filtered records for charts, KPIs and downloadable reports.
 
+**Intended users:** hotel managers reviewing booking performance, analysts investigating cancellation patterns, and developers studying an end-to-end local analytics application. These describe the intended audience, not claimed customers or deployments.
+
 ## What it demonstrates
 
 - **Data engineering:** CSV/XLSX ingestion, explicit validation, row-level quarantine and repeat-import protection.
@@ -102,8 +104,9 @@ booking-analytics/
 ├── tests/                       # Unit, integration and AppTest checks
 ├── docs/
 │   ├── DATA_GUIDE.md            # Schema, cleaning and metric assumptions
-│   └── RELEASE_CHECKLIST.md     # Review, first commit and publishing steps
+│   └── RELEASE_CHECKLIST.md     # Review, next commit and publishing steps
 ├── .streamlit/config.toml       # Public theme and upload settings
+├── .github/workflows/tests.yml  # Push/PR CI definition; remote execution pending
 ├── .gitignore
 ├── requirements.txt            # Bounded direct dependencies
 ├── requirements-tested.txt     # Verified direct versions, not a full lockfile
@@ -122,16 +125,16 @@ booking-analytics/
 Open this project folder in VS Code. With Python installed:
 
 ```powershell
-py -3 -m venv .venv
+py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m pip check
 .\.venv\Scripts\python.exe scripts\init_db.py
 .\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8501`. Stop with Ctrl+C. If `py` is unavailable but `python --version` works, use `python -m venv .venv`. Direct invocation avoids PowerShell activation-policy changes. The app can also seed the demo automatically when its database has no datasets.
+Open `http://127.0.0.1:8501`. Stop with Ctrl+C. If `py` is unavailable, check `python --version`; if it reports Python 3.12, use `python -m venv .venv`. Otherwise install/select Python 3.12 explicitly. Direct invocation avoids PowerShell activation-policy changes. The app can also seed the demo automatically when its database has no datasets. Do not recreate an existing virtual environment if it contains work you need to preserve.
 
-In the already prepared Codex workspace only, replace `.\.venv\Scripts\python.exe` with `..\..\work\.venv\Scripts\python.exe`. That environment inherits bundled packages; the relative path is not portable to a clone. Python 3.12.14 and the installed dependency set have been verified. A clean-machine installation and other Python versions have not yet been certified.
+In the already prepared Codex workspace only, replace `.\.venv\Scripts\python.exe` with `..\..\work\.venv\Scripts\python.exe`. That older environment inherits bundled packages; the relative path is not portable to a clone. A separate fresh virtual environment with system packages disabled was also installed from `requirements.txt` on Windows with Python 3.12.14; see the test record for its results. A different machine and other Python versions have not been verified.
 
 ## Use it
 
@@ -154,9 +157,13 @@ Required columns: `booking_id`, `booking_date`, `status`, `booking_value`. Dates
 
 The suite covers calculations, all sidebar filters, actual chart/export inputs, malformed uploads, duplicates, missing fields, audit persistence, transactional rollback, SQL parameters, navigation, synthetic notices and saved uploads across fresh application processes. Tests use disposable databases rather than deleting live data. The audit script opens the local database read-only and reconciles KPIs using Decimal calculations.
 
-See [test results](TEST_RESULTS.md) for the latest measured counts and [audit report](AUDIT_REPORT.md) for the review findings. No CI badge or deployed-demo link is shown because neither has been published.
+Latest fresh-environment run: **95 passed, 0 failed, 0 skipped**, with 75 NumPy timedelta deprecation warnings (Windows, Python 3.12.14). These warnings remain a dependency-compatibility follow-up. See [test results](TEST_RESULTS.md) for commands and measured counts and [audit report](AUDIT_REPORT.md) for the review findings. No CI badge or deployed-demo link is shown because neither has been published.
+
+The [GitHub Actions workflow](.github/workflows/tests.yml) installs `requirements.txt`, checks dependencies, runs the complete suite, and initializes/reconciles the demo on Windows and Ubuntu with Python 3.12. It is configured for pushes, pull requests and manual dispatch with read-only repository permissions. **It has not yet run on GitHub.** The matrix is a verification plan, not evidence of cross-machine compatibility. The repository root on GitHub must be this `booking-analytics` directory, not its surrounding Codex workspace.
 
 ## Capture genuine screenshots
+
+**Screenshot placeholders — capture pending:** `overview.png`, `cancellations.png`, `dataset.png`, and `quality.png`. These names reserve the four views; no fabricated images or links to nonexistent images are included.
 
 Use the bundled synthetic snapshot and a consistent laptop-sized browser window. Capture the actual app with your OS screenshot tool; do not fabricate values or substitute mockups. Keep the synthetic notice and relevant filters visible. Save reviewed images under `docs/screenshots/`:
 
@@ -169,6 +176,25 @@ Use the bundled synthetic snapshot and a consistent laptop-sized browser window.
 
 If the viewport cannot show everything, capture two genuine views and label them. Do not crop away provenance or alter displayed numbers. Only add Markdown image links after the files exist. Review each image for private filenames, personal information and credentials before staging it. The quality-page sample download is synthetic; label the screenshot accordingly because this page does not show business KPIs.
 
+From the project folder, use these commands to prepare for capture without altering the sample:
+
+```powershell
+New-Item -ItemType Directory -Force docs/screenshots | Out-Null
+# Only launch another server if needed; use 8502 if 8501 is already occupied.
+.\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1 --server.port 8502
+```
+
+Open the displayed URL, select each sidebar page, press **Win+Shift+S**, and save each genuine capture with the filename in the table. For the quality preview, create a separately named copy outside the repository, edit that copy, and upload only for preview. Never edit the bundled CSV or reset the database to obtain a screenshot.
+
+## Roadmap and GitHub presentation
+
+1. Capture the four genuine screenshots and add image links after reviewing them for private data.
+2. Review the explicit change list, commit locally, then publish only when ready. Run the new CI workflow on GitHub and report its actual outcomes before adding a passing badge.
+3. Write a reproducible synthetic-data case study linking a question, filter selection, export and non-causal observation.
+4. Profile larger inputs before optimizing eager Excel generation; evaluate ledger-grade monetary storage if the project later needs accounting use cases.
+
+Suggested repository name: `stayscope-booking-intelligence`. Suggested topics: `python`, `streamlit`, `pandas`, `sqlite`, `plotly`, `data-analytics`, `pytest`. Use the existing MIT license and describe the project as a local portfolio application. Do not imply real hotel adoption, quantified business impact, production certification or deployment.
+
 ## Privacy, security and limitations
 
 - Local single-user app without authentication or production hardening. Bind to loopback as shown above and do not expose sensitive data publicly.
@@ -180,7 +206,7 @@ If the viewport cannot show everything, capture two genuine views and label them
 - Filters are session-local and may reset after visiting Import. Excel reports are generated eagerly on reruns. Cross-browser, accessibility, fresh-machine installation and abrupt-crash recovery are not certified.
 - Git exclusions prevent ordinary accidental additions, not deliberate `git add -f` or leakage through arbitrary text/screenshots. Always review the staged diff before publishing.
 
-No application environment variables are used, so no `.env.example` is included. The existing MIT license is preserved. See the [release checklist](docs/RELEASE_CHECKLIST.md) before your first commit.
+No application environment variables are used, so no `.env.example` is included. The existing MIT license is preserved. See the [release checklist](docs/RELEASE_CHECKLIST.md) before your next release commit.
 
 ## Troubleshooting
 

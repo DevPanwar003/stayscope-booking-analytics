@@ -18,7 +18,7 @@ def filter_bookings(data, start=None, end=None, selections=None):
     if start is not None:
         mask &= data.booking_date >= pd.Timestamp(start)
     if end is not None:
-        mask &= data.booking_date < pd.Timestamp(end) + pd.Timedelta(days=1)
+        mask &= data.booking_date < pd.Timestamp(end) + pd.DateOffset(days=1)
     for column, values in (selections or {}).items():
         if values is not None:  # [] intentionally means zero matches.
             mask &= data[column].isin(values)

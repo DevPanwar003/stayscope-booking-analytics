@@ -1,4 +1,20 @@
-# First portfolio release checklist
+# Portfolio release checklist
+
+## Version 2.0 update
+
+Latest local verification: **164 passed, 0 failed, 0 skipped**, no warnings reported. All four pages were inspected in the Windows in-app browser; four genuine screenshots are included. Excel preserves its original worksheets and adds cancellation benchmarks, value bands and definitions. The downloaded workbook was inspected and reconciled. See [the verification record](../TEST_RESULTS.md).
+
+- [x] Full suite and focused export checks executed locally on Python 3.12.14.
+- [x] Desktop navigation/rendering and narrow Import & quality layout inspected.
+- [x] Four synthetic-only/form screenshots captured and linked in README.
+- [x] Existing push/PR/manual CI workflow reviewed; Windows/Ubuntu Python 3.12 matrix retained.
+- [ ] Execute the updated code on GitHub Actions after user-approved commit/push.
+- [ ] Additional browser engines, other machines, accessibility audit and load testing.
+- [ ] Review the full diff and staged files before publishing. Nothing was staged, committed, pushed or deployed by this task.
+
+The evidence below is historical and is superseded by this section where it differs.
+
+## Historical first-release preparation
 
 Updated 24 October 2026. The repository already has commit `63176f6` (`Initial release: StayScope booking analytics`), branch `main`, and an `origin` remote. This preparation did not create that commit or remote and did not stage, commit, push, deploy or publish anything. Do not initialize Git again or overwrite the remote.
 

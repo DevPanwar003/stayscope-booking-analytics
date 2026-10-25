@@ -7,6 +7,7 @@ import pandas as pd
 import streamlit as st
 
 from src.analytics import FORMULAS, breakdown, filter_bookings, insights, kpis, monthly
+from src.advanced_analytics import cancellation_benchmark, booking_value_segments, cancellation_insights
 from src.charts import chart
 from src.database import datasets, initialize, load_dataset, quality_report, reset_demo, save_dataset
 from src.exports import csv_bytes, excel_bytes, summary_frame
@@ -23,10 +24,15 @@ st.markdown('''<style>
     [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2,
     [data-testid="stSidebar"] h3, [data-testid="stSidebar"] label,
     [data-testid="stSidebar"] .stCaption, [data-testid="stSidebar"] .stMarkdown p {color:#EAF0F8;}
-    [data-testid="stMetric"] {background:white;border:1px solid #E0E7EF;border-radius:14px;padding:18px;}
+    [data-testid="stMetric"] {background:white;border:1px solid #E0E7EF;border-top:3px solid #137E87;border-radius:12px;padding:18px;min-height:118px;}
     [data-testid="stMetricValue"] {font-size:1.65rem;color:#13243B;}
+    [data-testid="stMetricLabel"] {color:#43566F;font-weight:600;}
+    [data-testid="stCaptionContainer"] {line-height:1.6;}
+    [data-testid="stSidebar"] [data-testid="stCaptionContainer"] {color:#EAF0F8;}
+    [data-testid="stDataFrame"] {border:1px solid #E0E7EF;border-radius:10px;}
+    [data-testid="stAlert"] {border-radius:10px;}
     .block-container {padding-top:2rem;max-width:1500px;}
-    h1 {letter-spacing:-1.3px;} h2,h3 {letter-spacing:-.4px;}
+    h1 {font-size:2.1rem;letter-spacing:-.7px;} h2,h3 {letter-spacing:-.3px;padding-top:1rem;}
     [data-testid="stPlotlyChart"] {background:white;border-radius:14px;border:1px solid #E0E7EF;}
     @media(max-width:1400px) {
       [data-testid="stHorizontalBlock"] {flex-wrap:wrap;}
@@ -66,6 +72,8 @@ def quality_panel(summary, issues, rejected):
 def import_page():
     st.title('Bring your bookings into focus')
     st.caption('IMPORT & QUALITY  /  Review first. Save a separate dataset when ready.')
+    st.info('SYNTHETIC DEMONSTRATION DATA · The downloadable sample is fictional, not real hotel results. '
+            'Uploaded files remain separate local snapshots; review private data before sharing.')
     if 'import_feedback' in st.session_state:
         st.success(st.session_state.pop('import_feedback'))
     with st.expander('File requirements and cleaning rules', expanded=True):
@@ -159,25 +167,72 @@ def overview(data, currency):
         st.dataframe(pd.DataFrame(FORMULAS.items(), columns=['KPI', 'Formula']), hide_index=True, width='stretch')
 
 
-def comparisons(data):
+def comparisons(data, currency):
     st.title('Explore cancellation patterns')
+    st.caption('CANCELLATION INTELLIGENCE  /  Compare the selection, inspect uncertainty, prioritize questions')
     st.write('Compare rates with their sample sizes. These associations do not establish causation.')
     if data.empty:
         st.info('No bookings match these filters.')
         return
     if data.status.nunique() == 1:
         st.warning('Only one booking status is present. Select all statuses for a meaningful cancellation comparison.')
-    dimension = st.selectbox('Compare by', ['channel', 'room_type', 'city', 'booking_period'])
-    minimum = st.slider('Minimum group size to highlight', 5, 100, 20)
+    left, right = st.columns(2)
+    dimension = left.selectbox('Compare by', ['channel', 'room_type', 'city', 'property', 'star_rating', 'booking_period'],
+                               format_func=lambda value: value.replace('_', ' ').title())
+    minimum = right.slider('Minimum group size to highlight', 5, 100, 20)
     work = data.assign(booking_period=data.booking_date.dt.to_period('M').astype(str))
-    groups = breakdown(work, dimension)
-    groups['sample_note'] = groups.bookings.map(lambda n: 'Small sample — interpret cautiously' if n < minimum else 'Meets selected threshold')
+    work['star_rating'] = work.star_rating.map(lambda value: 'Unknown' if pd.isna(value) else f'{int(value)} stars')
+    groups = cancellation_benchmark(work, dimension, minimum)
+    overall = float(groups.overall_cancellation_rate.iloc[0])
+    counts = st.columns(3)
+    counts[0].metric('Selection cancellation rate', f'{overall:.1%}', help='Cancelled / every booking in the current sidebar selection.')
+    counts[1].metric('Bookings in comparison', f'{len(data):,}')
+    counts[2].metric(f'Cancelled booking value · {currency}',
+                     'N/A' if groups.invalid_cancelled_values.sum() else f'{groups.cancelled_booking_value.sum():,.2f}')
+    st.caption('Cancelled booking value is the selling value attached to cancelled records. '
+               'It is not automatically lost revenue, realized revenue, cash or profit.')
+    st.subheader('Segment benchmark')
     render_chart(groups, dimension, 'cancellation_rate', 'Cancellation rate and sample size',
-                 hover=['bookings', 'cancelled', 'sample_note'], percent=True)
-    st.dataframe(groups, hide_index=True, width='stretch', column_config={
-        'cancellation_rate': st.column_config.NumberColumn('Cancellation rate (fraction)', format='%.3f')})
+                 hover={'bookings': True, 'cancelled': True, 'sample_note': True,
+                        'ci_lower': ':.1%', 'ci_upper': ':.1%', 'difference_pp': ':.1f'},
+                 percent=True, confidence=True, benchmark=overall)
+    render_chart(groups, dimension, 'cancelled_booking_value', f'Value associated with cancelled bookings · {currency}',
+                 hover=['bookings', 'cancelled', 'sample_note'])
+    comparison_columns = {
+        **{name: st.column_config.NumberColumn(label, format='%.3f') for name, label in {
+            'cancellation_rate': 'Cancellation rate (fraction)', 'overall_cancellation_rate': 'Overall rate (fraction)',
+            'ci_lower': '95% Wilson lower (fraction)', 'ci_upper': '95% Wilson upper (fraction)'}.items()},
+        'difference_pp': st.column_config.NumberColumn('Difference (pp)', format='%+.2f'),
+        'cancelled_booking_value': st.column_config.NumberColumn(f'Cancelled booking value ({currency})', format='%.2f'),
+        'booking_value': st.column_config.NumberColumn(f'Total booking value ({currency})', format='%.2f'),
+        'bookings': st.column_config.NumberColumn('Total bookings', format='%d'),
+        'cancelled': st.column_config.NumberColumn('Cancelled bookings', format='%d'),
+        'sample_note': st.column_config.TextColumn('Sample-size assessment'),
+        'invalid_cancelled_values': st.column_config.NumberColumn('Cancelled values unavailable', format='%d'),
+    }
+    st.dataframe(groups, hide_index=True, width='stretch', column_config=comparison_columns)
     st.caption('All groups remain visible. A sample threshold is a caution, not a statistical significance test. '
                'Rates may reflect season, customer mix, lead time or other unmeasured factors.')
+    st.caption('Error bars are descriptive 95% Wilson intervals under an independent-binomial model. '
+               'They do not account for hotel/customer clustering, selection bias or multiple comparisons. '
+               'Interval overlap or separation alone does not establish causation or a significant difference. '
+               'The overall benchmark includes the segment being compared and respects every sidebar filter.')
+    st.subheader('Questions to investigate')
+    for item in cancellation_insights(groups, dimension, currency, minimum):
+        st.info(item)
+    st.subheader('Does booking value change the pattern?')
+    bands = booking_value_segments(data, minimum)
+    render_chart(bands, 'value_band', 'cancellation_rate', f'Cancellation by booking-value band · {currency}',
+                 hover={'bookings': True, 'cancelled': True, 'ci_lower': ':.1%', 'ci_upper': ':.1%', 'sample_note': True},
+                 percent=True, confidence=True, benchmark=overall)
+    st.dataframe(bands, hide_index=True, width='stretch', column_config=comparison_columns)
+    st.caption(f'Up to four quantile bands in {currency}, recalculated from the current selection. '
+               'Intervals are right-closed (the first includes its lower boundary); equal values stay together. '
+               'Ties can yield fewer or unequal-sized bands. Invalid values appear as Unavailable value. '
+               'Table rates and interval bounds are fractions (0.25 means 25%).')
+    for item in cancellation_insights(bands, 'value_band', currency, minimum):
+        st.info(item)
+    return {'comparison_dimension': dimension, 'minimum_group_size': minimum}
 
 
 def explorer(data, full, dataset_id):
@@ -240,22 +295,28 @@ def main():
         st.info(f'SYNTHETIC DEMONSTRATION DATA · {len(full):,} accepted bookings in this snapshot · Not real hotel results')
     else:
         st.caption(f"ACTIVE DATASET · {metadata['name']} · #{dataset_id}")
+    st.caption(f'CURRENT VIEW · {len(filtered):,} / {len(full):,} bookings · '
+               f'{date_range[0]:%d %b %Y} – {date_range[1]:%d %b %Y} · {metadata.currency}')
+    with st.expander('Active filter details'):
+        for name, values in selections.items():
+            st.text(f"{name.replace('_', ' ').title()}: {', '.join(values) if values else 'None — zero matches'}")
+    analysis_context = {}
     if page == 'Overview':
         overview(filtered, metadata.currency)
     elif page == 'Cancellation explorer':
-        comparisons(filtered)
+        analysis_context = comparisons(filtered, metadata.currency) or {}
     else:
         explorer(filtered, full, dataset_id)
     st.divider()
     st.subheader('Take this view with you')
     context = {'dataset_id': dataset_id, 'dataset_name': metadata['name'], 'synthetic': bool(metadata.is_demo),
-               'currency': metadata.currency, 'date_range': date_range, 'filters': selections}
+               'currency': metadata.currency, 'date_range': date_range, 'filters': selections, **analysis_context}
     cols = st.columns(3)
     cols[0].download_button('Filtered bookings · CSV', csv_bytes(filtered), 'filtered_bookings.csv', 'text/csv')
     cols[1].download_button('Summary & findings · CSV', csv_bytes(summary_frame(filtered, context)), 'summary.csv', 'text/csv')
     cols[2].download_button('Complete report · Excel', excel_bytes(filtered, context), 'booking_report.xlsx',
                             'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    st.caption('StayScope · Business Intelligence & Booking Analytics Platform · Version 1')
+    st.caption('StayScope · Business Intelligence & Booking Analytics Platform · Version 2.0')
 
 
 try:

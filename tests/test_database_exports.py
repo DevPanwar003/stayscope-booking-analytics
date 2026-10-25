@@ -61,7 +61,7 @@ def test_filtered_csv_and_summary(clean):
     assert summary.loc['Total bookings', 'value'] == 2
     assert summary.loc['Total booking value', 'value'] == 400
     workbook = pd.read_excel(BytesIO(excel_bytes(selected)), sheet_name=None)
-    assert set(workbook) == {'Summary', 'Filtered bookings'}
+    assert set(workbook) == {'Summary', 'Filtered bookings', 'Cancellation benchmarks', 'Value bands', 'Report guide'}
     assert len(workbook['Filtered bookings']) == 2
 
 

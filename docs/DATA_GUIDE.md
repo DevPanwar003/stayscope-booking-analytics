@@ -122,3 +122,21 @@ tests/                     Deterministic unit and UI interaction tests
 
 No environment variables or `.env` are required. This is a local single-user portfolio app, without authentication or production hosting. Do not expose it publicly with sensitive business data.
 
+
+
+## Version 2.0 cancellation comparisons
+
+`src/advanced_analytics.py` operates on the filtered accepted records. `cancellation_benchmark(data, dimension, minimum=20)` keeps every observed group and returns booking counts, cancelled counts, total booking value, cancelled booking value, value-completeness counts, segment/overall rates, percentage-point differences, Wilson bounds and sample warnings. The overall benchmark includes the compared group. No-show, Pending, Completed and Confirmed remain in the denominator.
+
+`wilson_interval(cancelled, bookings)` uses z = 1.959963984540054 for a 95% interval. With p = cancelled/bookings, center = (p + z²/(2n))/(1 + z²/n), and half-width = z × sqrt(p(1−p)/n + z²/(4n²))/(1 + z²/n). Bounds are clipped to [0,1]; n=0 returns unavailable bounds. Impossible counts raise ValueError. This is an independent-binomial descriptive estimate, not a causal or multiple-comparison inference.
+
+`booking_value_segments(data, minimum=20, bands=4)` uses pandas quantiles with duplicate edges removed. Equal values are not split, unobserved bins are omitted, and a constant sample yields one band. Invalid, negative, infinite or missing amounts receive an explicit Unavailable value band. Segment counts still reconcile to all input rows. Actual application imports already quarantine invalid required values. Missing/unsupported statuses are rejected rather than silently counted as non-cancellations. Invalid cancelled amounts make the corresponding value total unavailable rather than understating it.
+
+Monetary values use the snapshot currency. Cancelled booking value is not recognized lost revenue, profit or cash. Minimum size is a descriptive warning, never an exclusion or significance test. Function inputs are copied; the database schema and import/reset behavior are unchanged.
+
+
+### Follow-up numerical and presentation safeguards
+
+Wilson counts are converted from NumPy integers to Python integers before squaring, avoiding fixed-width integer overflow. Insights validate and apply their requested minimum-booking threshold directly rather than trusting a precomputed flag from another threshold. If cancelled amounts are incomplete, findings state the affected count and withhold the overall value share. Rates remain based on all filtered records.
+
+Both cancellation tables use the same rate, interval, count and currency labels. Chart tooltips show percentages for rates and two decimal places for monetary amounts without altering source values. CSV scope and the original Summary / Filtered bookings worksheets are preserved. Excel additionally includes Cancellation benchmarks, Value bands and Report guide. `advanced_report_tables` in `src/exports.py` reuses the same analytical functions for all six dimensions, includes currency and minimum sample size, and documents metric definitions and caveats. Missing optional categories become Unknown; empty selections retain headers. Each dimension repeats the same selection: do not sum across dimensions.
